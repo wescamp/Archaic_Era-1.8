@@ -1,0 +1,379 @@
+# These are the units re-defined for MP balancing (AMP = Archaic MP)
+# modifies the movement and damage
+
+########################### Khthon Beasts ######################
+
+[unit_type]
+    id=AMP Arctic Wolf 
+    [base_unit]
+	id=Arctic Wolf
+    [/base_unit]
+	advances_to=AMP Orthrus
+	movement=8
+	[attack]
+                name=fangs
+                description= _ "fangs"
+                icon=attacks/fangs-animal.png
+                type=blade
+                range=melee
+                damage=5
+                number=3
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Horse 
+    [base_unit]
+	id=Horse
+    [/base_unit]
+	advances_to=AMP Pegusa
+	movement=9
+        [attack]
+                name=kick
+                description= _ "kick"
+                icon=attacks/blank-attack.png
+                type=impact
+                range=melee
+                damage=10
+                number=2
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Hypergusa 
+    [base_unit]
+	id=Hypergusa
+    [/base_unit]
+	movement=10
+       [attack]
+                name=kick
+                description= _ "Kick"
+                type=impact
+                range=melee
+                damage=15
+                number=2
+                icon=attacks/blank-attack.png
+        [/attack]
+        [attack]
+                name=quills
+                description= _ "Quills"
+                type=pierce
+                range=ranged
+                damage=8
+                number=3
+                icon=attacks/blank-attack.png
+                attack_weight=3.0
+                defense_weight=0.7
+        [/attack]
+        [attack]
+                name=spit
+                description= _ "Spit"
+                type=impact
+                range=ranged
+                damage=10
+                number=1
+                icon=attacks/waterspray.png
+                defense_weight=3.0
+                attack_weight=0.7
+                [specials]
+                    {WEAPON_SPECIAL_SLOW}
+                [/specials]
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Katoblepon 
+    [base_unit]
+	id=Katoblepon
+    [/base_unit]
+	movement=6
+        [attack]
+                name=head
+                description= _ "Head"
+                type=impact
+                range=melee
+                damage=12
+                number=2
+                [specials]
+                {WEAPON_SPECIAL_CHARGE}
+                [/specials]
+                icon=attacks/blank-attack.png
+        [/attack]
+        [attack]
+                name=breath
+                description= _ "Breath"
+                type=pierce
+                range=ranged
+                damage=7
+                number=2
+                [specials]
+                {WEAPON_SPECIAL_POISON}
+                [/specials]
+                icon=attacks/blank-attack.png
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Ophis 
+    [base_unit]
+	id=Ophis
+    [/base_unit]
+	movement=6
+       [attack]
+                name=horns
+                description= _ "Horns"
+                type=pierce
+                range=melee
+                damage=12
+                number=3
+                icon=attacks/blank-attack.png
+                [specials]
+                    {WEAPON_SPECIAL_FIRSTSTRIKE}
+                [/specials]
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Orthrus 
+    [base_unit]
+	id=Orthrus
+    [/base_unit]
+	movement=8
+        [attack]
+                name=bite
+                description= _ "Bite"
+                type=blade
+                range=melee
+                damage=10
+                number=4
+                icon=attacks/fangs.png
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Pegusa 
+    [base_unit]
+	id=Pegusa
+    [/base_unit]
+	movement=10
+	advances_to=AMP Hypergusa
+        [attack]
+                name=kick
+                description= _ "Kick"
+                type=impact
+                range=melee
+                damage=12
+                number=2
+                icon=attacks/blank-attack.png
+        [/attack]
+        [attack]
+                name=spit
+                description= _ "Spit"
+                type=impact
+                range=ranged
+                damage=10
+                number=1
+                icon=attacks/waterspray.png
+                [specials]
+                    {WEAPON_SPECIAL_SLOW}
+                [/specials]
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Ram 
+    [base_unit]
+	id=Ram
+    [/base_unit]
+	movement=6
+	advances_to=AMP Katoblepon
+        [attack]
+                name=head
+                description= _ "Head"
+                icon=attacks/blank-attack.png
+                type=impact
+                range=melee
+                damage=9
+                number=2
+                [specials]
+                {WEAPON_SPECIAL_CHARGE}
+                [/specials]
+        [/attack]
+[/unit_type]
+
+[unit_type]
+    id=AMP Yak 
+    [base_unit]
+	id=Yak
+    [/base_unit]
+	movement=6
+	advances_to=AMP Ophis
+        [attack]
+                name=horns
+                description= _ "Horns"
+                icon=attacks/blank-attack.png
+                type=pierce
+                range=melee
+                damage=10
+                number=2
+        [/attack]
+[/unit_type]
+
+###################### Khthon ##################
+
+[unit_type]
+    id=AMP Khthon-archer 
+    [base_unit]
+	id=Khthon-archer
+    [/base_unit]
+	movement=8
+        [attack]
+                name=bow
+                description= _ "Bow"
+                type=pierce
+                range=ranged
+                damage=7
+                number=4
+                icon=attacks/bow.png
+        [/attack]
+
+    {KHTHON_JUMP_MP archer}
+[/unit_type]
+
+[unit_type]
+        id=AMP Khthon-archer2
+        [base_unit]
+        id=AMP Khthon-archer
+        [/base_unit]
+        halo="halo/deathglow.png"
+        hide_help=yes
+# do I really need this?
+        {KHTHON_JUMP_MP archer}
+
+[/unit_type]
+[unit_type]
+    id=AMP Khthon-dwarf 
+    [base_unit]
+	id=Khthon-dwarf
+    [/base_unit]
+	movement=7
+        [attack]
+                name=axe
+                description= _ "Axe"
+                type=pierce
+                range=melee
+                damage=12
+                number=2
+                icon=attacks/axe-crude.png
+        [/attack]
+
+    {KHTHON_JUMP_MP dwarf}
+[/unit_type]
+
+[unit_type]
+        id=AMP Khthon-dwarf2
+        [base_unit]
+        id=AMP Khthon-dwarf
+        [/base_unit]
+        halo="halo/deathglow.png"
+        hide_help=yes
+# do I really need this?
+        {KHTHON_JUMP_MP dwarf}
+
+[/unit_type]
+
+
+
+
+[unit_type]
+    id=AMP Khthon Fallen 
+    [base_unit]
+	id=Khthon Fallen
+    [/base_unit]
+#	movement=8
+    [attack]
+        name=club
+        description= _ "club"
+        icon=attacks/club-small.png
+        type=impact
+        range=melee
+        damage=9
+        number=2
+    [/attack]
+
+[/unit_type]
+
+
+[unit_type]
+    id=AMP Khthon-fighter 
+    [base_unit]
+	id=Khthon-fighter
+    [/base_unit]
+	movement=7
+        [attack]
+                name=spear
+                description= _ "Spear"
+                type=pierce
+                range=melee
+                damage=10
+                number=3
+                [specials]
+                {WEAPON_SPECIAL_FIRSTSTRIKE}
+                [/specials]
+                icon=attacks/spear.png
+        [/attack]
+
+    {KHTHON_JUMP_MP fighter}
+[/unit_type]
+
+[unit_type]
+        id=AMP Khthon-fighter2
+        [base_unit]
+        id=AMP Khthon-fighter
+        [/base_unit]
+        halo="halo/deathglow.png"
+        hide_help=yes
+# do I really need this?
+        {KHTHON_JUMP_MP fighter}
+
+[/unit_type]
+
+[unit_type]
+    id=AMP Khthon-healer 
+    [base_unit]
+	id=Khthon-healer
+    [/base_unit]
+	movement=8
+        [attack]
+                name=snare
+                description= _ "Snare"
+                type=impact
+                range=ranged
+                damage=6
+                number=2
+                [specials]
+                {WEAPON_SPECIAL_SLOW}
+                [/specials]
+                icon=attacks/entangle.png
+        [/attack]
+
+#ifndef MULTIPLAYER
+    {KHTHON_JUMP_MP archer}
+#endif
+
+[/unit_type]
+
+[unit_type]
+        id=AMP Khthon-healer2
+        [base_unit]
+        id=AMP Khthon-healer
+        [/base_unit]
+        halo="halo/deathglow.png"
+        hide_help=yes
+
+#ifndef MULTIPLAYER
+# do I really need this?
+        {KHTHON_JUMP_MP healer}
+#endif
+
+[/unit_type]
