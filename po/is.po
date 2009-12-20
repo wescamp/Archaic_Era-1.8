@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-12-11 01:12+0100\n"
+"POT-Creation-Date: 2009-12-20 02:14+0100\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -128,7 +128,9 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primeval_Ironwheel.cfg:57
 #: Archaic_Era/units/primeval/Primeval_Firewheel.cfg:66
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:72
-#: Archaic_Era/units/phantom/Tomb_Mummy.cfg:72
+#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:73
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:74
+#: Archaic_Era/units/phantom/Tomb_Archer.cfg:73
 msgid "Fist"
 msgstr ""
 
@@ -182,20 +184,27 @@ msgstr ""
 #. [race]: id=phantom_spirit
 #. [unit_type]: id=Spirit Dove, race=phantom_spirit
 #. [unit_type]: id=Tomb Dancer, race=phantom_egypt
+#. [unit_type]: id=Phantom Rider, race=phantom_wales
 #. [unit_type]: id=Mummy Unbound, race=phantom_egypt
 #. [unit_type]: id=Phantom King, race=phantom_wales
+#. [unit_type]: id=Phantom Slayer, race=phantom_wales
 #. [unit_type]: id=Tomb Sentinel, race=phantom_egypt
 #. [unit_type]: id=Spirit Jay, race=phantom_spirit
 #. [unit_type]: id=Phantom Cloak, race=phantom_wales
+#. [unit_type]: id=Tomb Huntress, race=phantom_egypt
+#. [unit_type]: id=Phantom Horseman, race=phantom_wales
+#. [unit_type]: id=Phantom Officer, race=phantom_wales
 #. [unit_type]: id=Seth, race=phantom_egypt
 #. [unit_type]: id=Tomb Protector, race=phantom_egypt
 #. [unit_type]: id=Tomb Mummy, race=phantom_egypt
 #. [unit_type]: id=Tomb Wing, race=phantom_egypt
 #. [unit_type]: id=Tomb Guard, race=phantom_egypt
+#. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
 #. [unit_type]: id=Phantom Shadow, race=phantom_wales
 #. [unit_type]: id=Phantom Master, race=phantom_wales
 #. [unit_type]: id=Tomb Master, race=phantom_egypt
 #. [unit_type]: id=Mummy King, race=phantom_egypt
+#. [unit_type]: id=Tomb Archer, race=phantom_egypt
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
 #: Archaic_Era/units/khthon/Ophis-Magnum.cfg:19
 #: Archaic_Era/units/khthon/Hypergusa.cfg:19
@@ -216,20 +225,27 @@ msgstr ""
 #: Archaic_Era/units/phantom_race.cfg:22 Archaic_Era/units/phantom_race.cfg:36
 #: Archaic_Era/units/phantom/Spirit_Dove.cfg:19
 #: Archaic_Era/units/phantom/Tomb_Feather.cfg:20
+#: Archaic_Era/units/phantom/Phantom_Rider.cfg:19
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:19
 #: Archaic_Era/units/phantom/Huric.cfg:78
+#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:19
 #: Archaic_Era/units/phantom/Spirit_Jay.cfg:20
 #: Archaic_Era/units/phantom/Phantom_Cloak.cfg:20
+#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:20
+#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:19
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:78
 #: Archaic_Era/units/phantom/Seth.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Protector.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Mummy.cfg:19
 #: Archaic_Era/units/phantom/Tomb_Wing.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Guardian.cfg:19
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:21
 #: Archaic_Era/units/phantom/Phantom_Shadow.cfg:20
 #: Archaic_Era/units/phantom/Phantom_Master.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Master.cfg:21
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:20
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Archer.cfg:20
 msgid "..."
 msgstr ""
 
@@ -317,6 +333,9 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/khthon/Khthon-Archer.cfg:51
+#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:82
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:83
+#: Archaic_Era/units/phantom/Tomb_Archer.cfg:82
 msgid "Bow"
 msgstr ""
 
@@ -358,7 +377,9 @@ msgstr ""
 #. [attack]: type=pierce
 #: Archaic_Era/units/khthon/Khthon-Fighter.cfg:27
 #: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:131
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:73
+#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:84
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:132
 #: Archaic_Era/units/phantom/Tomb_Protector.cfg:73
 #: Archaic_Era/units/phantom/Tomb_Guardian.cfg:72
 #: Archaic_Era/units/phantom/Phantom_Spear.cfg:73
@@ -543,14 +564,16 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
+#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:98
 #: Archaic_Era/units/phantom/Astreya.cfg:140
 msgid "Blade"
 msgstr ""
 
 #. [attack]: type=cold
 #: Archaic_Era/units/phantom/Phantom_Cloak.cfg:82
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:143
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:85
 #: Archaic_Era/units/phantom/Astreya.cfg:152
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:144
 #: Archaic_Era/units/phantom/Phantom_Spear.cfg:85
 #: Archaic_Era/units/phantom/Phantom_Shadow.cfg:85
 #: Archaic_Era/units/phantom/Phantom_Master.cfg:85
@@ -584,9 +607,41 @@ msgstr ""
 msgid "Touch"
 msgstr ""
 
+#. [unit_type]: id=Phantom Horseman, race=phantom_wales
+#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:4
+msgid "Horseman"
+msgstr ""
+
+#. [attack]: type=cold
+#: Archaic_Era/units/phantom/Phantom_Rider.cfg:72
+#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:73
+#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:72
+msgid "Rush"
+msgstr ""
+
 #. [unit_type]: id=Phantom Master, race=phantom_wales
 #: Archaic_Era/units/phantom/Phantom_Master.cfg:5
 msgid "Phantom Master"
+msgstr ""
+
+#. [unit_type]: id=Phantom Officer, race=phantom_wales
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:4
+msgid "Phantom Officer"
+msgstr ""
+
+#. [advancement]: id=amla_phantom1
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:20
+msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
+msgstr ""
+
+#. [advancement]: id=amla_phantom2
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:49
+msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
+msgstr ""
+
+#. [unit_type]: id=Phantom Rider, race=phantom_wales
+#: Archaic_Era/units/phantom/Phantom_Rider.cfg:4
+msgid "Rider"
 msgstr ""
 
 #. [unit_type]: id=Phantom Shadow, race=phantom_wales
@@ -594,23 +649,23 @@ msgstr ""
 msgid "Phantom Shadow"
 msgstr ""
 
+#. [unit_type]: id=Phantom Slayer, race=phantom_wales
+#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:4
+msgid "Slayer"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:85
+msgid "Spike"
+msgstr ""
+
 #. [unit_type]: id=Phantom Soldier, race=phantom_wales
 #: Archaic_Era/units/phantom/Phantom_Soldier.cfg:4
 msgid "Phantom Soldier"
 msgstr ""
 
-#. [advancement]: id=amla_phantom1
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:20
-msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
-msgstr ""
-
-#. [advancement]: id=amla_phantom2
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:49
-msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
-msgstr ""
-
 #. [unit_type]: id=Phantom Soldier, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:78
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:20
 msgid "Phantom Soldiers are the angry shadows of former Royal soldiers..."
 msgstr ""
 
@@ -637,6 +692,7 @@ msgstr ""
 msgid "Fork"
 msgstr ""
 
+#. [attack]: type=arcane
 #. [attack]: type=cold
 #: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:84
 #: Archaic_Era/units/phantom/Seth.cfg:86
@@ -667,6 +723,11 @@ msgstr ""
 msgid "Sprit Jay"
 msgstr ""
 
+#. [unit_type]: id=Tomb Archer, race=phantom_egypt
+#: Archaic_Era/units/phantom/Tomb_Archer.cfg:4
+msgid "Archer"
+msgstr ""
+
 #. [unit_type]: id=Tomb Dancer, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Feather.cfg:4
 msgid "Feather Dancer"
@@ -686,6 +747,21 @@ msgstr ""
 msgid "Tomb Guard"
 msgstr ""
 
+#. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:4
+msgid "High Archer"
+msgstr ""
+
+#. [attack]: type=arcane
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:92
+msgid "Blessed Missile"
+msgstr ""
+
+#. [unit_type]: id=Tomb Huntress, race=phantom_egypt
+#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:4
+msgid "Huntress"
+msgstr ""
+
 #. [unit_type]: id=Tomb Master, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Master.cfg:4
 msgid "Wing Master"
@@ -698,7 +774,7 @@ msgid "Kopis"
 msgstr ""
 
 #. [attack]: type=blade
-#: Archaic_Era/units/phantom/Tomb_Master.cfg:89
+#: Archaic_Era/units/phantom/Tomb_Master.cfg:90
 msgid "Claw"
 msgstr ""
 
@@ -708,8 +784,18 @@ msgid "Mummy King"
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:73
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:75
 msgid "Sceptre"
+msgstr ""
+
+#. [attack]: type=cold
+#. [attack]: type=arcane
+#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:39
+#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:36
+#: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:81
+#: Archaic_Era/units/phantom/Tomb_Mummy.cfg:72
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:84
+msgid "Curse"
 msgstr ""
 
 #. [unit_type]: id=Mummy Unbound, race=phantom_egypt
@@ -1167,12 +1253,6 @@ msgid ""
 "When blind devotion is combined with combat experience, a more valuable "
 "figher is formed. They know enough to be dangerous, but not enough to be "
 "reasoned with."
-msgstr ""
-
-#. [attack]: type=cold
-#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:39
-#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:36
-msgid "Curse"
 msgstr ""
 
 #. [unit_type]: id=Primevalist Fighter, race=human
