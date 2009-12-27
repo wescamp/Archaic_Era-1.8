@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-12-20 02:14+0100\n"
+"POT-Creation-Date: 2009-12-27 16:38+0100\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -379,7 +379,7 @@ msgstr ""
 #. [attack]: type=pierce
 #: Archaic_Era/units/khthon/Khthon-Fighter.cfg:27
 #: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:73
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:72
 #: Archaic_Era/units/phantom/Phantom_Horseman.cfg:84
 #: Archaic_Era/units/phantom/Phantom_Officer.cfg:132
 #: Archaic_Era/units/phantom/Tomb_Protector.cfg:73
@@ -573,7 +573,7 @@ msgstr ""
 
 #. [attack]: type=cold
 #: Archaic_Era/units/phantom/Phantom_Cloak.cfg:82
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:85
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:84
 #: Archaic_Era/units/phantom/Astreya.cfg:152
 #: Archaic_Era/units/phantom/Phantom_Officer.cfg:144
 #: Archaic_Era/units/phantom/Phantom_Spear.cfg:85
@@ -667,7 +667,7 @@ msgid "Phantom Soldier"
 msgstr ""
 
 #. [unit_type]: id=Phantom Soldier, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:20
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:19
 msgid "Phantom Soldiers are the angry shadows of former Royal soldiers..."
 msgstr ""
 
