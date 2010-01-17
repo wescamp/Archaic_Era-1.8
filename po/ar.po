@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-12-27 16:38+0100\n"
+"POT-Creation-Date: 2010-01-17 05:11+0100\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -573,7 +573,7 @@ msgstr ""
 #: Archaic_Era/units/phantom/Phantom_Cloak.cfg:82
 #: Archaic_Era/units/phantom/Phantom_Soldier.cfg:84
 #: Archaic_Era/units/phantom/Astreya.cfg:152
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:144
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:145
 #: Archaic_Era/units/phantom/Phantom_Spear.cfg:85
 #: Archaic_Era/units/phantom/Phantom_Shadow.cfg:85
 #: Archaic_Era/units/phantom/Phantom_Master.cfg:85
@@ -585,13 +585,32 @@ msgstr ""
 msgid "Phantom King"
 msgstr ""
 
+#. [regenerate]: id=regenerates_cold
+#: Archaic_Era/units/phantom/Huric.cfg:85
+msgid "cold-heal"
+msgstr ""
+
+#. [regenerate]: id=regenerates_cold
+#: Archaic_Era/units/phantom/Huric.cfg:86
+msgid "female^cold-heal"
+msgstr ""
+
+#. [regenerate]: id=regenerates_cold
+#: Archaic_Era/units/phantom/Huric.cfg:88
+msgid ""
+"Cold Heal:\n"
+"The unit will heal itself 24 HP per turn while the environment is cold."
+msgstr ""
+
 #. [attack]: type=cold
-#: Archaic_Era/units/phantom/Huric.cfg:131
+#: Archaic_Era/units/phantom/Huric.cfg:141
+#: Archaic_Era/units/phantom/Huric.cfg:259
 msgid "Ice Blade"
 msgstr ""
 
 #. [attack]: type=cold
-#: Archaic_Era/units/phantom/Huric.cfg:140
+#: Archaic_Era/units/phantom/Huric.cfg:150
+#: Archaic_Era/units/phantom/Huric.cfg:268
 msgid "Terror"
 msgstr ""
 
