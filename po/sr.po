@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-01-17 05:11+0100\n"
+"POT-Creation-Date: 2010-02-03 02:31+0100\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,7 +17,7 @@ msgstr ""
 msgid "Archaic Era"
 msgstr ""
 
-#. [multiplayer_side]: id=Archaic_Khthon, type=Khthon-archer
+#. [multiplayer_side]: id=Archaic_Khthon, type=Pyradalon
 #: Archaic_Era/eras/khthon_MP.cfg:5
 msgid "Khthon"
 msgstr ""
@@ -63,82 +63,6 @@ msgstr ""
 #: Archaic_Era/units/khthon/Prokyon.cfg:33
 #: Archaic_Era/units/khthon/Arctic_Wolf.cfg:23
 msgid "fangs"
-msgstr ""
-
-#. [unit_type]: id=Chimera, race=khthon
-#: Archaic_Era/units/khthon/Chimera.cfg:5
-msgid "Chimera"
-msgstr ""
-
-#. [unit_type]: id=Chimera, race=khthon
-#: Archaic_Era/units/khthon/Chimera.cfg:20
-msgid ""
-"Unlike most Khthon encountered recently, Chimera have had their corporeal "
-"forms for quite some time. Like the rest of the Khthon however, they have "
-"been dormant until very recently. They are very powerful guardians stationed "
-"at any place the Khthon deem vital."
-msgstr ""
-
-#. [regenerate]: id=immortal
-#: Archaic_Era/units/khthon/Chimera.cfg:34
-#: Archaic_Era/units/khthon/Echidna.cfg:47
-msgid "immortal"
-msgstr ""
-
-#. [regenerate]: id=immortal
-#: Archaic_Era/units/khthon/Chimera.cfg:36
-#: Archaic_Era/units/khthon/Echidna.cfg:49
-msgid ""
-"immortal:\n"
-"This unit heals 99 HP per turn.  If poisoned, it will remove the poison."
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=blade
-#: Archaic_Era/units/khthon/Chimera.cfg:43
-#: Archaic_Era/units/khthon/Orthrus.cfg:37
-msgid "Bite"
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=fire
-#: Archaic_Era/units/khthon/Katoblepon.cfg:53
-#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:54
-#: Archaic_Era/units/khthon/Chimera.cfg:52
-msgid "Breath"
-msgstr ""
-
-#. [unit_type]: id=Echidna, race=khthon
-#: Archaic_Era/units/khthon/Echidna.cfg:5
-msgid "Echidna"
-msgstr ""
-
-#. [unit_type]: id=Echidna, race=khthon
-#: Archaic_Era/units/khthon/Echidna.cfg:21
-msgid ""
-"Echidna is said to be the mother of all Khthon monsters, though whether the "
-"term 'mother' has any meaning when applied to the Khthon is unknown. In any "
-"case, she is certainly one of their leaders and a very powerful spirit. The "
-"identity of her victim has allowed her a greater understanding of the "
-"thoughts and weaknesses of the more modern races."
-msgstr ""
-
-#. [attack]: type=impact
-#: Archaic_Era/units/khthon/Echidna.cfg:57
-#: Archaic_Era/units/south-seas/Sky-Caller.cfg:35
-#: Archaic_Era/units/south-seas/Zephyrist.cfg:33
-#: Archaic_Era/units/primeval/Primeval_Ironwheel.cfg:57
-#: Archaic_Era/units/primeval/Primeval_Firewheel.cfg:66
-#: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:72
-#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:73
-#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:74
-#: Archaic_Era/units/phantom/Tomb_Archer.cfg:73
-msgid "Fist"
-msgstr ""
-
-#. [attack]: type=fire
-#: Archaic_Era/units/khthon/Echidna.cfg:66
-msgid "Psyche"
 msgstr ""
 
 #. [unit_type]: id=Horse, race=khthon
@@ -188,7 +112,6 @@ msgstr ""
 #. [unit_type]: id=Tomb Dancer, race=phantom_egypt
 #. [unit_type]: id=Phantom Rider, race=phantom_wales
 #. [unit_type]: id=Mummy Unbound, race=phantom_egypt
-#. [unit_type]: id=Phantom King, race=phantom_wales
 #. [unit_type]: id=Phantom Slayer, race=phantom_wales
 #. [unit_type]: id=Tomb Sentinel, race=phantom_egypt
 #. [unit_type]: id=Spirit Jay, race=phantom_spirit
@@ -229,7 +152,6 @@ msgstr ""
 #: Archaic_Era/units/phantom/Tomb_Feather.cfg:20
 #: Archaic_Era/units/phantom/Phantom_Rider.cfg:19
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:19
-#: Archaic_Era/units/phantom/Huric.cfg:78
 #: Archaic_Era/units/phantom/Phantom_Slayer.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:19
 #: Archaic_Era/units/phantom/Spirit_Jay.cfg:20
@@ -276,6 +198,12 @@ msgstr ""
 msgid "Head"
 msgstr ""
 
+#. [attack]: type=pierce
+#: Archaic_Era/units/khthon/Katoblepon.cfg:53
+#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:54
+msgid "Breath"
+msgstr ""
+
 #. [unit_type]: id=Katoblepon, race=khthon
 #: Archaic_Era/units/khthon/Katoblepon.cfg:5
 msgid "Katoblepon"
@@ -287,120 +215,6 @@ msgid ""
 "The Khthon spirit has begun to transform its hoofed victim. Though it "
 "usually keeps its head down as if grazing, it can lift it to attack with a "
 "poisonous breath."
-msgstr ""
-
-#. [unit_type]: id=Khthon-archer, race=khthon
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:5
-msgid "Khthon Archer"
-msgstr ""
-
-#. [unit_type]: id=Khthon-healer, race=khthon
-#. [unit_type]: id=Khthon-dwarf, race=khthon
-#. [unit_type]: id=Khthon-archer, race=khthon
-#. [unit_type]: id=Khthon-fighter, race=khthon
-#: Archaic_Era/units/khthon/Khthon-Mage.cfg:21
-#: Archaic_Era/units/khthon/Khthon-Dwarf.cfg:20
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:21
-#: Archaic_Era/units/khthon/Khthon-Fighter.cfg:20
-msgid ""
-"The Khthon are a sort of earth spirit that lives through the bodies of "
-"others. If the conquered host is near death, the Khthon will attempt to "
-"transfer itself to another."
-msgstr ""
-
-#. [hides]: id=creep
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:27
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:29
-msgid "creep"
-msgstr ""
-
-#. [hides]: id=creep
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:28
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:30
-msgid "female^creep"
-msgstr ""
-
-#. [hides]: id=creep
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:34
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:38
-msgid ""
-"Creep:\n"
-"This unit can hide in forest or caves when it is dark, and remain undetected "
-"by its enemies.\n"
-"\n"
-"Enemy units cannot see this unit at night while it is in forest, except if "
-"they have units next to it. Any enemy unit that first discovers this unit "
-"immediately loses all its remaining movement."
-msgstr ""
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:51
-#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:82
-#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:83
-#: Archaic_Era/units/phantom/Tomb_Archer.cfg:82
-msgid "Bow"
-msgstr ""
-
-#. [female]
-#: Archaic_Era/units/khthon/Khthon-Archer.cfg:130
-msgid "female^Khthon Archer"
-msgstr ""
-
-#. [unit_type]: id=Khthon-dwarf, race=khthon
-#. [unit_type]: id=Khthon-fighter, race=khthon
-#: Archaic_Era/units/khthon/Khthon-Dwarf.cfg:5
-#: Archaic_Era/units/khthon/Khthon-Fighter.cfg:5
-msgid "Khthon Fighter"
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=blade
-#: Archaic_Era/units/khthon/Khthon-Dwarf.cfg:27
-#: Archaic_Era/units/primeval/Primeval_Warrior.cfg:33
-#: Archaic_Era/units/primeval/Primeval_Dogface.cfg:31
-msgid "Axe"
-msgstr ""
-
-#. [unit_type]: id=Khthon Fallen, race=khthon
-#: Archaic_Era/units/khthon/Khthon-Fallen.cfg:8
-msgid "Fallen"
-msgstr ""
-
-#. [unit_type]: id=Khthon Fallen, race=khthon
-#: Archaic_Era/units/khthon/Khthon-Fallen.cfg:15
-msgid "The Fallen..."
-msgstr ""
-
-#. [attack]: type=impact
-#: Archaic_Era/units/khthon/Khthon-Fallen.cfg:19
-msgid "club"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/khthon/Khthon-Fighter.cfg:27
-#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:84
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:132
-#: Archaic_Era/units/phantom/Tomb_Protector.cfg:73
-#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Spear.cfg:73
-msgid "Spear"
-msgstr ""
-
-#. [unit_type]: id=Khthon-healer, race=khthon
-#: Archaic_Era/units/khthon/Khthon-Mage.cfg:5
-msgid "Khthon Mage"
-msgstr ""
-
-#. [attack]: type=impact
-#: Archaic_Era/units/khthon/Khthon-Mage.cfg:28
-msgid "Snare"
-msgstr ""
-
-#. [female]
-#: Archaic_Era/units/khthon/Khthon-Mage.cfg:110
-msgid "female^Khthon Mage"
 msgstr ""
 
 #. [unit_type]: id=Nightmare, race=khthon
@@ -452,6 +266,11 @@ msgid ""
 "mind is gone, the head only serves as housing for sensors (eye, nose, ears) "
 "and weapons (teeth). A second head allows for greater field of view and more "
 "teeth."
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/khthon/Orthrus.cfg:37
+msgid "Bite"
 msgstr ""
 
 #. [unit_type]: id=Pegusa, race=khthon
@@ -538,84 +357,6 @@ msgid ""
 "continent are vulnerable."
 msgstr ""
 
-#. [unit_type]: id=Phantom Queen, race=phantom_wales
-#: Archaic_Era/units/phantom/Astreya.cfg:4
-msgid "Phantom Queen"
-msgstr ""
-
-#. [advancement]: id=amla_astreya1
-#: Archaic_Era/units/phantom/Huric.cfg:20
-#: Archaic_Era/units/phantom/Astreya.cfg:20
-msgid "Max HP bonus +2, Melee Damage +2, Max Exp penalty 10%"
-msgstr ""
-
-#. [advancement]: id=amla_astreya2
-#: Archaic_Era/units/phantom/Huric.cfg:49
-#: Archaic_Era/units/phantom/Astreya.cfg:49
-msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty 10%"
-msgstr ""
-
-#. [unit_type]: id=Phantom Queen, race=phantom_wales
-#: Archaic_Era/units/phantom/Astreya.cfg:78
-msgid ""
-"Queen Astreya had simply disappeared one day. Most likely frozen to death "
-"out on the tundra, for that often happens to travellers in the north. "
-"Somehow her spirit still haunts Ukiah, and she keeps a watchful eye over her "
-"husband, her brother, and her former kingdom. Those who bring harm to them "
-"become targets of her rage."
-msgstr ""
-
-#. [attack]: type=blade
-#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:98
-#: Archaic_Era/units/phantom/Astreya.cfg:140
-msgid "Blade"
-msgstr ""
-
-#. [attack]: type=cold
-#: Archaic_Era/units/phantom/Phantom_Cloak.cfg:82
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:84
-#: Archaic_Era/units/phantom/Astreya.cfg:152
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:145
-#: Archaic_Era/units/phantom/Phantom_Spear.cfg:85
-#: Archaic_Era/units/phantom/Phantom_Shadow.cfg:85
-#: Archaic_Era/units/phantom/Phantom_Master.cfg:85
-msgid "Hatred"
-msgstr ""
-
-#. [unit_type]: id=Phantom King, race=phantom_wales
-#: Archaic_Era/units/phantom/Huric.cfg:4
-msgid "Phantom King"
-msgstr ""
-
-#. [regenerate]: id=regenerates_cold
-#: Archaic_Era/units/phantom/Huric.cfg:85
-msgid "cold-heal"
-msgstr ""
-
-#. [regenerate]: id=regenerates_cold
-#: Archaic_Era/units/phantom/Huric.cfg:86
-msgid "female^cold-heal"
-msgstr ""
-
-#. [regenerate]: id=regenerates_cold
-#: Archaic_Era/units/phantom/Huric.cfg:88
-msgid ""
-"Cold Heal:\n"
-"The unit will heal itself 24 HP per turn while the environment is cold."
-msgstr ""
-
-#. [attack]: type=cold
-#: Archaic_Era/units/phantom/Huric.cfg:141
-#: Archaic_Era/units/phantom/Huric.cfg:259
-msgid "Ice Blade"
-msgstr ""
-
-#. [attack]: type=cold
-#: Archaic_Era/units/phantom/Huric.cfg:150
-#: Archaic_Era/units/phantom/Huric.cfg:268
-msgid "Terror"
-msgstr ""
-
 #. [unit_type]: id=Phantom Cloak, race=phantom_wales
 #: Archaic_Era/units/phantom/Phantom_Cloak.cfg:5
 msgid "Phantom Cloak"
@@ -628,6 +369,16 @@ msgstr ""
 msgid "Touch"
 msgstr ""
 
+#. [attack]: type=cold
+#: Archaic_Era/units/phantom/Phantom_Cloak.cfg:82
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:84
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:145
+#: Archaic_Era/units/phantom/Phantom_Spear.cfg:85
+#: Archaic_Era/units/phantom/Phantom_Shadow.cfg:85
+#: Archaic_Era/units/phantom/Phantom_Master.cfg:85
+msgid "Hatred"
+msgstr ""
+
 #. [unit_type]: id=Phantom Horseman, race=phantom_wales
 #: Archaic_Era/units/phantom/Phantom_Horseman.cfg:4
 msgid "Horseman"
@@ -638,6 +389,17 @@ msgstr ""
 #: Archaic_Era/units/phantom/Phantom_Slayer.cfg:73
 #: Archaic_Era/units/phantom/Phantom_Horseman.cfg:72
 msgid "Rush"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:72
+#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:72
+#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:84
+#: Archaic_Era/units/phantom/Phantom_Officer.cfg:132
+#: Archaic_Era/units/phantom/Tomb_Protector.cfg:73
+#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:72
+#: Archaic_Era/units/phantom/Phantom_Spear.cfg:73
+msgid "Spear"
 msgstr ""
 
 #. [unit_type]: id=Phantom Master, race=phantom_wales
@@ -678,6 +440,11 @@ msgstr ""
 #. [attack]: type=pierce
 #: Archaic_Era/units/phantom/Phantom_Slayer.cfg:85
 msgid "Spike"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:98
+msgid "Blade"
 msgstr ""
 
 #. [unit_type]: id=Phantom Soldier, race=phantom_wales
@@ -747,6 +514,25 @@ msgstr ""
 #. [unit_type]: id=Tomb Archer, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Archer.cfg:4
 msgid "Archer"
+msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/units/south-seas/Sky-Caller.cfg:35
+#: Archaic_Era/units/south-seas/Zephyrist.cfg:33
+#: Archaic_Era/units/primeval/Primeval_Ironwheel.cfg:57
+#: Archaic_Era/units/primeval/Primeval_Firewheel.cfg:66
+#: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:72
+#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:73
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:74
+#: Archaic_Era/units/phantom/Tomb_Archer.cfg:73
+msgid "Fist"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:82
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:83
+#: Archaic_Era/units/phantom/Tomb_Archer.cfg:82
+msgid "Bow"
 msgstr ""
 
 #. [unit_type]: id=Tomb Dancer, race=phantom_egypt
@@ -913,32 +699,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Archaic_Era/units/south-seas/Rover.cfg:29
 #: Archaic_Era/units/south-seas/Wolf.cfg:32
-#: Archaic_Era/units/primeval/Primeval_Ares.cfg:49
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:65
 #: Archaic_Era/units/primeval/Primevalist_Shield.cfg:30
-#: Archaic_Era/units/primeval/Primeval_Nemesis.cfg:58
 #: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:30
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:34
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:27
 msgid "Sword"
-msgstr ""
-
-#. [unit_type]: id=Primeval Ares, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Ares.cfg:5
-msgid "War God"
-msgstr ""
-
-#. [unit_type]: id=Primeval Ares, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Ares.cfg:21
-msgid ""
-"The title 'War God' is more of a testament to power than a claim to "
-"divinity. This is one of the highest ranks a Primeval can attain.\n"
-"Special Note:  This unit cannot be killed."
-msgstr ""
-
-#. [attack]: type=arcane
-#: Archaic_Era/units/primeval/Primeval_Ares.cfg:58
-msgid "Enervation"
 msgstr ""
 
 #. [unit_type]: id=Primeval Cutter, race=primeval
@@ -971,6 +737,12 @@ msgid ""
 "of visor. Though it simply looks like a piece of metal strapped across the "
 "eyes, the visor appears to assist the fighter in targeting the enemy.\n"
 "Special Note:"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/primeval/Primeval_Warrior.cfg:33
+#: Archaic_Era/units/primeval/Primeval_Dogface.cfg:31
+msgid "Axe"
 msgstr ""
 
 #. [unit_type]: id=Primeval Driver, race=primeval
@@ -1099,25 +871,6 @@ msgid ""
 "Special Note:"
 msgstr ""
 
-#. [unit_type]: id=Primeval Nemesis, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Nemesis.cfg:5
-msgid "Avenging Goddess"
-msgstr ""
-
-#. [unit_type]: id=Primeval Nemesis, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Nemesis.cfg:41
-msgid ""
-"The Goddess of Vengance gets her title from the fast, ferocious, and "
-"unrelenting way pursues her targets. Her strength, speed, and flight ability "
-"make her quite dangerous.\n"
-"Special Note:  This unit cannot be killed."
-msgstr ""
-
-#. [attack]: type=cold
-#: Archaic_Era/units/primeval/Primeval_Nemesis.cfg:67
-msgid "psyche"
-msgstr ""
-
 #. [unit_type]: id=Primeval Protector, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Protector.cfg:5
 msgid "Protector"
@@ -1153,59 +906,6 @@ msgstr ""
 msgid "Quoit"
 msgstr ""
 
-#. [unit_type]: id=Primeval Storm, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Storm.cfg:5
-msgid "Storm Cantor"
-msgstr ""
-
-#. [unit_type]: id=Primeval Storm, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Storm.cfg:23
-msgid ""
-"The Storm Cantor is roughly the Primeval equivalent to a mage. Though not "
-"one of the immortal leaders, they possess unusual strength and vitality. "
-"Their name comes from the fact that they can not only call lightning "
-"strikes, but they can also coax the wind and dark clouds to cloak the "
-"actions of themselves or their allies. \n"
-"Special Note:"
-msgstr ""
-
-#. [regenerate]: id=demigod
-#: Archaic_Era/units/primeval/Primeval_Storm.cfg:49
-msgid "demigod"
-msgstr ""
-
-#. [regenerate]: id=demigod
-#: Archaic_Era/units/primeval/Primeval_Storm.cfg:50
-msgid "female^demigod"
-msgstr ""
-
-#. [regenerate]: id=demigod
-#: Archaic_Era/units/primeval/Primeval_Storm.cfg:52
-msgid ""
-"Demigod:\n"
-"The unit will heal itself 24 HP per turn.  If it is poisoned, it will remove "
-"the poison instead of healing."
-msgstr ""
-
-#. [attack]: type=fire
-#: Archaic_Era/units/primeval/Primeval_Storm.cfg:59
-msgid "Storm"
-msgstr ""
-
-#. [attack]: type=impact
-#. [attack]: type=fire
-#: Archaic_Era/units/south-seas/Able-Seaman.cfg:31
-#: Archaic_Era/units/south-seas/Deck-Master.cfg:32
-#: Archaic_Era/units/primeval/Primevalist_Prior.cfg:30
-#: Archaic_Era/units/primeval/Primevalist_Follower.cfg:29
-#: Archaic_Era/units/primeval/Primeval_Striker.cfg:32
-#: Archaic_Era/units/primeval/Primevalist_Celebrant.cfg:35
-#: Archaic_Era/units/primeval/Primeval_Storm.cfg:71
-#: Archaic_Era/units/primeval/Primevalist_Monk.cfg:30
-#: Archaic_Era/units/primeval/Primeval_Swift.cfg:30
-msgid "Staff"
-msgstr ""
-
 #. [unit_type]: id=Primeval Striker, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Striker.cfg:5
 msgid "Striker"
@@ -1218,13 +918,26 @@ msgid ""
 "Special Note:"
 msgstr ""
 
+#. [attack]: type=impact
+#. [attack]: type=fire
+#: Archaic_Era/units/south-seas/Able-Seaman.cfg:31
+#: Archaic_Era/units/south-seas/Deck-Master.cfg:32
+#: Archaic_Era/units/primeval/Primevalist_Prior.cfg:30
+#: Archaic_Era/units/primeval/Primevalist_Follower.cfg:29
+#: Archaic_Era/units/primeval/Primeval_Striker.cfg:32
+#: Archaic_Era/units/primeval/Primevalist_Celebrant.cfg:35
+#: Archaic_Era/units/primeval/Primevalist_Monk.cfg:30
+#: Archaic_Era/units/primeval/Primeval_Swift.cfg:31
+msgid "Staff"
+msgstr ""
+
 #. [unit_type]: id=Primeval Swiftfoot, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Swift.cfg:5
 msgid "Swiftfoot"
 msgstr ""
 
 #. [unit_type]: id=Primeval Swiftfoot, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Swift.cfg:20
+#: Archaic_Era/units/primeval/Primeval_Swift.cfg:21
 msgid ""
 "The Primeval Swiftfoots are a basic component of the Primeval forces, mostly "
 "serving as scouts.\n"
@@ -1393,19 +1106,47 @@ msgid "race^Primevals"
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:9
+#: Archaic_Era/units/primeval_race.cfg:20
 msgid ""
-"The Primeval forces are beings from a time long, long ago. They share so "
-"many of the common traits of more modern races, it is possible that they are "
-"ancestors. In their time, they were engaged in an exceptionally grim war. As "
-"all other races fell victim to the Khthon, the Primevals rose in strength. "
-"During the war, they developed a distrust and hatred of all other races and "
-"cannot be reasoned. Any human, orc, elf, dwarf, drake, troll, naga, merman, "
-"or beast is a potential Khthon."
+"The Primeval forces are beings from a time long, long ago. They share many "
+"traits of the modern races, it is possible that they are ancestors.  \n"
+"<header>text='History'</header>\n"
+"In their time, they were engaged in an exceptionally grim war with an enemy "
+"both powerful and mysterious.  The enemy was defeated, but the devastation "
+"to the world was severe and many Primeval leaders decided it best to go into "
+"a form of suspended animation.\n"
+"\n"
+"Ages later, the Primevals re-emerged and encountered the modern races.  All "
+"differences might have been overcome, but approximately 50 years after the "
+"Primeval re-emergance came a plage. \n"
+"\n"
+"A strange disease of the soul and mind broke out, and denizens of the world "
+"became something else - something that called itself Khthon.  As all other "
+"races fell victim to the Khthon, the Primevals rose in strength, for they "
+"were immune.  In the ensueing war against the Khthon, the Primevals "
+"developed a distrust and hatred of all other races, for any of their member "
+"could be Khthon infiltrator.\n"
+"\n"
+"Records of how the war was resolved are lost, but ultimately we know it was "
+"the younger races who had triumphed.  Many of the Primevals had foreseen "
+"this, and had once again gone into suspended animation within their aging "
+"facilities.\n"
+"\n"
+"<header>text='Technology'</header>\n"
+"The Primevals had never really mastered magic to the extent that the modern "
+"races have.  However, they did figure ways to harness it for a power source, "
+"and were able to easily mine and forge metals, fertilizers, and reactive "
+"chemicals; resources were unlimited.  Many of the modern races would have "
+"simply enjoyed a population explosion, but the austere Primeval culture led "
+"to something else.  Many biological and mechanical feats of engineering were "
+"the result.  The downside of the rapid development was that the "
+"technological advances were uneven (roads, guns, aeroplanes, and many other "
+"things had simply never been imagined) and they all rested upon a power "
+"source no one understood:  magic."
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:11
+#: Archaic_Era/units/primeval_race.cfg:27
 msgid ""
 "Accos,Acton,Actras,Aephus,Andradas,Arus,Ballus,Bellon,Callas,Cathas,Cendras,"
 "Chaos,Chronos,Cyras,Dandras,Demosthenes,Dundarus,Edras,Essras,Fathas,Gallas,"
@@ -1415,7 +1156,7 @@ msgid ""
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:12
+#: Archaic_Era/units/primeval_race.cfg:28
 msgid ""
 "Amache,Ananke,Anaxarete,Agrotora,Anthis,Carthis,Cassandra,Circe,Cyrene,"
 "Damaris,Dione,Draede,Duneris,Dyrope,Elektra,Gorgate,Hekate,Hekubis,Karybdis,"
@@ -2138,4 +1879,101 @@ msgstr ""
 msgid ""
 "Bal,Bear,Bellus,Car,Coun,Dach,Don,Earl,Fhar,Gan,Howler,Irid,Joc,Kar,Kech,Lug,"
 "Mach,Nantos,Orach,Perro,Raen,Sean,Troe,Valos"
+msgstr ""
+
+#. [resistance]: id=aa_dance
+#: Archaic_Era/utils/Archaic_abilities.cfg:19
+msgid "dancer"
+msgstr ""
+
+#. [resistance]: id=aa_dance
+#: Archaic_Era/utils/Archaic_abilities.cfg:20
+msgid "female^dancer"
+msgstr ""
+
+#. [resistance]: id=aa_dance
+#: Archaic_Era/utils/Archaic_abilities.cfg:22
+msgid ""
+"Dancer:\n"
+"This unit's physical (pierce, impact, blade) resistances are doubled, up to "
+"a maximum of 60%, when defending because the enemy cannot get a direct hit."
+msgstr ""
+
+#. [regenerate]: id=aa_immortal
+#: Archaic_Era/utils/Archaic_abilities.cfg:34
+msgid "immortal"
+msgstr ""
+
+#. [regenerate]: id=aa_immortal
+#: Archaic_Era/utils/Archaic_abilities.cfg:35
+msgid "female^immortal"
+msgstr ""
+
+#. [regenerate]: id=aa_immortal
+#: Archaic_Era/utils/Archaic_abilities.cfg:37
+msgid ""
+"immortal:\n"
+"This unit heals 99 HP per turn.  If poisoned, it will remove the poison."
+msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/utils/Archaic_abilities.cfg:59
+msgid "Vector"
+msgstr ""
+
+#. [chance_to_hit]: id=khthon_vector
+#: Archaic_Era/utils/Archaic_abilities.cfg:71
+msgid "vector"
+msgstr ""
+
+#. [chance_to_hit]: id=khthon_vector
+#: Archaic_Era/utils/Archaic_abilities.cfg:73
+msgid ""
+"Vector:\n"
+"This attack always has a 33% chance to hit regardless of the defensive "
+"ability of the unit being attacked.  If hit, susceptable opponents become "
+"Khthon."
+msgstr ""
+
+#. [unstore_unit]
+#: Archaic_Era/utils/Archaic_abilities.cfg:162
+msgid "$damage_attacker"
+msgstr ""
+
+#. [unstore_unit]
+#: Archaic_Era/utils/Archaic_abilities.cfg:225
+msgid "Possessed"
+msgstr ""
+
+#. [regenerate]: id=aa_selfheal
+#: Archaic_Era/utils/Archaic_abilities.cfg:326
+msgid "selfheal"
+msgstr ""
+
+#. [regenerate]: id=aa_selfheal
+#: Archaic_Era/utils/Archaic_abilities.cfg:328
+msgid ""
+"selfheal:\n"
+"This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
+msgstr ""
+
+#. [illuminates]: id=aa_penumbra
+#: Archaic_Era/utils/Archaic_abilities.cfg:340
+msgid "penumbra"
+msgstr ""
+
+#. [illuminates]: id=aa_penumbra
+#: Archaic_Era/utils/Archaic_abilities.cfg:341
+msgid "female^penumbra"
+msgstr ""
+
+#. [illuminates]: id=aa_penumbra
+#: Archaic_Era/utils/Archaic_abilities.cfg:345
+msgid ""
+"Penumbra:\n"
+"This unit obscures the surrounding area, making chaotic units fight better, "
+"and lawful units fight worse.\n"
+"\n"
+"Any units adjacent to this unit will fight as if it were dusk when it is "
+"day, and as if it were night when it is dusk."
 msgstr ""
