@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-02-03 02:31+0100\n"
+"POT-Creation-Date: 2010-02-15 03:09+0100\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -57,8 +57,8 @@ msgstr ""
 #. [attack]: type=blade
 #: Archaic_Era/units/ukians/Ukian_Attackdog.cfg:38
 #: Archaic_Era/units/ukians/Ukian_Dog.cfg:41
-#: Archaic_Era/units/khthon/Timber_Wolf.cfg:23
-#: Archaic_Era/units/khthon/Prokyon.cfg:33
+#: Archaic_Era/units/khthon/Timber_Wolf.cfg:30
+#: Archaic_Era/units/khthon/Prokyon.cfg:40
 #: Archaic_Era/units/khthon/Arctic_Wolf.cfg:23
 msgid "fangs"
 msgstr ""
@@ -75,10 +75,8 @@ msgid ""
 "though, so something is wrong..."
 msgstr ""
 
-#. [attack]: type=arcane
 #. [attack]: type=impact
-#: Archaic_Era/units/khthon/Nightmare.cfg:39
-#: Archaic_Era/units/khthon/Horse.cfg:31
+#: Archaic_Era/units/khthon/Horse.cfg:34
 msgid "kick"
 msgstr ""
 
@@ -88,11 +86,9 @@ msgid "Hypergusa"
 msgstr ""
 
 #. [unit_type]: id=Timber Wolf, race=khthon
-#. [unit_type]: id=Ophis-Magnum, race=khthon
 #. [unit_type]: id=Hypergusa, race=khthon
 #. [unit_type]: id=Katoblepon-Magnum, race=khthon
 #. [unit_type]: id=Prokyon, race=khthon
-#. [unit_type]: id=Nightmare, race=khthon
 #. [unit_type]: id=Pyradalon, race=khthon
 #. [unit_type]: id=South-Seas Spitfire, race=south-seas_human
 #. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
@@ -129,11 +125,9 @@ msgstr ""
 #. [unit_type]: id=Mummy King, race=phantom_egypt
 #. [unit_type]: id=Tomb Archer, race=phantom_egypt
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
-#: Archaic_Era/units/khthon/Ophis-Magnum.cfg:19
 #: Archaic_Era/units/khthon/Hypergusa.cfg:19
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19
 #: Archaic_Era/units/khthon/Prokyon.cfg:18
-#: Archaic_Era/units/khthon/Nightmare.cfg:19
 #: Archaic_Era/units/khthon/Pyradalon.cfg:19
 #: Archaic_Era/units/south-seas/Spitfire.cfg:22
 #: Archaic_Era/units/south-seas/Scourge.cfg:22
@@ -172,14 +166,15 @@ msgid "..."
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/units/khthon/Hypergusa.cfg:36
-#: Archaic_Era/units/khthon/Pegusa.cfg:29
+#: Archaic_Era/units/khthon/Hypergusa.cfg:40
+#: Archaic_Era/units/khthon/Nightmare.cfg:54
+#: Archaic_Era/units/khthon/Pegusa.cfg:33
 msgid "Kick"
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/units/khthon/Hypergusa.cfg:45
-#: Archaic_Era/units/khthon/Pegusa.cfg:38
+#: Archaic_Era/units/khthon/Hypergusa.cfg:49
+#: Archaic_Era/units/khthon/Pegusa.cfg:42
 msgid "Spit"
 msgstr ""
 
@@ -189,16 +184,16 @@ msgid "Katoblepon-Magnum"
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/units/khthon/Katoblepon.cfg:41
-#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:42
-#: Archaic_Era/units/khthon/Ram.cfg:32
-#: Archaic_Era/units/khthon/Pyradalon.cfg:40
+#: Archaic_Era/units/khthon/Katoblepon.cfg:47
+#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:48
+#: Archaic_Era/units/khthon/Ram.cfg:36
+#: Archaic_Era/units/khthon/Pyradalon.cfg:45
 msgid "Head"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Archaic_Era/units/khthon/Katoblepon.cfg:53
-#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:54
+#: Archaic_Era/units/khthon/Katoblepon.cfg:59
+#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:60
 msgid "Breath"
 msgstr ""
 
@@ -220,21 +215,46 @@ msgstr ""
 msgid "Nightmare"
 msgstr ""
 
+#. [unit_type]: id=Nightmare, race=khthon
+#: Archaic_Era/units/khthon/Nightmare.cfg:19
+msgid ""
+"Contrary to what one might expect of a plague, Khthon do have individual "
+"personalities and some are more otherworldly than others.  While they do not "
+"use the written records and philters of Necromancy, the knowledge seekers "
+"are drawn to the mysteries of the phantoms and spirits, and have mastered "
+"some of the undead fighting techniques."
+msgstr ""
+
+#. [attack]: type=arcane
+#. [attack]: type=blade
+#: Archaic_Era/units/khthon/Nightmare.cfg:45
+#: Archaic_Era/units/khthon/Orthrus.cfg:44
+msgid "Bite"
+msgstr ""
+
 #. [unit_type]: id=Ophis-Magnum, race=khthon
 #: Archaic_Era/units/khthon/Ophis-Magnum.cfg:5
 msgid "Ophis-Magnum"
 msgstr ""
 
+#. [unit_type]: id=Ophis-Magnum, race=khthon
+#: Archaic_Era/units/khthon/Ophis-Magnum.cfg:19
+msgid ""
+"This beast is massive and is covered in thick scales and hide, so it can "
+"absorb much damage.  The Khthon has mastered its hosts body perfectly, so it "
+"is now able to fully regenerate."
+msgstr ""
+
 #. [attack]: type=pierce
-#: Archaic_Era/units/khthon/Ophis-Magnum.cfg:33
-#: Archaic_Era/units/khthon/Yak.cfg:28 Archaic_Era/units/khthon/Ophis.cfg:31
+#: Archaic_Era/units/khthon/Ophis-Magnum.cfg:32
+#: Archaic_Era/units/khthon/Yak.cfg:29 Archaic_Era/units/khthon/Ophis.cfg:31
 msgid "Horns"
 msgstr ""
 
 #. [attack]: type=impact
 #. [attack]: type=fire
-#: Archaic_Era/units/khthon/Ophis-Magnum.cfg:45
-#: Archaic_Era/units/khthon/Pyradalon.cfg:52
+#: Archaic_Era/units/khthon/Ophis-Magnum.cfg:44
+#: Archaic_Era/units/khthon/Pyradalon.cfg:57
 msgid "Tail"
 msgstr ""
 
@@ -266,11 +286,6 @@ msgid ""
 "teeth."
 msgstr ""
 
-#. [attack]: type=blade
-#: Archaic_Era/units/khthon/Orthrus.cfg:37
-msgid "Bite"
-msgstr ""
-
 #. [unit_type]: id=Pegusa, race=khthon
 #: Archaic_Era/units/khthon/Pegusa.cfg:5
 msgid "Pegusa"
@@ -279,8 +294,9 @@ msgstr ""
 #. [unit_type]: id=Pegusa, race=khthon
 #: Archaic_Era/units/khthon/Pegusa.cfg:18
 msgid ""
-"The Khthon spirit has begun to transform its equine victim. The teeth and "
-"jaws have taken on aspects of a viper."
+"The Khthon spirit has begun to transform its equine victim.  Salivary glands "
+"can now produce a spittle that is thick and adhesive, which can cause quite "
+"a distraction for any target."
 msgstr ""
 
 #. [unit_type]: id=Prokyon, race=khthon
@@ -328,7 +344,7 @@ msgid "Yak"
 msgstr ""
 
 #. [unit_type]: id=Yak, race=khthon
-#: Archaic_Era/units/khthon/Yak.cfg:18
+#: Archaic_Era/units/khthon/Yak.cfg:19
 msgid ""
 "At various times, yaks have been used as beasts of burden because they are "
 "sturdy and do not mind the cold. It is a little odd that they have become so "
@@ -352,7 +368,24 @@ msgid ""
 "They are best described as spirits that animate the bodies of victims, and "
 "slowly cause those victims to undergo transformations. The Primeval Forces "
 "have developed an immunity to this, but the more modern inhabitants of the "
-"continent are vulnerable."
+"continent (with the exception of the non-living) are vulnerable."
+msgstr ""
+
+#. [race]: id=lesser_khthon
+#: Archaic_Era/units/khthon_race.cfg:19 Archaic_Era/units/khthon_race.cfg:21
+msgid "race^Lesser Khthon"
+msgstr ""
+
+#. [race]: id=lesser_khthon
+#: Archaic_Era/units/khthon_race.cfg:20
+msgid "race+female^Lesser Khthon"
+msgstr ""
+
+#. [race]: id=lesser_khthon
+#: Archaic_Era/units/khthon_race.cfg:24
+msgid ""
+"Lesser Khthon are the immature spawn of Khthon.  They cannot spread more of "
+"their kind yet, but they can control the mind of their victims."
 msgstr ""
 
 #. [unit_type]: id=Phantom Cloak, race=phantom_wales
@@ -595,8 +628,8 @@ msgstr ""
 
 #. [attack]: type=cold
 #. [attack]: type=arcane
-#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:39
-#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:36
+#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:40
+#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:37
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:81
 #: Archaic_Era/units/phantom/Tomb_Mummy.cfg:72
 #: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:84
@@ -699,9 +732,9 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Wolf.cfg:32
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:65
 #: Archaic_Era/units/primeval/Primevalist_Shield.cfg:30
-#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:30
+#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:31
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:34
-#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:27
+#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:28
 msgid "Sword"
 msgstr ""
 
@@ -980,7 +1013,7 @@ msgid "Primevalist Fanatic"
 msgstr ""
 
 #. [unit_type]: id=Primevalist Fanatic, race=human
-#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:19
+#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:20
 msgid ""
 "When blind devotion is combined with combat experience, a more valuable "
 "figher is formed. They know enough to be dangerous, but not enough to be "
@@ -993,7 +1026,7 @@ msgid "Primevalist Fighter"
 msgstr ""
 
 #. [unit_type]: id=Primevalist Fighter, race=human
-#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:19
+#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:20
 msgid ""
 "The primevalists are mostly angry young men. The Dark Messiah told them what "
 "they needed to hear to pick up a sword and attack their fellow humans in "
@@ -1451,8 +1484,8 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=fire
-#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:39
-#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:48
+#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:40
+#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:49
 #: Archaic_Era/units/ukians/Ukian_Archer.cfg:34
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:35
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:44
@@ -1518,7 +1551,7 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Archaic_Era/units/ukians/Ukian_Officer.cfg:39
-#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:30
+#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:31
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:26
 msgid "sword"
@@ -1610,7 +1643,7 @@ msgid "Ukian Deadeye"
 msgstr ""
 
 #. [unit_type]: id=Ukian Deadeye, race=ukian
-#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:21
+#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:22
 msgid ""
 "Ukian Deadeyes have been roaming the forrest for a long time and can move "
 "about undetected. They can launch many missiles, or they can take a tactic "
@@ -1934,39 +1967,39 @@ msgid ""
 msgstr ""
 
 #. [unstore_unit]
-#: Archaic_Era/utils/Archaic_abilities.cfg:162
-msgid "$damage_attacker"
+#: Archaic_Era/utils/Archaic_abilities.cfg:217
+msgid "$damage_attacker_vis"
 msgstr ""
 
 #. [unstore_unit]
-#: Archaic_Era/utils/Archaic_abilities.cfg:225
+#: Archaic_Era/utils/Archaic_abilities.cfg:287
 msgid "Possessed"
 msgstr ""
 
 #. [regenerate]: id=aa_selfheal
-#: Archaic_Era/utils/Archaic_abilities.cfg:326
+#: Archaic_Era/utils/Archaic_abilities.cfg:388
 msgid "selfheal"
 msgstr ""
 
 #. [regenerate]: id=aa_selfheal
-#: Archaic_Era/utils/Archaic_abilities.cfg:328
+#: Archaic_Era/utils/Archaic_abilities.cfg:390
 msgid ""
 "selfheal:\n"
 "This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
 #. [illuminates]: id=aa_penumbra
-#: Archaic_Era/utils/Archaic_abilities.cfg:340
+#: Archaic_Era/utils/Archaic_abilities.cfg:402
 msgid "penumbra"
 msgstr ""
 
 #. [illuminates]: id=aa_penumbra
-#: Archaic_Era/utils/Archaic_abilities.cfg:341
+#: Archaic_Era/utils/Archaic_abilities.cfg:403
 msgid "female^penumbra"
 msgstr ""
 
 #. [illuminates]: id=aa_penumbra
-#: Archaic_Era/utils/Archaic_abilities.cfg:345
+#: Archaic_Era/utils/Archaic_abilities.cfg:407
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
