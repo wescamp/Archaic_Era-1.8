@@ -1,0 +1,18 @@
+#textdomain wesnoth-Archaic_Era
+
+### Archaic Era
+[era]
+	id=ARCHAIC_ERA
+	name= _ "Archaic Era"
+	require_era=yes
+	
+	{RANDOM_SIDE}
+	{~campaigns/Archaic_Era/eras/ukians_MP.cfg}
+	{~campaigns/Archaic_Era/eras/primeval_MP.cfg}
+	{~campaigns/Archaic_Era/eras/khthon_MP.cfg}
+	{~campaigns/Archaic_Era/eras/phantom_MP.cfg}
+	{~campaigns/Archaic_Era/eras/south-seas_MP.cfg}
+	{multiplayer/factions/loyalists-default.cfg}
+	{multiplayer/factions/northerners-default.cfg}
+	{multiplayer/factions/undead-default.cfg}
+[/era]
