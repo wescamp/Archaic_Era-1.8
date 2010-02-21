@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-02-15 03:09+0100\n"
+"POT-Creation-Date: 2010-02-21 23:53+0100\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -167,7 +167,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Archaic_Era/units/khthon/Hypergusa.cfg:40
-#: Archaic_Era/units/khthon/Nightmare.cfg:54
+#: Archaic_Era/units/khthon/Nightmare.cfg:55
 #: Archaic_Era/units/khthon/Pegusa.cfg:33
 msgid "Kick"
 msgstr ""
@@ -216,7 +216,7 @@ msgid "Nightmare"
 msgstr ""
 
 #. [unit_type]: id=Nightmare, race=khthon
-#: Archaic_Era/units/khthon/Nightmare.cfg:19
+#: Archaic_Era/units/khthon/Nightmare.cfg:20
 msgid ""
 "Contrary to what one might expect of a plague, Khthon do have individual "
 "personalities and some are more otherworldly than others.  While they do not "
@@ -227,7 +227,7 @@ msgstr ""
 
 #. [attack]: type=arcane
 #. [attack]: type=blade
-#: Archaic_Era/units/khthon/Nightmare.cfg:45
+#: Archaic_Era/units/khthon/Nightmare.cfg:46
 #: Archaic_Era/units/khthon/Orthrus.cfg:44
 msgid "Bite"
 msgstr ""
@@ -661,6 +661,21 @@ msgstr ""
 msgid "Tomb Sentinel"
 msgstr ""
 
+#. [unit_type]: id=Tomb Shade, race=phantom_egypt
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:45
+msgid "Vapor"
+msgstr ""
+
+#. [attack]: type=arcane
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:55
+msgid "touch"
+msgstr ""
+
+#. [attack]: type=cold
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:64
+msgid "wail"
+msgstr ""
+
 #. [unit_type]: id=Tomb Wing, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Wing.cfg:4
 msgid "Wing Dancer"
@@ -987,12 +1002,12 @@ msgid ""
 "Special Note:"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Celebrant, race=human
+#. [unit_type]: id=Primevalist Celebrant, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Celebrant.cfg:5
 msgid "Primevalist Celebrant"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Celebrant, race=human
+#. [unit_type]: id=Primevalist Celebrant, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Celebrant.cfg:20
 msgid ""
 "Though their faith in the Primeval beings has not flagged, their faith in "
@@ -1007,12 +1022,12 @@ msgstr ""
 msgid "Condemnation"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Fanatic, race=human
+#. [unit_type]: id=Primevalist Fanatic, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:5
 msgid "Primevalist Fanatic"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Fanatic, race=human
+#. [unit_type]: id=Primevalist Fanatic, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:20
 msgid ""
 "When blind devotion is combined with combat experience, a more valuable "
@@ -1020,12 +1035,12 @@ msgid ""
 "reasoned with."
 msgstr ""
 
-#. [unit_type]: id=Primevalist Fighter, race=human
+#. [unit_type]: id=Primevalist Fighter, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:5
 msgid "Primevalist Fighter"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Fighter, race=human
+#. [unit_type]: id=Primevalist Fighter, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:20
 msgid ""
 "The primevalists are mostly angry young men. The Dark Messiah told them what "
@@ -1035,12 +1050,12 @@ msgid ""
 "evil spirits."
 msgstr ""
 
-#. [unit_type]: id=Primevalist Follower, race=human
+#. [unit_type]: id=Primevalist Follower, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Follower.cfg:5
 msgid "Primevalist Follower"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Follower, race=human
+#. [unit_type]: id=Primevalist Follower, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Follower.cfg:19
 msgid ""
 "Some of the angry young men recruited by the Dark Messiah are more clever "
@@ -1058,12 +1073,12 @@ msgstr ""
 msgid "Chill"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Leader, race=human
+#. [unit_type]: id=Primevalist Leader, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:5
 msgid "Primevalist Leader"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Leader, race=human
+#. [unit_type]: id=Primevalist Leader, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:20
 msgid ""
 "While the Primevals most likely have as little respect for these warriors as "
@@ -1076,12 +1091,12 @@ msgstr ""
 msgid "curse"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Monk, race=human
+#. [unit_type]: id=Primevalist Monk, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Monk.cfg:5
 msgid "Primevalist Monk"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Monk, race=human
+#. [unit_type]: id=Primevalist Monk, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Monk.cfg:20
 msgid ""
 "The followers continue to study magic and the glyphs carved into stone by "
@@ -1090,12 +1105,12 @@ msgid ""
 "Monks work harder than ever to be deemed worthy."
 msgstr ""
 
-#. [unit_type]: id=Primevalist Prior, race=human
+#. [unit_type]: id=Primevalist Prior, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Prior.cfg:5
 msgid "Primevalist Prior"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Prior, race=human
+#. [unit_type]: id=Primevalist Prior, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Prior.cfg:20
 msgid ""
 "The hardiest and most clever of the glyph readers extract the most "
@@ -1107,12 +1122,12 @@ msgstr ""
 msgid "Staff Base"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Shield, race=human
+#. [unit_type]: id=Primevalist Shield, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Shield.cfg:5
 msgid "Primeval Brightshield"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Shield, race=human
+#. [unit_type]: id=Primevalist Shield, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Shield.cfg:20
 msgid ""
 "These fighters play a supporting role, stoically absorbing damage so that "
@@ -1121,23 +1136,45 @@ msgid ""
 "higher than average resistance to fire, cold, and arcane damage."
 msgstr ""
 
-#. [race]: id=primeval
+#. [race]: id=primevalist_human
 #: Archaic_Era/units/primeval_race.cfg:5
+msgid "race^Human"
+msgstr ""
+
+#. [race]: id=primevalist_human
+#: Archaic_Era/units/primeval_race.cfg:6
+msgid "race+female^Human"
+msgstr ""
+
+#. [race]: id=primevalist_human
+#: Archaic_Era/units/primeval_race.cfg:7
+msgid "race^Humans"
+msgstr ""
+
+#. [race]: id=primevalist_human
+#: Archaic_Era/units/primeval_race.cfg:8
+msgid ""
+"The race of men is an extremely diverse one.  Some of them fall prey to the "
+"promises of false hope and false saviours."
+msgstr ""
+
+#. [race]: id=primeval
+#: Archaic_Era/units/primeval_race.cfg:18
 msgid "race^Primeval"
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:6
+#: Archaic_Era/units/primeval_race.cfg:19
 msgid "race+female^Primeval"
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:7
+#: Archaic_Era/units/primeval_race.cfg:20
 msgid "race^Primevals"
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:20
+#: Archaic_Era/units/primeval_race.cfg:38
 msgid ""
 "The Primeval forces are beings from a time long, long ago. They share many "
 "traits of the modern races, it is possible that they are ancestors.  \n"
@@ -1173,11 +1210,27 @@ msgid ""
 "the result.  The downside of the rapid development was that the "
 "technological advances were uneven (roads, guns, aeroplanes, and many other "
 "things had simply never been imagined) and they all rested upon a power "
-"source no one understood:  magic."
+"source no one understood:  magic.\n"
+"\n"
+"<header>text='Society'</header>\n"
+"The Primeval social order is very rigid, but merit-based.  The leaders are "
+"near god-like in their physical strength and prowess, but do not simply rule "
+"through a strong arm and stone heart.  Treachery to another Primeval is one "
+"of the most dishonourable acts one can engage in, so while all subordinates "
+"look upon their superiors with fear, they know those superiors have earned "
+"their rank and will neither betray nor toy with them.  The result is a "
+"disciplined and efficient military force, but the society lacks creativity "
+"and can become too focussed upon narrow goals.\n"
+"\n"
+"As a result of both the rigid meritocracy and the abundance of resources, "
+"the Primevals lost whatever tendancy toward division of the sexes they ever "
+"had.  In general, the roles requiring strength fall to the males while roles "
+"requiring endurance fall to the females, but either sex can become a leader "
+"and both sexes are expected to engage in combat."
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:27
+#: Archaic_Era/units/primeval_race.cfg:40
 msgid ""
 "Accos,Acton,Actras,Aephus,Andradas,Arus,Ballus,Bellon,Callas,Cathas,Cendras,"
 "Chaos,Chronos,Cyras,Dandras,Demosthenes,Dundarus,Edras,Essras,Fathas,Gallas,"
@@ -1187,7 +1240,7 @@ msgid ""
 msgstr ""
 
 #. [race]: id=primeval
-#: Archaic_Era/units/primeval_race.cfg:28
+#: Archaic_Era/units/primeval_race.cfg:41
 msgid ""
 "Amache,Ananke,Anaxarete,Agrotora,Anthis,Carthis,Cassandra,Circe,Cyrene,"
 "Damaris,Dione,Draede,Duneris,Dyrope,Elektra,Gorgate,Hekate,Hekubis,Karybdis,"
@@ -1912,18 +1965,48 @@ msgid ""
 "Mach,Nantos,Orach,Perro,Raen,Sean,Troe,Valos"
 msgstr ""
 
+#. [trait]: id=aa_phantom
+#: Archaic_Era/utils/Archaic_abilities.cfg:10
+msgid "phantom"
+msgstr ""
+
+#. [trait]: id=aa_phantom
+#: Archaic_Era/utils/Archaic_abilities.cfg:11
+msgid "female^phantom"
+msgstr ""
+
+#. [trait]: id=aa_phantom
+#: Archaic_Era/utils/Archaic_abilities.cfg:12
+msgid "Immune to drain, poison and plague"
+msgstr ""
+
+#. [trait]: id=aa_zealous
+#: Archaic_Era/utils/Archaic_abilities.cfg:24
+msgid "zealous"
+msgstr ""
+
+#. [trait]: id=aa_zealous
+#: Archaic_Era/utils/Archaic_abilities.cfg:25
+msgid "female^zealous"
+msgstr ""
+
+#. [trait]: id=aa_zealous
+#: Archaic_Era/utils/Archaic_abilities.cfg:26
+msgid "Zero upkeep"
+msgstr ""
+
 #. [resistance]: id=aa_dance
-#: Archaic_Era/utils/Archaic_abilities.cfg:19
+#: Archaic_Era/utils/Archaic_abilities.cfg:57
 msgid "dancer"
 msgstr ""
 
 #. [resistance]: id=aa_dance
-#: Archaic_Era/utils/Archaic_abilities.cfg:20
+#: Archaic_Era/utils/Archaic_abilities.cfg:58
 msgid "female^dancer"
 msgstr ""
 
 #. [resistance]: id=aa_dance
-#: Archaic_Era/utils/Archaic_abilities.cfg:22
+#: Archaic_Era/utils/Archaic_abilities.cfg:60
 msgid ""
 "Dancer:\n"
 "This unit's physical (pierce, impact, blade) resistances are doubled, up to "
@@ -1931,34 +2014,34 @@ msgid ""
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:34
+#: Archaic_Era/utils/Archaic_abilities.cfg:72
 msgid "immortal"
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:35
+#: Archaic_Era/utils/Archaic_abilities.cfg:73
 msgid "female^immortal"
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:37
+#: Archaic_Era/utils/Archaic_abilities.cfg:75
 msgid ""
 "immortal:\n"
 "This unit heals 99 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/utils/Archaic_abilities.cfg:59
+#: Archaic_Era/utils/Archaic_abilities.cfg:97
 msgid "Vector"
 msgstr ""
 
 #. [chance_to_hit]: id=khthon_vector
-#: Archaic_Era/utils/Archaic_abilities.cfg:71
+#: Archaic_Era/utils/Archaic_abilities.cfg:109
 msgid "vector"
 msgstr ""
 
 #. [chance_to_hit]: id=khthon_vector
-#: Archaic_Era/utils/Archaic_abilities.cfg:73
+#: Archaic_Era/utils/Archaic_abilities.cfg:111
 msgid ""
 "Vector:\n"
 "This attack always has a 33% chance to hit regardless of the defensive "
@@ -1967,39 +2050,39 @@ msgid ""
 msgstr ""
 
 #. [unstore_unit]
-#: Archaic_Era/utils/Archaic_abilities.cfg:217
+#: Archaic_Era/utils/Archaic_abilities.cfg:255
 msgid "$damage_attacker_vis"
 msgstr ""
 
 #. [unstore_unit]
-#: Archaic_Era/utils/Archaic_abilities.cfg:287
+#: Archaic_Era/utils/Archaic_abilities.cfg:325
 msgid "Possessed"
 msgstr ""
 
 #. [regenerate]: id=aa_selfheal
-#: Archaic_Era/utils/Archaic_abilities.cfg:388
+#: Archaic_Era/utils/Archaic_abilities.cfg:426
 msgid "selfheal"
 msgstr ""
 
 #. [regenerate]: id=aa_selfheal
-#: Archaic_Era/utils/Archaic_abilities.cfg:390
+#: Archaic_Era/utils/Archaic_abilities.cfg:428
 msgid ""
 "selfheal:\n"
 "This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
 #. [illuminates]: id=aa_penumbra
-#: Archaic_Era/utils/Archaic_abilities.cfg:402
+#: Archaic_Era/utils/Archaic_abilities.cfg:440
 msgid "penumbra"
 msgstr ""
 
 #. [illuminates]: id=aa_penumbra
-#: Archaic_Era/utils/Archaic_abilities.cfg:403
+#: Archaic_Era/utils/Archaic_abilities.cfg:441
 msgid "female^penumbra"
 msgstr ""
 
 #. [illuminates]: id=aa_penumbra
-#: Archaic_Era/utils/Archaic_abilities.cfg:407
+#: Archaic_Era/utils/Archaic_abilities.cfg:445
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
