@@ -11,6 +11,7 @@
 	{~campaigns/Archaic_Era/eras/primeval_MP.cfg}
 	{~campaigns/Archaic_Era/eras/khthon_MP.cfg}
 	{~campaigns/Archaic_Era/eras/phantom_MP.cfg}
+	{~campaigns/Archaic_Era/eras/despair_MP.cfg}
 	{~campaigns/Archaic_Era/eras/south-seas_MP.cfg}
 	{multiplayer/factions/loyalists-default.cfg}
 	{multiplayer/factions/northerners-default.cfg}

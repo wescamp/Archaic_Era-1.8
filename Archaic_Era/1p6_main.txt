@@ -18,6 +18,7 @@
 {~campaigns/Archaic_Era/utils}
 [+units]
         {~campaigns/Archaic_Era/units/primeval_race.cfg}
+        {~campaigns/Archaic_Era/units/despair_race.cfg}
         {~campaigns/Archaic_Era/units/khthon_race.cfg}
         {~campaigns/Archaic_Era/units/ukians_race.cfg}
         {~campaigns/Archaic_Era/units/phantom_race.cfg}
@@ -48,6 +49,7 @@
     {~campaigns/Archaic_Era/utils}
     [+units]
         {~campaigns/Archaic_Era/units/phantom_race.cfg}
+        {~campaigns/Archaic_Era/units/despair_race.cfg}
         {~campaigns/Archaic_Era/units/primeval_race.cfg}
         {~campaigns/Archaic_Era/units/khthon_race.cfg}
         {~campaigns/Archaic_Era/units/ukians_race.cfg}
