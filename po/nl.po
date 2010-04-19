@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-03-20 16:04+0100\n"
+"POT-Creation-Date: 2010-04-19 18:05+0200\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,19 +16,24 @@ msgstr ""
 msgid "Archaic Era"
 msgstr ""
 
+#. [multiplayer_side]: id=Archaic_Despair, type=Phantom Shadow
+#: Archaic_Era/eras/despair_MP.cfg:6
+msgid "Despair"
+msgstr ""
+
 #. [multiplayer_side]: id=Archaic_Khthon, type=Pyradalon
 #: Archaic_Era/eras/khthon_MP.cfg:5
 msgid "Khthon"
 msgstr ""
 
+#. [multiplayer_side]: id=Archaic_Orcs, type=Orcish Warrior
+#: Archaic_Era/eras/orcs_MP.cfg:4
+msgid "Northern Orcs"
+msgstr ""
+
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
 #: Archaic_Era/eras/phantom_MP.cfg:5
 msgid "Phantom"
-msgstr ""
-
-#. [multiplayer_side]: id=Archaic_Spirits, type=Phantom Shadow
-#: Archaic_Era/eras/phantom_MP.cfg:20
-msgid "Spirits"
 msgstr ""
 
 #. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Driver
@@ -44,6 +49,457 @@ msgstr ""
 #. [multiplayer_side]: id=Archaic_Ukians, type=Ukian Officer
 #: Archaic_Era/eras/ukians_MP.cfg:5
 msgid "Ukians"
+msgstr ""
+
+#. [unit_type]: id=Phantom Armor, race=despair
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:5
+msgid "Stone Warrior"
+msgstr ""
+
+#. [unit_type]: id=Orcish Destrier, race=orc
+#. [unit_type]: id=Orcish Cavalry, race=orc
+#. [race]: id=despair_wisp
+#. [unit_type]: id=Timber Wolf, race=khthon
+#. [unit_type]: id=Hypergusa, race=khthon
+#. [unit_type]: id=Katoblepon-Magnum, race=khthon
+#. [unit_type]: id=Prokyon, race=khthon
+#. [unit_type]: id=Pyradalon, race=khthon
+#. [unit_type]: id=South-Seas Spitfire, race=south-seas_human
+#. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
+#. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
+#. [unit_type]: id=South-Seas Marine, race=south-seas_human
+#. [unit_type]: id=South-Seas Swimmer, race=south-seas_human
+#. [unit_type]: id=South-Seas Arsonist, race=south-seas_human
+#. [unit_type]: id=South-Seas Seawolf, race=south-seas_human
+#. [unit_type]: id=South-Seas Demolitionist, race=south-seas_human
+#. [unit_type]: id=South-Seas Seaman, race=south-seas_human
+#. [unit_type]: id=South-Seas Diver, race=south-seas_human
+#. [race]: id=phantom_egypt
+#. [race]: id=phantom_spirit
+#. [unit_type]: id=Spirit Dove, race=phantom_spirit
+#. [unit_type]: id=Tomb Dancer, race=phantom_egypt
+#. [unit_type]: id=Mummy Unbound, race=phantom_egypt
+#. [unit_type]: id=Tomb Stalker, race=phantom_egypt
+#. [unit_type]: id=Tomb Sentinel, race=phantom_egypt
+#. [unit_type]: id=Spirit Jay, race=phantom_spirit
+#. [unit_type]: id=Tomb Huntress, race=phantom_egypt
+#. [unit_type]: id=Tomb Protector, race=phantom_egypt
+#. [unit_type]: id=Tomb Mummy, race=phantom_egypt
+#. [unit_type]: id=Tomb Wing, race=phantom_egypt
+#. [unit_type]: id=Tomb Guard, race=phantom_egypt
+#. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
+#. [unit_type]: id=Tomb Master, race=phantom_egypt
+#. [unit_type]: id=Mummy King, race=phantom_egypt
+#. [unit_type]: id=Tomb Archer, race=phantom_egypt
+#. [unit_type]: id=Phantom Rider, race=despair
+#. [unit_type]: id=Phantom Armor, race=despair
+#. [unit_type]: id=Phantom Slayer, race=despair
+#. [unit_type]: id=Phantom Cloak, race=despair
+#. [unit_type]: id=Phantom Horseman, race=despair
+#. [unit_type]: id=Phantom Fright, race=despair_wisp
+#. [unit_type]: id=Phantom Officer, race=despair
+#. [unit_type]: id=Phantom Shadow, race=despair
+#. [unit_type]: id=Phantom Master, race=despair
+#. [unit_type]: id=Phantom Stone, race=despair
+#. [unit_type]: id=Phantom Dullohan, race=despair
+#. [unit_type]: id=Phantom Statue, race=despair
+#. [unit_type]: id=Phantom Unease, race=despair_wisp
+#: Archaic_Era/units/orcs/Destrier.cfg:20
+#: Archaic_Era/units/orcs/Cavalry.cfg:19 Archaic_Era/units/despair_race.cfg:22
+#: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
+#: Archaic_Era/units/khthon/Hypergusa.cfg:19
+#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19
+#: Archaic_Era/units/khthon/Prokyon.cfg:18
+#: Archaic_Era/units/khthon/Pyradalon.cfg:19
+#: Archaic_Era/units/south-seas/Spitfire.cfg:22
+#: Archaic_Era/units/south-seas/Scourge.cfg:22
+#: Archaic_Era/units/south-seas/Sky-Caller.cfg:22
+#: Archaic_Era/units/south-seas/Marines.cfg:45
+#: Archaic_Era/units/south-seas/Swimmers.cfg:36
+#: Archaic_Era/units/south-seas/Arsonist.cfg:21
+#: Archaic_Era/units/south-seas/Wolf.cfg:22
+#: Archaic_Era/units/south-seas/Demolitionist.cfg:21
+#: Archaic_Era/units/south-seas/Seaman.cfg:21
+#: Archaic_Era/units/south-seas/Divers.cfg:43
+#: Archaic_Era/units/phantom_race.cfg:22 Archaic_Era/units/phantom_race.cfg:36
+#: Archaic_Era/units/phantom/Spirit_Dove.cfg:19
+#: Archaic_Era/units/phantom/Tomb_Feather.cfg:20
+#: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:19
+#: Archaic_Era/units/phantom/Tomb_Stalker.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:19
+#: Archaic_Era/units/phantom/Spirit_Jay.cfg:20
+#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:20
+#: Archaic_Era/units/phantom/Tomb_Protector.cfg:20
+#: Archaic_Era/units/phantom/Tomb_Mummy.cfg:19
+#: Archaic_Era/units/phantom/Tomb_Wing.cfg:20
+#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:19
+#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Master.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Archer.cfg:20
+#: Archaic_Era/units/despair/Phantom_Rider.cfg:19
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:35
+#: Archaic_Era/units/despair/Phantom_Slayer.cfg:20
+#: Archaic_Era/units/despair/Phantom_Cloak.cfg:20
+#: Archaic_Era/units/despair/Phantom_Horseman.cfg:19
+#: Archaic_Era/units/despair/Phantom_Fright.cfg:21
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:78
+#: Archaic_Era/units/despair/Phantom_Shadow.cfg:20
+#: Archaic_Era/units/despair/Phantom_Master.cfg:20
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:34
+#: Archaic_Era/units/despair/Phantom_Dullohan.cfg:20
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:34
+#: Archaic_Era/units/despair/Phantom_Wisp.cfg:20
+msgid "..."
+msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:88
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:87
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:87
+msgid "Stone Grip"
+msgstr ""
+
+#. [petrifies]: id=petrifies
+#. [petrifies]: id=aa_petrifies
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:97
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:96
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:96
+msgid "petrifies"
+msgstr ""
+
+#. [petrifies]: id=petrifies
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:99
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:98
+msgid ""
+"Petrify:\n"
+"\tThis attack petrifies the target, turning it to stone. Units that have "
+"been petrified may not move or attack."
+msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:106
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:105
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:105
+msgid "Stone Fist"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:116
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:115
+msgid "Stone Blade"
+msgstr ""
+
+#. [attack]: type=cold
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:125
+#: Archaic_Era/units/despair/Phantom_Cloak.cfg:82
+#: Archaic_Era/units/despair/Phantom_Soldier.cfg:84
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:145
+#: Archaic_Era/units/despair/Phantom_Spear.cfg:85
+#: Archaic_Era/units/despair/Phantom_Shadow.cfg:85
+#: Archaic_Era/units/despair/Phantom_Master.cfg:85
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:124
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:115
+msgid "Hatred"
+msgstr ""
+
+#. [unit_type]: id=Phantom Banshee, race=despair
+#: Archaic_Era/units/despair/Phantom_Banshee.cfg:5
+msgid "Banshee"
+msgstr ""
+
+#. [unit_type]: id=Phantom Banshee, race=despair
+#: Archaic_Era/units/despair/Phantom_Banshee.cfg:22
+msgid ""
+"Banshees are either the ghosts of notable or high-born ladies, or spirits "
+"interested in the lives of the high-born.  Their appearance is taken as a "
+"sign that someone is going to die."
+msgstr ""
+
+#. [attack]: type=arcane
+#: Archaic_Era/units/despair/Phantom_Cloak.cfg:70
+#: Archaic_Era/units/despair/Phantom_Widow.cfg:71
+#: Archaic_Era/units/despair/Phantom_Fright.cfg:71
+#: Archaic_Era/units/despair/Phantom_White.cfg:71
+#: Archaic_Era/units/despair/Phantom_Shadow.cfg:73
+#: Archaic_Era/units/despair/Phantom_Master.cfg:73
+#: Archaic_Era/units/despair/Phantom_Wisp.cfg:70
+#: Archaic_Era/units/despair/Phantom_Banshee.cfg:72
+msgid "Touch"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/despair/Phantom_Widow.cfg:80
+#: Archaic_Era/units/despair/Phantom_White.cfg:80
+#: Archaic_Era/units/despair/Phantom_Banshee.cfg:81
+msgid "Lament"
+msgstr ""
+
+#. [unit_type]: id=Phantom Cloak, race=despair
+#: Archaic_Era/units/despair/Phantom_Cloak.cfg:5
+msgid "Cloak"
+msgstr ""
+
+#. [unit_type]: id=Phantom Dullohan, race=despair
+#: Archaic_Era/units/despair/Phantom_Dullohan.cfg:4
+msgid "Dullohan"
+msgstr ""
+
+#. [attack]: type=cold
+#: Archaic_Era/units/despair/Phantom_Rider.cfg:72
+#: Archaic_Era/units/despair/Phantom_Slayer.cfg:73
+#: Archaic_Era/units/despair/Phantom_Horseman.cfg:72
+#: Archaic_Era/units/despair/Phantom_Dullohan.cfg:73
+msgid "Rush"
+msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/units/despair/Phantom_Dullohan.cfg:85
+msgid "Skull"
+msgstr ""
+
+#. [attack]: type=cold
+#. [unit_type]: id=Phantom Fright, race=despair_wisp
+#: Archaic_Era/units/despair/Phantom_Fright.cfg:5
+#: Archaic_Era/units/despair/Phantom_Fright.cfg:83
+#: Archaic_Era/units/despair/Phantom_Wisp.cfg:82
+msgid "Fright"
+msgstr ""
+
+#. [unit_type]: id=Phantom Horseman, race=despair
+#: Archaic_Era/units/despair/Phantom_Horseman.cfg:4
+msgid "Horseman"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:72
+#: Archaic_Era/units/phantom/Tomb_Protector.cfg:73
+#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:72
+#: Archaic_Era/units/despair/Phantom_Soldier.cfg:72
+#: Archaic_Era/units/despair/Phantom_Horseman.cfg:84
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:132
+#: Archaic_Era/units/despair/Phantom_Spear.cfg:73
+msgid "Spear"
+msgstr ""
+
+#. [unit_type]: id=Phantom Master, race=despair
+#: Archaic_Era/units/despair/Phantom_Master.cfg:5
+msgid "Master"
+msgstr ""
+
+#. [unit_type]: id=Phantom Midnight, race=despair
+#: Archaic_Era/units/despair/Phantom_Midnight.cfg:5
+msgid "Midnight Beauty"
+msgstr ""
+
+#. [unit_type]: id=Phantom Midnight, race=despair
+#: Archaic_Era/units/despair/Phantom_Midnight.cfg:98
+msgid ""
+"Some ghosts mingle with the living during the day and evening, partaking of "
+"the life they themselves were denied.  They appear as beautiful women, and "
+"can charm the young and foolish into escorting them home at night.  Those "
+"that head into the night with one of the Midnight Beauties are never seen "
+"again."
+msgstr ""
+
+#. [attack]: type=arcane
+#. [attack]: type=blade
+#: Archaic_Era/units/khthon/Adamantine.cfg:67
+#: Archaic_Era/units/khthon/Snapper.cfg:65
+#: Archaic_Era/units/despair/Phantom_Midnight.cfg:148
+msgid "Claws"
+msgstr ""
+
+#. [attack]: type=cold
+#: Archaic_Era/units/despair/Phantom_Midnight.cfg:157
+msgid "Gaze"
+msgstr ""
+
+#. [unit_type]: id=Phantom Officer, race=despair
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:4
+msgid "Officer"
+msgstr ""
+
+#. [advancement]: id=amla_phantom1
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:20
+msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
+msgstr ""
+
+#. [advancement]: id=amla_phantom2
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:49
+msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
+msgstr ""
+
+#. [unit_type]: id=Phantom Rider, race=despair
+#: Archaic_Era/units/despair/Phantom_Rider.cfg:4
+msgid "Rider"
+msgstr ""
+
+#. [unit_type]: id=Phantom Shadow, race=despair
+#: Archaic_Era/units/despair/Phantom_Shadow.cfg:5
+msgid "Shroud"
+msgstr ""
+
+#. [unit_type]: id=Phantom Slayer, race=despair
+#: Archaic_Era/units/despair/Phantom_Slayer.cfg:4
+msgid "Slayer"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/despair/Phantom_Slayer.cfg:85
+msgid "Spike"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/despair/Phantom_Slayer.cfg:98
+msgid "Blade"
+msgstr ""
+
+#. [unit_type]: id=Phantom Soldier, race=despair
+#: Archaic_Era/units/despair/Phantom_Soldier.cfg:4
+msgid "Soldier"
+msgstr ""
+
+#. [unit_type]: id=Phantom Soldier, race=despair
+#: Archaic_Era/units/despair/Phantom_Soldier.cfg:19
+msgid "Phantom Soldiers are the angry shadows of former Royal soldiers..."
+msgstr ""
+
+#. [unit_type]: id=Phantom Spearman, race=despair
+#: Archaic_Era/units/despair/Phantom_Spear.cfg:5
+msgid "Spearman"
+msgstr ""
+
+#. [unit_type]: id=Phantom Spearman, race=despair
+#: Archaic_Era/units/despair/Phantom_Spear.cfg:20
+msgid ""
+"Phantom Spearmen are the angry shadows of former Royal spearmen. Though "
+"dead, they can still learn from combat experience to become battle-hardened "
+"soldiers. Or rather, the angry shadows of soldiers."
+msgstr ""
+
+#. [unit_type]: id=Phantom Statue, race=despair
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:5
+msgid "Statue"
+msgstr ""
+
+#. [petrifies]: id=aa_petrifies
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:98
+msgid ""
+"Petrify:\n"
+"\tThis attack petrifies the target, turning it to stone. Units that have "
+"been petrified may not move or attack until the curse wears off."
+msgstr ""
+
+#. [unit_type]: id=Phantom Stone, race=despair
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:5
+msgid "Stone Soldier"
+msgstr ""
+
+#. [unit_type]: id=Phantom White, race=despair
+#: Archaic_Era/units/despair/Phantom_White.cfg:5
+msgid "White Lady"
+msgstr ""
+
+#. [unit_type]: id=Phantom White, race=despair
+#: Archaic_Era/units/despair/Phantom_White.cfg:21
+msgid ""
+"From a distance, a White Lady almost looks like a regular human.  But up "
+"close, one can see that their skin and eyes are very pale and show no signs "
+"of life.  They wear dark robes and a veil, as if in mourning."
+msgstr ""
+
+#. [unit_type]: id=Phantom Widow, race=despair
+#: Archaic_Era/units/despair/Phantom_Widow.cfg:5
+msgid "Widow"
+msgstr ""
+
+#. [unit_type]: id=Phantom Widow, race=despair
+#: Archaic_Era/units/despair/Phantom_Widow.cfg:21
+msgid ""
+"In the genocidal wars that occur in the harsh north, none of the defeated "
+"side is spared, not even the women and children - especially if the victors "
+"are orcs or something more heinous.  Those betrothed to the soldiers slain "
+"before the final defeat have built up a rage and sorrow that helps them "
+"persist in the spirit world."
+msgstr ""
+
+#. [unit_type]: id=Phantom Unease, race=despair_wisp
+#: Archaic_Era/units/despair/Phantom_Wisp.cfg:5
+msgid "Unease"
+msgstr ""
+
+#. [race]: id=despair
+#: Archaic_Era/units/despair_race.cfg:6 Archaic_Era/units/despair_race.cfg:8
+msgid "race^Despair"
+msgstr ""
+
+#. [race]: id=despair
+#: Archaic_Era/units/despair_race.cfg:7
+msgid "race+female^Despair"
+msgstr ""
+
+#. [race]: id=despair
+#. [race]: id=phantom_wales
+#: Archaic_Era/units/despair_race.cfg:11 Archaic_Era/units/phantom_race.cfg:11
+msgid ""
+"As Huric's rule came to a close and the orcs began reclaiming Ukian "
+"territory, many of the human forces were slain. Somehow the dead continue to "
+"roam the tundra, but unlike ghosts, they are not slaves to practioners of "
+"Necromancy. Instead, they are slaves to their own desires for revenge."
+msgstr ""
+
+#. [race]: id=despair_wisp
+#: Archaic_Era/units/despair_race.cfg:17
+msgid "race^Wisp"
+msgstr ""
+
+#. [race]: id=despair_wisp
+#: Archaic_Era/units/despair_race.cfg:18
+msgid "race+female^Wisp"
+msgstr ""
+
+#. [race]: id=despair_wisp
+#: Archaic_Era/units/despair_race.cfg:19
+msgid "race^Wisps"
+msgstr ""
+
+#. [unit_type]: id=Adamantine, race=khthon
+#: Archaic_Era/units/khthon/Adamantine.cfg:5
+msgid "Adamantine"
+msgstr ""
+
+#. [unit_type]: id=Adamantine, race=khthon
+#. [unit_type]: id=Snapper, race=khthon
+#. [unit_type]: id=Snapper_Hiding, race=khthon
+#: Archaic_Era/units/khthon/Adamantine.cfg:20
+#: Archaic_Era/units/khthon/Snapper.cfg:19
+#: Archaic_Era/units/khthon/Snapper.cfg:152
+msgid ""
+"The Bone Snapper can retreat into its shell to raise defenses (right-click "
+"option), but then it cannot move or attack."
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=arcane
+#: Archaic_Era/units/khthon/Adamantine.cfg:58
+#: Archaic_Era/units/khthon/Terrapin.cfg:52
+#: Archaic_Era/units/khthon/Nightmare.cfg:46
+#: Archaic_Era/units/khthon/Orthrus.cfg:44
+#: Archaic_Era/units/khthon/Snapper.cfg:56
+msgid "Bite"
+msgstr ""
+
+#. [unit_type]: id=Adamantine_Hiding, race=khthon
+#: Archaic_Era/units/khthon/Adamantine.cfg:138
+msgid "Adamantine (Hiding)"
+msgstr ""
+
+#. [unit_type]: id=Adamantine_Hiding, race=khthon
+#: Archaic_Era/units/khthon/Adamantine.cfg:156
+msgid ""
+"The Adamantine can retreat into its shell to raise defenses (right-click "
+"option), but then it cannot move or attack."
 msgstr ""
 
 #. [unit_type]: id=Arctic Wolf, race=khthon
@@ -91,92 +547,6 @@ msgstr ""
 msgid "Hypergusa"
 msgstr ""
 
-#. [unit_type]: id=Timber Wolf, race=khthon
-#. [unit_type]: id=Hypergusa, race=khthon
-#. [unit_type]: id=Katoblepon-Magnum, race=khthon
-#. [unit_type]: id=Prokyon, race=khthon
-#. [unit_type]: id=Pyradalon, race=khthon
-#. [unit_type]: id=South-Seas Spitfire, race=south-seas_human
-#. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
-#. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
-#. [unit_type]: id=South-Seas Marine, race=south-seas_human
-#. [unit_type]: id=South-Seas Swimmer, race=south-seas_human
-#. [unit_type]: id=South-Seas Arsonist, race=south-seas_human
-#. [unit_type]: id=South-Seas Seawolf, race=south-seas_human
-#. [unit_type]: id=South-Seas Demolitionist, race=south-seas_human
-#. [unit_type]: id=South-Seas Seaman, race=south-seas_human
-#. [unit_type]: id=South-Seas Diver, race=south-seas_human
-#. [race]: id=phantom_egypt
-#. [race]: id=phantom_spirit
-#. [unit_type]: id=Spirit Dove, race=phantom_spirit
-#. [unit_type]: id=Tomb Dancer, race=phantom_egypt
-#. [unit_type]: id=Phantom Rider, race=phantom_wales
-#. [unit_type]: id=Phantom Armor, race=phantom_wales
-#. [unit_type]: id=Mummy Unbound, race=phantom_egypt
-#. [unit_type]: id=Phantom Slayer, race=phantom_wales
-#. [unit_type]: id=Tomb Sentinel, race=phantom_egypt
-#. [unit_type]: id=Spirit Jay, race=phantom_spirit
-#. [unit_type]: id=Phantom Cloak, race=phantom_wales
-#. [unit_type]: id=Tomb Huntress, race=phantom_egypt
-#. [unit_type]: id=Phantom Horseman, race=phantom_wales
-#. [unit_type]: id=Phantom Officer, race=phantom_wales
-#. [unit_type]: id=Seth, race=phantom_egypt
-#. [unit_type]: id=Tomb Protector, race=phantom_egypt
-#. [unit_type]: id=Tomb Mummy, race=phantom_egypt
-#. [unit_type]: id=Tomb Wing, race=phantom_egypt
-#. [unit_type]: id=Tomb Guard, race=phantom_egypt
-#. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
-#. [unit_type]: id=Phantom Shadow, race=phantom_wales
-#. [unit_type]: id=Phantom Master, race=phantom_wales
-#. [unit_type]: id=Phantom Stone, race=phantom_wales
-#. [unit_type]: id=Phantom Statue, race=phantom_wales
-#. [unit_type]: id=Tomb Master, race=phantom_egypt
-#. [unit_type]: id=Mummy King, race=phantom_egypt
-#. [unit_type]: id=Tomb Archer, race=phantom_egypt
-#: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
-#: Archaic_Era/units/khthon/Hypergusa.cfg:19
-#: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19
-#: Archaic_Era/units/khthon/Prokyon.cfg:18
-#: Archaic_Era/units/khthon/Pyradalon.cfg:19
-#: Archaic_Era/units/south-seas/Spitfire.cfg:22
-#: Archaic_Era/units/south-seas/Scourge.cfg:22
-#: Archaic_Era/units/south-seas/Sky-Caller.cfg:22
-#: Archaic_Era/units/south-seas/Marines.cfg:45
-#: Archaic_Era/units/south-seas/Swimmers.cfg:36
-#: Archaic_Era/units/south-seas/Arsonist.cfg:21
-#: Archaic_Era/units/south-seas/Wolf.cfg:22
-#: Archaic_Era/units/south-seas/Demolitionist.cfg:21
-#: Archaic_Era/units/south-seas/Seaman.cfg:21
-#: Archaic_Era/units/south-seas/Divers.cfg:43
-#: Archaic_Era/units/phantom_race.cfg:22 Archaic_Era/units/phantom_race.cfg:36
-#: Archaic_Era/units/phantom/Spirit_Dove.cfg:19
-#: Archaic_Era/units/phantom/Tomb_Feather.cfg:20
-#: Archaic_Era/units/phantom/Phantom_Rider.cfg:19
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:35
-#: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:19
-#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:20
-#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:19
-#: Archaic_Era/units/phantom/Spirit_Jay.cfg:20
-#: Archaic_Era/units/phantom/Phantom_Cloak.cfg:20
-#: Archaic_Era/units/phantom/Tomb_Huntress.cfg:20
-#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:19
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:78
-#: Archaic_Era/units/phantom/Seth.cfg:20
-#: Archaic_Era/units/phantom/Tomb_Protector.cfg:20
-#: Archaic_Era/units/phantom/Tomb_Mummy.cfg:19
-#: Archaic_Era/units/phantom/Tomb_Wing.cfg:20
-#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:19
-#: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:21
-#: Archaic_Era/units/phantom/Phantom_Shadow.cfg:20
-#: Archaic_Era/units/phantom/Phantom_Master.cfg:20
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:34
-#: Archaic_Era/units/phantom/Phantom_Statue.cfg:34
-#: Archaic_Era/units/phantom/Tomb_Master.cfg:21
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:21
-#: Archaic_Era/units/phantom/Tomb_Archer.cfg:20
-msgid "..."
-msgstr ""
-
 #. [attack]: type=impact
 #: Archaic_Era/units/khthon/Hypergusa.cfg:40
 #: Archaic_Era/units/khthon/Nightmare.cfg:55
@@ -196,6 +566,8 @@ msgid "Katoblepon-Magnum"
 msgstr ""
 
 #. [attack]: type=impact
+#: Archaic_Era/units/orcs/Destrier.cfg:34
+#: Archaic_Era/units/orcs/Oxrider.cfg:33 Archaic_Era/units/orcs/Cavalry.cfg:33
 #: Archaic_Era/units/khthon/Katoblepon.cfg:47
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:48
 #: Archaic_Era/units/khthon/Ram.cfg:36
@@ -235,13 +607,6 @@ msgid ""
 "use the written records and philters of Necromancy, the knowledge seekers "
 "are drawn to the mysteries of the phantoms and spirits, and have mastered "
 "some of the undead fighting techniques."
-msgstr ""
-
-#. [attack]: type=arcane
-#. [attack]: type=blade
-#: Archaic_Era/units/khthon/Nightmare.cfg:46
-#: Archaic_Era/units/khthon/Orthrus.cfg:44
-msgid "Bite"
 msgstr ""
 
 #. [unit_type]: id=Ophis-Magnum, race=khthon
@@ -333,6 +698,16 @@ msgid ""
 "usually attack humans, but these rams appear to have been possessed..."
 msgstr ""
 
+#. [unit_type]: id=Snapper, race=khthon
+#: Archaic_Era/units/khthon/Snapper.cfg:5
+msgid "Bone Snapper"
+msgstr ""
+
+#. [unit_type]: id=Snapper_Hiding, race=khthon
+#: Archaic_Era/units/khthon/Snapper.cfg:136
+msgid "Bone Snapper (Hiding)"
+msgstr ""
+
 #. [unit_type]: id=BMR Spark, race=mechanical
 #. [attack]: type=fire
 #: Archaic_Era/units/khthon/Spark.cfg:4
@@ -343,6 +718,25 @@ msgstr ""
 #. [unit_type]: id=BMR Spark, race=mechanical
 #: Archaic_Era/units/khthon/Spark.cfg:18
 msgid "A spark of light..."
+msgstr ""
+
+#. [unit_type]: id=Terrapin, race=khthon
+#: Archaic_Era/units/khthon/Terrapin.cfg:5
+msgid "Terrapin"
+msgstr ""
+
+#. [unit_type]: id=Terrapin, race=khthon
+#. [unit_type]: id=Terrapin_Hiding, race=khthon
+#: Archaic_Era/units/khthon/Terrapin.cfg:19
+#: Archaic_Era/units/khthon/Terrapin.cfg:114
+msgid ""
+"The terrapin can retreat into its shell to raise defenses (right-click "
+"option), but then it cannot move or attack."
+msgstr ""
+
+#. [unit_type]: id=Terrapin_Hiding, race=khthon
+#: Archaic_Era/units/khthon/Terrapin.cfg:98
+msgid "Terrapin (Hiding)"
 msgstr ""
 
 #. [unit_type]: id=Timber Wolf, race=khthon
@@ -400,199 +794,45 @@ msgid ""
 "their kind yet, but they can control the mind of their victims."
 msgstr ""
 
-#. [unit_type]: id=Phantom Armor, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:5
-msgid "Stone Warrior"
-msgstr ""
-
-#. [attack]: type=impact
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:88
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:87
-#: Archaic_Era/units/phantom/Phantom_Statue.cfg:87
-msgid "Stone Grip"
-msgstr ""
-
-#. [petrifies]: id=petrifies
-#. [petrifies]: id=aa_petrifies
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:97
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:96
-#: Archaic_Era/units/phantom/Phantom_Statue.cfg:96
-msgid "petrifies"
-msgstr ""
-
-#. [petrifies]: id=petrifies
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:99
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:98
-msgid ""
-"Petrify:\n"
-"\tThis attack petrifies the target, turning it to stone. Units that have "
-"been petrified may not move or attack."
-msgstr ""
-
-#. [attack]: type=impact
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:106
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:105
-#: Archaic_Era/units/phantom/Phantom_Statue.cfg:105
-msgid "Stone Fist"
+#. [unit_type]: id=Orcish Cavalry, race=orc
+#: Archaic_Era/units/orcs/Cavalry.cfg:5
+msgid "Cavalry"
 msgstr ""
 
 #. [attack]: type=blade
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:116
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:115
-msgid "Stone Blade"
+#: Archaic_Era/units/orcs/Oxrider.cfg:24 Archaic_Era/units/orcs/Cavalry.cfg:24
+#: Archaic_Era/units/south-seas/Rover.cfg:29
+#: Archaic_Era/units/south-seas/Wolf.cfg:32
+#: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:65
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:30
+#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:31
+#: Archaic_Era/units/primeval/Primevalist_Leader.cfg:34
+#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:28
+msgid "Sword"
 msgstr ""
 
-#. [attack]: type=cold
-#: Archaic_Era/units/phantom/Phantom_Armor.cfg:125
-#: Archaic_Era/units/phantom/Phantom_Cloak.cfg:82
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:84
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:145
-#: Archaic_Era/units/phantom/Phantom_Spear.cfg:85
-#: Archaic_Era/units/phantom/Phantom_Shadow.cfg:85
-#: Archaic_Era/units/phantom/Phantom_Master.cfg:85
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:124
-#: Archaic_Era/units/phantom/Phantom_Statue.cfg:115
-msgid "Hatred"
-msgstr ""
-
-#. [unit_type]: id=Phantom Cloak, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Cloak.cfg:5
-msgid "Cloak"
-msgstr ""
-
-#. [attack]: type=arcane
-#: Archaic_Era/units/phantom/Phantom_Cloak.cfg:70
-#: Archaic_Era/units/phantom/Phantom_Shadow.cfg:73
-#: Archaic_Era/units/phantom/Phantom_Master.cfg:73
-msgid "Touch"
-msgstr ""
-
-#. [unit_type]: id=Phantom Horseman, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:4
-msgid "Horseman"
-msgstr ""
-
-#. [attack]: type=cold
-#: Archaic_Era/units/phantom/Phantom_Rider.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:73
-#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:72
-msgid "Rush"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Horseman.cfg:84
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:132
-#: Archaic_Era/units/phantom/Tomb_Protector.cfg:73
-#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:72
-#: Archaic_Era/units/phantom/Phantom_Spear.cfg:73
-msgid "Spear"
-msgstr ""
-
-#. [unit_type]: id=Phantom Master, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Master.cfg:5
-msgid "Master"
-msgstr ""
-
-#. [unit_type]: id=Phantom Officer, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:4
-msgid "Officer"
-msgstr ""
-
-#. [advancement]: id=amla_phantom1
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:20
-msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
-msgstr ""
-
-#. [advancement]: id=amla_phantom2
-#: Archaic_Era/units/phantom/Phantom_Officer.cfg:49
-msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
-msgstr ""
-
-#. [unit_type]: id=Phantom Rider, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Rider.cfg:4
-msgid "Rider"
-msgstr ""
-
-#. [unit_type]: id=Phantom Shadow, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Shadow.cfg:5
-msgid "Shadow"
-msgstr ""
-
-#. [unit_type]: id=Phantom Slayer, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:4
-msgid "Slayer"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:85
-msgid "Spike"
+#. [unit_type]: id=Orcish Destrier, race=orc
+#: Archaic_Era/units/orcs/Destrier.cfg:5
+msgid "Destrier"
 msgstr ""
 
 #. [attack]: type=blade
-#: Archaic_Era/units/phantom/Phantom_Slayer.cfg:98
-msgid "Blade"
+#: Archaic_Era/units/orcs/Destrier.cfg:25
+msgid "Greatsword"
 msgstr ""
 
-#. [unit_type]: id=Phantom Soldier, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:4
-msgid "Soldier"
+#. [unit_type]: id=Orcish Rider, race=orc
+#: Archaic_Era/units/orcs/Oxrider.cfg:5
+msgid "Orcish Rider"
 msgstr ""
 
-#. [unit_type]: id=Phantom Soldier, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Soldier.cfg:19
-msgid "Phantom Soldiers are the angry shadows of former Royal soldiers..."
-msgstr ""
-
-#. [unit_type]: id=Phantom Spearman, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Spear.cfg:5
-msgid "Spearman"
-msgstr ""
-
-#. [unit_type]: id=Phantom Spearman, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Spear.cfg:20
+#. [unit_type]: id=Orcish Rider, race=orc
+#: Archaic_Era/units/orcs/Oxrider.cfg:19
 msgid ""
-"Phantom Spearmen are the angry shadows of former Royal spearmen. Though "
-"dead, they can still learn from combat experience to become battle-hardened "
-"soldiers. Or rather, the angry shadows of soldiers."
-msgstr ""
-
-#. [unit_type]: id=Phantom Statue, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Statue.cfg:5
-msgid "Statue"
-msgstr ""
-
-#. [petrifies]: id=aa_petrifies
-#: Archaic_Era/units/phantom/Phantom_Statue.cfg:98
-msgid ""
-"Petrify:\n"
-"\tThis attack petrifies the target, turning it to stone. Units that have "
-"been petrified may not move or attack until the curse wears off."
-msgstr ""
-
-#. [unit_type]: id=Phantom Stone, race=phantom_wales
-#: Archaic_Era/units/phantom/Phantom_Stone.cfg:5
-msgid "Stone Soldier"
-msgstr ""
-
-#. [unit_type]: id=Seth, race=phantom_egypt
-#: Archaic_Era/units/phantom/Seth.cfg:4
-msgid "Seth"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/phantom/Seth.cfg:74
-msgid "Fork"
-msgstr ""
-
-#. [attack]: type=arcane
-#. [attack]: type=cold
-#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:84
-#: Archaic_Era/units/phantom/Seth.cfg:86
-#: Archaic_Era/units/phantom/Tomb_Protector.cfg:94
-#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:84
-msgid "Glance"
+"Despite their reputation for stupidity, the orcs are able to learn tactics "
+"from their enemy.  The more observant orcs note the utility of the human "
+"cavalry, and note that certain large animals have no trouble keeping their "
+"footing on snow."
 msgstr ""
 
 #. [unit_type]: id=Spirit Dove, race=phantom_spirit
@@ -635,6 +875,7 @@ msgid "Fist"
 msgstr ""
 
 #. [attack]: type=pierce
+#: Archaic_Era/units/phantom/Tomb_Stalker.cfg:86
 #: Archaic_Era/units/phantom/Tomb_Huntress.cfg:82
 #: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:83
 #: Archaic_Era/units/phantom/Tomb_Archer.cfg:82
@@ -658,6 +899,14 @@ msgstr ""
 #. [unit_type]: id=Tomb Guard, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Guardian.cfg:4
 msgid "Tomb Guard"
+msgstr ""
+
+#. [attack]: type=arcane
+#. [attack]: type=cold
+#: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:84
+#: Archaic_Era/units/phantom/Tomb_Protector.cfg:94
+#: Archaic_Era/units/phantom/Tomb_Guardian.cfg:84
+msgid "Glance"
 msgstr ""
 
 #. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
@@ -737,25 +986,38 @@ msgid "Tomb Sentinel"
 msgstr ""
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:124
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:128
 msgid "Vapor"
 msgstr ""
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:129
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:136
 msgid ""
 "The Vapor can take the form of a real fighter, but the deception is apparent "
 "when the opponent strikes and the vapor dissipates."
 msgstr ""
 
 #. [attack]: type=arcane
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:135
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:142
 msgid "touch"
 msgstr ""
 
 #. [attack]: type=cold
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:144
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:151
 msgid "wail"
+msgstr ""
+
+#. [unit_type]: id=Tomb Stalker, race=phantom_egypt
+#: Archaic_Era/units/phantom/Tomb_Stalker.cfg:4
+msgid "Stalker"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/south-seas/Marines.cfg:49
+#: Archaic_Era/units/south-seas/Swimmers.cfg:40
+#: Archaic_Era/units/south-seas/Divers.cfg:47
+#: Archaic_Era/units/phantom/Tomb_Stalker.cfg:74
+msgid "Knife"
 msgstr ""
 
 #. [unit_type]: id=Tomb Wing, race=phantom_egypt
@@ -771,15 +1033,6 @@ msgstr ""
 #. [race]: id=phantom_wales
 #: Archaic_Era/units/phantom_race.cfg:7
 msgid "race+female^Phantom"
-msgstr ""
-
-#. [race]: id=phantom_wales
-#: Archaic_Era/units/phantom_race.cfg:11
-msgid ""
-"As Huric's rule came to a close and the orcs began reclaiming Ukian "
-"territory, many of the human forces were slain. Somehow the dead continue to "
-"roam the tundra, but unlike ghosts, they are not slaves to practioners of "
-"Necromancy. Instead, they are slaves to their own desires for revenge."
 msgstr ""
 
 #. [race]: id=phantom_egypt
@@ -822,17 +1075,6 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:53
 #: Archaic_Era/units/primeval/Primeval_Protector.cfg:35
 msgid "Chakram"
-msgstr ""
-
-#. [attack]: type=blade
-#: Archaic_Era/units/south-seas/Rover.cfg:29
-#: Archaic_Era/units/south-seas/Wolf.cfg:32
-#: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:65
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:30
-#: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:31
-#: Archaic_Era/units/primeval/Primevalist_Leader.cfg:34
-#: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:28
-msgid "Sword"
 msgstr ""
 
 #. [unit_type]: id=Primeval Cutter, race=primeval
@@ -1400,13 +1642,6 @@ msgstr ""
 #. [unit_type]: id=South-Seas Diver, race=south-seas_human
 #: Archaic_Era/units/south-seas/Divers.cfg:5
 msgid "Diver"
-msgstr ""
-
-#. [attack]: type=blade
-#: Archaic_Era/units/south-seas/Marines.cfg:49
-#: Archaic_Era/units/south-seas/Swimmers.cfg:40
-#: Archaic_Era/units/south-seas/Divers.cfg:47
-msgid "Knife"
 msgstr ""
 
 #. [attack]: type=pierce
@@ -2095,83 +2330,105 @@ msgid ""
 "a maximum of 60%, when defending because the enemy cannot get a direct hit."
 msgstr ""
 
-#. [regenerate]: id=aa_immortal
+#. [heals]: id=aa_healing
 #: Archaic_Era/utils/Archaic_abilities.cfg:72
+msgid "heals +"
+msgstr ""
+
+#. [heals]: id=aa_healing
+#: Archaic_Era/utils/Archaic_abilities.cfg:73
+msgid "female^heals +"
+msgstr ""
+
+#. [heals]: id=aa_healing
+#: Archaic_Era/utils/Archaic_abilities.cfg:78
+msgid ""
+"Heals +{AMT}:\n"
+"Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
+"\n"
+"A unit cared for by this healer may heal up to {AMT} HP per turn, or stop "
+"poison from taking effect for that turn.\n"
+"A poisoned unit cannot be cured of its poison by a healer, and must seek the "
+"care of a village or a unit that can cure."
+msgstr ""
+
+#. [regenerate]: id=aa_immortal
+#: Archaic_Era/utils/Archaic_abilities.cfg:94
 msgid "immortal"
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:73
+#: Archaic_Era/utils/Archaic_abilities.cfg:95
 msgid "female^immortal"
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:75
+#: Archaic_Era/utils/Archaic_abilities.cfg:97
 msgid ""
 "immortal:\n"
 "This unit heals 99 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#. [dummy]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:85
+#. [resistance]: id=aa_stone
+#: Archaic_Era/utils/Archaic_abilities.cfg:107
 msgid "stone"
 msgstr ""
 
-#. [dummy]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:86
+#. [resistance]: id=aa_stone
+#: Archaic_Era/utils/Archaic_abilities.cfg:108
 msgid "female^stone"
 msgstr ""
 
-#. [dummy]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:88
+#. [resistance]: id=aa_stone
+#: Archaic_Era/utils/Archaic_abilities.cfg:110
 msgid ""
 "Stone:\n"
 "This unit is stone in the daylight, but is mobile at night."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:252
+#: Archaic_Era/utils/Archaic_abilities.cfg:282
+msgid "Free"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:339
 msgid "Vector"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:264
-msgid "vector"
-msgstr ""
-
-#: Archaic_Era/utils/Archaic_abilities.cfg:266
-msgid ""
-"Vector:\n"
-"This attack always has a 33% chance to hit regardless of the defensive "
-"ability of the unit being attacked.  If hit, susceptable opponents become "
-"Khthon."
-msgstr ""
-
-#: Archaic_Era/utils/Archaic_abilities.cfg:410
+#: Archaic_Era/utils/Archaic_abilities.cfg:500
 msgid "$damage_attacker_vis"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:480
+#: Archaic_Era/utils/Archaic_abilities.cfg:591
 msgid "Possessed"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:586
+#: Archaic_Era/utils/Archaic_abilities.cfg:781
+msgid "hide in shell"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:801
+msgid "stop hiding"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:911
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:588
+#: Archaic_Era/utils/Archaic_abilities.cfg:913
 msgid ""
 "selfheal:\n"
 "This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:600
+#: Archaic_Era/utils/Archaic_abilities.cfg:925
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:601
+#: Archaic_Era/utils/Archaic_abilities.cfg:926
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:605
+#: Archaic_Era/utils/Archaic_abilities.cfg:930
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -2179,4 +2436,25 @@ msgid ""
 "\n"
 "Any units adjacent to this unit will fight as if it were dusk when it is "
 "day, and as if it were night when it is dusk."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:940
+#: Archaic_Era/utils/Archaic_abilities.cfg:942
+msgid "desert-stalk"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:941
+#: Archaic_Era/utils/Archaic_abilities.cfg:943
+msgid "female^desert-stalk"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:947
+#: Archaic_Era/utils/Archaic_abilities.cfg:951
+msgid ""
+"Desert-Stalk:\n"
+"This unit can hide in sand terrain, and remain undetected by its enemies.\n"
+"\n"
+"Enemy units cannot see this unit while it is on desert terrain, except if "
+"they have units next to it. Any enemy unit that first discovers this unit "
+"immediately loses all its remaining movement."
 msgstr ""
