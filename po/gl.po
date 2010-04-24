@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-04-19 18:05+0200\n"
+"POT-Creation-Date: 2010-04-24 10:25+0200\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Khthon"
 msgstr ""
 
-#. [multiplayer_side]: id=Archaic_Orcs, type=Orcish Warrior
+#. [multiplayer_side]: id=Northern_Orcs, type=Orcish Warrior
 #: Archaic_Era/eras/orcs_MP.cfg:4
 msgid "Northern Orcs"
 msgstr ""
@@ -56,7 +56,14 @@ msgid "Stone Warrior"
 msgstr ""
 
 #. [unit_type]: id=Orcish Destrier, race=orc
+#. [unit_type]: id=Orcish Terror, race=orc
+#. [unit_type]: id=Orcish Maurader, race=orc
+#. [unit_type]: id=Stork Rider, race=wolf # does this need to be changed?
+#. [unit_type]: id=Orcish Raider, race=orc
 #. [unit_type]: id=Orcish Cavalry, race=orc
+#. [unit_type]: id=Orcish Fireline, race=orc
+#. [unit_type]: id=Orcish Firebreather, race=orc
+#. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #. [race]: id=despair_wisp
 #. [unit_type]: id=Timber Wolf, race=khthon
 #. [unit_type]: id=Hypergusa, race=khthon
@@ -103,8 +110,14 @@ msgstr ""
 #. [unit_type]: id=Phantom Dullohan, race=despair
 #. [unit_type]: id=Phantom Statue, race=despair
 #. [unit_type]: id=Phantom Unease, race=despair_wisp
-#: Archaic_Era/units/orcs/Destrier.cfg:20
-#: Archaic_Era/units/orcs/Cavalry.cfg:19 Archaic_Era/units/despair_race.cfg:22
+#: Archaic_Era/units/orcs/Destrier.cfg:20 Archaic_Era/units/orcs/Terror.cfg:21
+#: Archaic_Era/units/orcs/Maurader.cfg:20
+#: Archaic_Era/units/orcs/Stork_Rider.cfg:36
+#: Archaic_Era/units/orcs/Raider.cfg:20 Archaic_Era/units/orcs/Cavalry.cfg:19
+#: Archaic_Era/units/orcs/Fireline.cfg:29
+#: Archaic_Era/units/orcs/Firebreather.cfg:19
+#: Archaic_Era/units/orcs/Stork_Master.cfg:37
+#: Archaic_Era/units/despair_race.cfg:22
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
 #: Archaic_Era/units/khthon/Hypergusa.cfg:19
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19
@@ -303,8 +316,8 @@ msgstr ""
 
 #. [attack]: type=arcane
 #. [attack]: type=blade
-#: Archaic_Era/units/khthon/Adamantine.cfg:67
-#: Archaic_Era/units/khthon/Snapper.cfg:65
+#: Archaic_Era/units/khthon/Adamantine.cfg:66
+#: Archaic_Era/units/khthon/Snapper.cfg:64
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:148
 msgid "Claws"
 msgstr ""
@@ -473,7 +486,7 @@ msgstr ""
 #. [unit_type]: id=Snapper_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:20
 #: Archaic_Era/units/khthon/Snapper.cfg:19
-#: Archaic_Era/units/khthon/Snapper.cfg:152
+#: Archaic_Era/units/khthon/Snapper.cfg:151
 msgid ""
 "The Bone Snapper can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
@@ -481,21 +494,21 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=arcane
-#: Archaic_Era/units/khthon/Adamantine.cfg:58
-#: Archaic_Era/units/khthon/Terrapin.cfg:52
+#: Archaic_Era/units/khthon/Adamantine.cfg:57
+#: Archaic_Era/units/khthon/Terrapin.cfg:51
 #: Archaic_Era/units/khthon/Nightmare.cfg:46
 #: Archaic_Era/units/khthon/Orthrus.cfg:44
-#: Archaic_Era/units/khthon/Snapper.cfg:56
+#: Archaic_Era/units/khthon/Snapper.cfg:55
 msgid "Bite"
 msgstr ""
 
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Adamantine.cfg:138
+#: Archaic_Era/units/khthon/Adamantine.cfg:137
 msgid "Adamantine (Hiding)"
 msgstr ""
 
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Adamantine.cfg:156
+#: Archaic_Era/units/khthon/Adamantine.cfg:155
 msgid ""
 "The Adamantine can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
@@ -703,7 +716,7 @@ msgid "Bone Snapper"
 msgstr ""
 
 #. [unit_type]: id=Snapper_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Snapper.cfg:136
+#: Archaic_Era/units/khthon/Snapper.cfg:135
 msgid "Bone Snapper (Hiding)"
 msgstr ""
 
@@ -727,14 +740,14 @@ msgstr ""
 #. [unit_type]: id=Terrapin, race=khthon
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Terrapin.cfg:19
-#: Archaic_Era/units/khthon/Terrapin.cfg:114
+#: Archaic_Era/units/khthon/Terrapin.cfg:113
 msgid ""
 "The terrapin can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
 msgstr ""
 
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Terrapin.cfg:98
+#: Archaic_Era/units/khthon/Terrapin.cfg:97
 msgid "Terrapin (Hiding)"
 msgstr ""
 
@@ -820,6 +833,45 @@ msgstr ""
 msgid "Greatsword"
 msgstr ""
 
+#. [unit_type]: id=Orcish Firebreather, race=orc
+#: Archaic_Era/units/orcs/Firebreather.cfg:4
+msgid "Orcish Firebreather"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/orcs/Fireline.cfg:34
+#: Archaic_Era/units/orcs/Firebreather.cfg:25
+msgid "greatsword"
+msgstr ""
+
+#. [attack]: type=fire
+#: Archaic_Era/units/orcs/Fireline.cfg:43
+#: Archaic_Era/units/orcs/Firebreather.cfg:34
+#: Archaic_Era/units/ukians/Ukian_Flareman.cfg:80
+#: Archaic_Era/units/ukians/Ukian_Signalman.cfg:55
+msgid "torch"
+msgstr ""
+
+#. [attack]: type=fire
+#: Archaic_Era/units/orcs/Firebreather.cfg:43
+msgid "fire"
+msgstr ""
+
+#. [unit_type]: id=Orcish Fireline, race=orc
+#: Archaic_Era/units/orcs/Fireline.cfg:15
+msgid "Orcish Fireline"
+msgstr ""
+
+#. [unit_type]: id=Orcish Maurader, race=orc
+#: Archaic_Era/units/orcs/Maurader.cfg:5
+msgid "Orcish Maurader"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/orcs/Maurader.cfg:32 Archaic_Era/units/orcs/Raider.cfg:32
+msgid "whip"
+msgstr ""
+
 #. [unit_type]: id=Orcish Rider, race=orc
 #: Archaic_Era/units/orcs/Oxrider.cfg:5
 msgid "Orcish Rider"
@@ -832,6 +884,42 @@ msgid ""
 "from their enemy.  The more observant orcs note the utility of the human "
 "cavalry, and note that certain large animals have no trouble keeping their "
 "footing on snow."
+msgstr ""
+
+#. [unit_type]: id=Orcish Raider, race=orc
+#: Archaic_Era/units/orcs/Raider.cfg:5
+msgid "Orcish Raider"
+msgstr ""
+
+#. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
+#: Archaic_Era/units/orcs/Stork_Master.cfg:4
+msgid "Stork Master"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/orcs/Stork_Rider.cfg:51
+#: Archaic_Era/units/orcs/Stork_Master.cfg:52
+msgid "beak"
+msgstr ""
+
+#. [unit_type]: id=Stork Rider, race=wolf # does this need to be changed?
+#: Archaic_Era/units/orcs/Stork_Rider.cfg:4
+msgid "Marabou Stork"
+msgstr ""
+
+#. [unit_type]: id=Orcish Terror, race=orc
+#: Archaic_Era/units/orcs/Terror.cfg:5
+msgid "Orcish Terror"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/orcs/Terror.cfg:34
+msgid "cat-of-nine-tails"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/orcs/Terror.cfg:46
+msgid "blade"
 msgstr ""
 
 #. [unit_type]: id=Spirit Dove, race=phantom_spirit
@@ -2053,12 +2141,6 @@ msgstr ""
 msgid "axe"
 msgstr ""
 
-#. [attack]: type=fire
-#: Archaic_Era/units/ukians/Ukian_Flareman.cfg:80
-#: Archaic_Era/units/ukians/Ukian_Signalman.cfg:55
-msgid "torch"
-msgstr ""
-
 #. [unit_type]: id=Ukian Hawkeye, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:5
 msgid "Ukian Hawkeye"
@@ -2385,49 +2467,64 @@ msgid ""
 "This unit is stone in the daylight, but is mobile at night."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:282
+#: Archaic_Era/utils/Archaic_abilities.cfg:379
+msgid "release stoned victims"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:415
+#: Archaic_Era/utils/Archaic_abilities.cfg:459
 msgid "Free"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:339
+#: Archaic_Era/utils/Archaic_abilities.cfg:518
+msgid "vector damage"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:520
+msgid ""
+"Vector Damage:\n"
+"..."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:531
 msgid "Vector"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:500
+#: Archaic_Era/utils/Archaic_abilities.cfg:808
 msgid "$damage_attacker_vis"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:591
+#: Archaic_Era/utils/Archaic_abilities.cfg:899
 msgid "Possessed"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:781
+#: Archaic_Era/utils/Archaic_abilities.cfg:1089
 msgid "hide in shell"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:801
+#: Archaic_Era/utils/Archaic_abilities.cfg:1109
 msgid "stop hiding"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:911
+#: Archaic_Era/utils/Archaic_abilities.cfg:1219
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:913
+#: Archaic_Era/utils/Archaic_abilities.cfg:1221
 msgid ""
 "selfheal:\n"
 "This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:925
+#: Archaic_Era/utils/Archaic_abilities.cfg:1233
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:926
+#: Archaic_Era/utils/Archaic_abilities.cfg:1234
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:930
+#: Archaic_Era/utils/Archaic_abilities.cfg:1238
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -2437,18 +2534,18 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:940
-#: Archaic_Era/utils/Archaic_abilities.cfg:942
+#: Archaic_Era/utils/Archaic_abilities.cfg:1248
+#: Archaic_Era/utils/Archaic_abilities.cfg:1250
 msgid "desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:941
-#: Archaic_Era/utils/Archaic_abilities.cfg:943
+#: Archaic_Era/utils/Archaic_abilities.cfg:1249
+#: Archaic_Era/utils/Archaic_abilities.cfg:1251
 msgid "female^desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:947
-#: Archaic_Era/utils/Archaic_abilities.cfg:951
+#: Archaic_Era/utils/Archaic_abilities.cfg:1255
+#: Archaic_Era/utils/Archaic_abilities.cfg:1259
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
