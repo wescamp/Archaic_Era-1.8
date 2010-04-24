@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-04-24 10:25+0200\n"
-"PO-Revision-Date: 2010-04-13 11:25+0100\n"
+"PO-Revision-Date: 2010-04-22 10:10+0100\n"
 "Last-Translator: Kelemen Zoltán <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -18,9 +18,8 @@ msgstr "Ősi korszak"
 
 #. [multiplayer_side]: id=Archaic_Despair, type=Phantom Shadow
 #: Archaic_Era/eras/despair_MP.cfg:6
-#, fuzzy
 msgid "Despair"
-msgstr "lándzsa"
+msgstr "Agyrém"
 
 #. [multiplayer_side]: id=Archaic_Khthon, type=Pyradalon
 #: Archaic_Era/eras/khthon_MP.cfg:5
@@ -30,7 +29,7 @@ msgstr "Khthon"
 #. [multiplayer_side]: id=Northern_Orcs, type=Orcish Warrior
 #: Archaic_Era/eras/orcs_MP.cfg:4
 msgid "Northern Orcs"
-msgstr ""
+msgstr "Északi orkok"
 
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
 #: Archaic_Era/eras/phantom_MP.cfg:5
@@ -223,7 +222,7 @@ msgstr "gyűlölet"
 #. [unit_type]: id=Phantom Banshee, race=despair
 #: Archaic_Era/units/despair/Phantom_Banshee.cfg:5
 msgid "Banshee"
-msgstr ""
+msgstr "Házikísértet"
 
 #. [unit_type]: id=Phantom Banshee, race=despair
 #: Archaic_Era/units/despair/Phantom_Banshee.cfg:22
@@ -232,6 +231,8 @@ msgid ""
 "interested in the lives of the high-born.  Their appearance is taken as a "
 "sign that someone is going to die."
 msgstr ""
+"A házikísértetek vagy előkelő hölgyek szellemei, vagy előkelőségre áhítozók "
+"kísértetei. Megjelenésük annak a jele, hogy valaki meghal a családban."
 
 #. [attack]: type=arcane
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:70
@@ -250,7 +251,7 @@ msgstr "érintés"
 #: Archaic_Era/units/despair/Phantom_White.cfg:80
 #: Archaic_Era/units/despair/Phantom_Banshee.cfg:81
 msgid "Lament"
-msgstr ""
+msgstr "sirám"
 
 #. [unit_type]: id=Phantom Cloak, race=despair
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:5
@@ -260,7 +261,7 @@ msgstr "Surranó"
 #. [unit_type]: id=Phantom Dullohan, race=despair
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:4
 msgid "Dullohan"
-msgstr ""
+msgstr "Vágtató borzalom"
 
 #. [attack]: type=cold
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:72
@@ -273,16 +274,15 @@ msgstr "csapás"
 #. [attack]: type=impact
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:85
 msgid "Skull"
-msgstr ""
+msgstr "koponya"
 
 #. [attack]: type=cold
 #. [unit_type]: id=Phantom Fright, race=despair_wisp
 #: Archaic_Era/units/despair/Phantom_Fright.cfg:5
 #: Archaic_Era/units/despair/Phantom_Fright.cfg:83
 #: Archaic_Era/units/despair/Phantom_Wisp.cfg:82
-#, fuzzy
 msgid "Fright"
-msgstr "ököl"
+msgstr "Satrafa"
 
 #. [unit_type]: id=Phantom Horseman, race=despair
 #: Archaic_Era/units/despair/Phantom_Horseman.cfg:4
@@ -308,7 +308,7 @@ msgstr "Mester"
 #. [unit_type]: id=Phantom Midnight, race=despair
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:5
 msgid "Midnight Beauty"
-msgstr ""
+msgstr "Álomkirálynő"
 
 #. [unit_type]: id=Phantom Midnight, race=despair
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:98
@@ -319,21 +319,21 @@ msgid ""
 "that head into the night with one of the Midnight Beauties are never seen "
 "again."
 msgstr ""
+"Néhány szellem nappal és este teljesen élőként viselkedik, ezzel is "
+"felidézve azt az életet, amiben már nem lehet része. Ezek a szellemek "
 
 #. [attack]: type=arcane
 #. [attack]: type=blade
 #: Archaic_Era/units/khthon/Adamantine.cfg:66
 #: Archaic_Era/units/khthon/Snapper.cfg:64
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:148
-#, fuzzy
 msgid "Claws"
-msgstr "Karom"
+msgstr "karmok"
 
 #. [attack]: type=cold
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:157
-#, fuzzy
 msgid "Gaze"
-msgstr "villantás"
+msgstr "igézés"
 
 #. [unit_type]: id=Phantom Officer, race=despair
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:4
@@ -358,7 +358,7 @@ msgstr "Nyargaló"
 #. [unit_type]: id=Phantom Shadow, race=despair
 #: Archaic_Era/units/despair/Phantom_Shadow.cfg:5
 msgid "Shroud"
-msgstr ""
+msgstr "Éjköpenyes"
 
 #. [unit_type]: id=Phantom Slayer, race=despair
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:4
@@ -425,7 +425,7 @@ msgstr "Kőkatona"
 #. [unit_type]: id=Phantom White, race=despair
 #: Archaic_Era/units/despair/Phantom_White.cfg:5
 msgid "White Lady"
-msgstr ""
+msgstr "Sápatag úrnő"
 
 #. [unit_type]: id=Phantom White, race=despair
 #: Archaic_Era/units/despair/Phantom_White.cfg:21
@@ -434,12 +434,14 @@ msgid ""
 "close, one can see that their skin and eyes are very pale and show no signs "
 "of life.  They wear dark robes and a veil, as if in mourning."
 msgstr ""
+"Távolból a sápatag úrnő közönséges embernek látszik. Közelről viszont rögtön "
+"szembetűnik bőrének és szemének halvány tónusa, amelyek az élettelenség "
+"legbiztosabb jelei. Sötét köpenyük és fátyluk a gyász benyomását kelti.  "
 
 #. [unit_type]: id=Phantom Widow, race=despair
 #: Archaic_Era/units/despair/Phantom_Widow.cfg:5
-#, fuzzy
 msgid "Widow"
-msgstr "szél"
+msgstr "Özvegy"
 
 #. [unit_type]: id=Phantom Widow, race=despair
 #: Archaic_Era/units/despair/Phantom_Widow.cfg:21
@@ -450,22 +452,26 @@ msgid ""
 "before the final defeat have built up a rage and sorrow that helps them "
 "persist in the spirit world."
 msgstr ""
+"A zord északon zajló népirtásokban korra, nemre való tekintet nélkül "
+"mészárolják le az áldozatokat - különöse, ha orkok, vagy még szörnyűbb "
+"lények követik el ezeket. Azokat a nőket, akik az elesett harcosok jegyesei "
+"voltak, s haragjuk és bánatuk kellő erőt ad nekik, hogy szellemként "
+"folytassák életüket, nevezik köznyelven özvegynek."
 
 #. [unit_type]: id=Phantom Unease, race=despair_wisp
 #: Archaic_Era/units/despair/Phantom_Wisp.cfg:5
 msgid "Unease"
-msgstr ""
+msgstr "Gyötrőszellem"
 
 #. [race]: id=despair
 #: Archaic_Era/units/despair_race.cfg:6 Archaic_Era/units/despair_race.cfg:8
 msgid "race^Despair"
-msgstr ""
+msgstr "Agyrém"
 
 #. [race]: id=despair
 #: Archaic_Era/units/despair_race.cfg:7
-#, fuzzy
 msgid "race+female^Despair"
-msgstr "Ember"
+msgstr "Agyrém"
 
 #. [race]: id=despair
 #. [race]: id=phantom_wales
@@ -483,26 +489,23 @@ msgstr ""
 
 #. [race]: id=despair_wisp
 #: Archaic_Era/units/despair_race.cfg:17
-#, fuzzy
 msgid "race^Wisp"
-msgstr "Ukiaiak"
+msgstr "Lúdvérc"
 
 #. [race]: id=despair_wisp
 #: Archaic_Era/units/despair_race.cfg:18
-#, fuzzy
 msgid "race+female^Wisp"
-msgstr "Ember"
+msgstr "Lúdvérc"
 
 #. [race]: id=despair_wisp
 #: Archaic_Era/units/despair_race.cfg:19
-#, fuzzy
 msgid "race^Wisps"
-msgstr "Ukiaiak"
+msgstr "Lúdvércek"
 
 #. [unit_type]: id=Adamantine, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:5
 msgid "Adamantine"
-msgstr ""
+msgstr "Gyémántbőrű"
 
 #. [unit_type]: id=Adamantine, race=khthon
 #. [unit_type]: id=Snapper, race=khthon
@@ -514,6 +517,8 @@ msgid ""
 "The Bone Snapper can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
 msgstr ""
+"A csontteknőlakó vissza tud húzódni teknőjébe, s ezáltal nagyobb védettséget "
+"élvez (jobb klikk, kiválasztás), de a teknőben mozogni vagy támadni nem tud."
 
 #. [attack]: type=blade
 #. [attack]: type=arcane
@@ -528,7 +533,7 @@ msgstr "harapás"
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:137
 msgid "Adamantine (Hiding)"
-msgstr ""
+msgstr "Gyémántbőrű (rejtőzködő)"
 
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:155
@@ -536,6 +541,8 @@ msgid ""
 "The Adamantine can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
 msgstr ""
+"A gyémántbőrű vissza tud húzódni házába, s ezáltal nagyobb védettséget élvez "
+"(jobb klikk, kiválasztás), de a házban mozogni vagy támadni nem tud. "
 
 #. [unit_type]: id=Arctic Wolf, race=khthon
 #: Archaic_Era/units/khthon/Arctic_Wolf.cfg:5
@@ -765,12 +772,12 @@ msgstr ""
 #. [unit_type]: id=Snapper, race=khthon
 #: Archaic_Era/units/khthon/Snapper.cfg:5
 msgid "Bone Snapper"
-msgstr ""
+msgstr "Csontteknőlakó"
 
 #. [unit_type]: id=Snapper_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Snapper.cfg:135
 msgid "Bone Snapper (Hiding)"
-msgstr ""
+msgstr "Csontteknőlakó (rejtőzködő)"
 
 #. [unit_type]: id=BMR Spark, race=mechanical
 #. [attack]: type=fire
@@ -787,7 +794,7 @@ msgstr "A csillagszórók..."
 #. [unit_type]: id=Terrapin, race=khthon
 #: Archaic_Era/units/khthon/Terrapin.cfg:5
 msgid "Terrapin"
-msgstr ""
+msgstr "Földhözragadt"
 
 #. [unit_type]: id=Terrapin, race=khthon
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
@@ -797,11 +804,13 @@ msgid ""
 "The terrapin can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
 msgstr ""
+"A földhözragadt vissza tud húzódni házába, s ezáltal nagyobb védettséget "
+"élvez (jobb klikk, kiválasztás), de a házban mozogni vagy támadni nem tud. "
 
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Terrapin.cfg:97
 msgid "Terrapin (Hiding)"
-msgstr ""
+msgstr "Földhözragadt (rejtőzködő)"
 
 #. [unit_type]: id=Timber Wolf, race=khthon
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:5
@@ -872,7 +881,7 @@ msgstr ""
 #. [unit_type]: id=Orcish Cavalry, race=orc
 #: Archaic_Era/units/orcs/Cavalry.cfg:5
 msgid "Cavalry"
-msgstr ""
+msgstr "Portyázó"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Oxrider.cfg:24 Archaic_Era/units/orcs/Cavalry.cfg:24
@@ -888,27 +897,26 @@ msgstr "kard"
 
 #. [unit_type]: id=Orcish Destrier, race=orc
 #: Archaic_Era/units/orcs/Destrier.cfg:5
-#, fuzzy
 msgid "Destrier"
 msgstr "Pusztító"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Destrier.cfg:25
-#, fuzzy
 msgid "Greatsword"
-msgstr "kard"
+msgstr "Pallos"
 
 #. [unit_type]: id=Orcish Firebreather, race=orc
 #: Archaic_Era/units/orcs/Firebreather.cfg:4
+#, fuzzy
 msgid "Orcish Firebreather"
-msgstr ""
+msgstr "Ork lovas"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Fireline.cfg:34
 #: Archaic_Era/units/orcs/Firebreather.cfg:25
 #, fuzzy
 msgid "greatsword"
-msgstr "kard"
+msgstr "Pallos"
 
 #. [attack]: type=fire
 #: Archaic_Era/units/orcs/Fireline.cfg:43
@@ -926,13 +934,15 @@ msgstr "Tűzköpő"
 
 #. [unit_type]: id=Orcish Fireline, race=orc
 #: Archaic_Era/units/orcs/Fireline.cfg:15
+#, fuzzy
 msgid "Orcish Fireline"
-msgstr ""
+msgstr "Ork lovas"
 
 #. [unit_type]: id=Orcish Maurader, race=orc
 #: Archaic_Era/units/orcs/Maurader.cfg:5
+#, fuzzy
 msgid "Orcish Maurader"
-msgstr ""
+msgstr "Ork lovas"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Maurader.cfg:32 Archaic_Era/units/orcs/Raider.cfg:32
@@ -942,7 +952,7 @@ msgstr ""
 #. [unit_type]: id=Orcish Rider, race=orc
 #: Archaic_Era/units/orcs/Oxrider.cfg:5
 msgid "Orcish Rider"
-msgstr ""
+msgstr "Ork lovas"
 
 #. [unit_type]: id=Orcish Rider, race=orc
 #: Archaic_Era/units/orcs/Oxrider.cfg:19
@@ -952,11 +962,16 @@ msgid ""
 "cavalry, and note that certain large animals have no trouble keeping their "
 "footing on snow."
 msgstr ""
+"Habár az orkok az ostobaságukról ismertek, néhány fogást mégis "
+"elsajátítottak ellenségeiktől. A legjobbak ellesték az emberi lovaglás "
+"tudományát, s megfigyelték, hogy egyes állatoknak nem okoz gondot a havon "
+"járás sem."
 
 #. [unit_type]: id=Orcish Raider, race=orc
 #: Archaic_Era/units/orcs/Raider.cfg:5
+#, fuzzy
 msgid "Orcish Raider"
-msgstr ""
+msgstr "Ork lovas"
 
 #. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #: Archaic_Era/units/orcs/Stork_Master.cfg:4
@@ -978,8 +993,9 @@ msgstr ""
 
 #. [unit_type]: id=Orcish Terror, race=orc
 #: Archaic_Era/units/orcs/Terror.cfg:5
+#, fuzzy
 msgid "Orcish Terror"
-msgstr ""
+msgstr "Ork lovas"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Terror.cfg:34
@@ -1168,9 +1184,8 @@ msgstr "sikoly"
 
 #. [unit_type]: id=Tomb Stalker, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Stalker.cfg:4
-#, fuzzy
 msgid "Stalker"
-msgstr "Lesújtó"
+msgstr "Cserkelő"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/south-seas/Marines.cfg:49
@@ -2773,13 +2788,12 @@ msgstr ""
 #. [heals]: id=aa_healing
 #: Archaic_Era/utils/Archaic_abilities.cfg:72
 msgid "heals +"
-msgstr ""
+msgstr "gyógyul +"
 
 #. [heals]: id=aa_healing
 #: Archaic_Era/utils/Archaic_abilities.cfg:73
-#, fuzzy
 msgid "female^heals +"
-msgstr "hitbuzgó"
+msgstr "gyógyul +"
 
 #. [heals]: id=aa_healing
 #: Archaic_Era/utils/Archaic_abilities.cfg:78
@@ -2792,6 +2806,13 @@ msgid ""
 "A poisoned unit cannot be cured of its poison by a healer, and must seek the "
 "care of a village or a unit that can cure."
 msgstr ""
+"Gyógyít +{AMT}:\n"
+"Az egység képes a mellette álló szövetséges egységet köre saját köre elején "
+"gyógyítani.\n"
+"\n"
+"A meggyógyított egység legfeljebb {AMT} ÉP-t gyógyul a kör elején.\n"
+"A mérgezett egység nem gyógyul ki a mérgezéséből, így falu vagy méregűző "
+"egység után kell néznie. "
 
 #. [regenerate]: id=aa_immortal
 #: Archaic_Era/utils/Archaic_abilities.cfg:94
@@ -2838,9 +2859,8 @@ msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:415
 #: Archaic_Era/utils/Archaic_abilities.cfg:459
-#, fuzzy
 msgid "Free"
-msgstr "Tűzkorongos"
+msgstr "Függetlenség"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:518
 #, fuzzy
@@ -2867,11 +2887,11 @@ msgstr "Megszállott"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1089
 msgid "hide in shell"
-msgstr ""
+msgstr "Begubózás"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1109
 msgid "stop hiding"
-msgstr ""
+msgstr "Kijövetel a burokból"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1219
 msgid "selfheal"
@@ -2913,13 +2933,12 @@ msgstr ""
 #: Archaic_Era/utils/Archaic_abilities.cfg:1248
 #: Archaic_Era/utils/Archaic_abilities.cfg:1250
 msgid "desert-stalk"
-msgstr ""
+msgstr "homokbaolvadás"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1249
 #: Archaic_Era/utils/Archaic_abilities.cfg:1251
-#, fuzzy
 msgid "female^desert-stalk"
-msgstr "halhatatlan"
+msgstr "homokbaolvadás"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1255
 #: Archaic_Era/utils/Archaic_abilities.cfg:1259
@@ -2931,6 +2950,13 @@ msgid ""
 "they have units next to it. Any enemy unit that first discovers this unit "
 "immediately loses all its remaining movement."
 msgstr ""
+"Homokbaolvadás:\n"
+"Ez az egység a sivatagi terepen képes elrejtőzni, s így láthatatlanná válni "
+"ellenségei előtt.\n"
+"\n"
+"Az ellenséges egységek nem látják őt a sivatagi terepen, míg közvetlenül "
+"mellé nem érnek. Amelyik ellenséges egység először észleli az egységet, "
+"elveszti esetlegesen még meglévő mozgáspontjait."
 
 #~ msgid "Spirits"
 #~ msgstr "Szellemek"
