@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-04-24 10:25+0200\n"
-"PO-Revision-Date: 2010-04-22 10:10+0100\n"
+"PO-Revision-Date: 2010-05-04 11:30+0100\n"
 "Last-Translator: Kelemen Zoltán <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -907,16 +907,14 @@ msgstr "Pallos"
 
 #. [unit_type]: id=Orcish Firebreather, race=orc
 #: Archaic_Era/units/orcs/Firebreather.cfg:4
-#, fuzzy
 msgid "Orcish Firebreather"
-msgstr "Ork lovas"
+msgstr "Ork tűzköpő"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Fireline.cfg:34
 #: Archaic_Era/units/orcs/Firebreather.cfg:25
-#, fuzzy
 msgid "greatsword"
-msgstr "Pallos"
+msgstr "pallos"
 
 #. [attack]: type=fire
 #: Archaic_Era/units/orcs/Fireline.cfg:43
@@ -928,26 +926,23 @@ msgstr "fáklya"
 
 #. [attack]: type=fire
 #: Archaic_Era/units/orcs/Firebreather.cfg:43
-#, fuzzy
 msgid "fire"
-msgstr "Tűzköpő"
+msgstr "tűz"
 
 #. [unit_type]: id=Orcish Fireline, race=orc
 #: Archaic_Era/units/orcs/Fireline.cfg:15
-#, fuzzy
 msgid "Orcish Fireline"
-msgstr "Ork lovas"
+msgstr "Ork tűzokádó"
 
 #. [unit_type]: id=Orcish Maurader, race=orc
 #: Archaic_Era/units/orcs/Maurader.cfg:5
-#, fuzzy
 msgid "Orcish Maurader"
-msgstr "Ork lovas"
+msgstr "Ork martalóc"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Maurader.cfg:32 Archaic_Era/units/orcs/Raider.cfg:32
 msgid "whip"
-msgstr ""
+msgstr "korbács"
 
 #. [unit_type]: id=Orcish Rider, race=orc
 #: Archaic_Era/units/orcs/Oxrider.cfg:5
@@ -969,42 +964,37 @@ msgstr ""
 
 #. [unit_type]: id=Orcish Raider, race=orc
 #: Archaic_Era/units/orcs/Raider.cfg:5
-#, fuzzy
 msgid "Orcish Raider"
-msgstr "Ork lovas"
+msgstr "Ork prédáló"
 
 #. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #: Archaic_Era/units/orcs/Stork_Master.cfg:4
-#, fuzzy
 msgid "Stork Master"
-msgstr "Mester"
+msgstr "Gólyalovas"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Stork_Rider.cfg:51
 #: Archaic_Era/units/orcs/Stork_Master.cfg:52
-#, fuzzy
 msgid "beak"
 msgstr "csőr"
 
 #. [unit_type]: id=Stork Rider, race=wolf # does this need to be changed?
 #: Archaic_Era/units/orcs/Stork_Rider.cfg:4
 msgid "Marabou Stork"
-msgstr ""
+msgstr "Marabulovas"
 
 #. [unit_type]: id=Orcish Terror, race=orc
 #: Archaic_Era/units/orcs/Terror.cfg:5
-#, fuzzy
 msgid "Orcish Terror"
-msgstr "Ork lovas"
+msgstr "Iszonytató ork"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Terror.cfg:34
 msgid "cat-of-nine-tails"
-msgstr ""
+msgstr "kilencfarkú macska"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Terror.cfg:46
-#, fuzzy
 msgid "blade"
 msgstr "penge"
 
@@ -2855,7 +2845,7 @@ msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:379
 msgid "release stoned victims"
-msgstr ""
+msgstr "életrekeltés"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:415
 #: Archaic_Era/utils/Archaic_abilities.cfg:459
@@ -2863,15 +2853,16 @@ msgid "Free"
 msgstr "Függetlenség"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:518
-#, fuzzy
 msgid "vector damage"
-msgstr "járvány"
+msgstr "járványos gyengülés"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:520
 msgid ""
 "Vector Damage:\n"
 "..."
 msgstr ""
+"Járványos gyengülés:\n"
+"..."
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:531
 msgid "Vector"
