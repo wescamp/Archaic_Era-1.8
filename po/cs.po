@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-04-24 10:25+0200\n"
+"POT-Creation-Date: 2010-05-11 00:30+0200\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1287,14 +1287,14 @@ msgid "Gyre Striker"
 msgstr ""
 
 #. [unit_type]: id=Primeval Gyrepacter, race=primeval
-#: Archaic_Era/units/primeval/Primeval_Gyrepacter.cfg:23
+#: Archaic_Era/units/primeval/Primeval_Gyrepacter.cfg:69
 msgid ""
 "Primeval Gyre Strikers... \n"
 "Special Note:"
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/units/primeval/Primeval_Gyrepacter.cfg:34
+#: Archaic_Era/units/primeval/Primeval_Gyrepacter.cfg:80
 msgid "Flail"
 msgstr ""
 
@@ -2468,64 +2468,64 @@ msgid ""
 "This unit is stone in the daylight, but is mobile at night."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:379
+#: Archaic_Era/utils/Archaic_abilities.cfg:395
 msgid "release stoned victims"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:415
-#: Archaic_Era/utils/Archaic_abilities.cfg:459
+#: Archaic_Era/utils/Archaic_abilities.cfg:431
+#: Archaic_Era/utils/Archaic_abilities.cfg:476
 msgid "Free"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:518
+#: Archaic_Era/utils/Archaic_abilities.cfg:557
 msgid "vector damage"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:520
+#: Archaic_Era/utils/Archaic_abilities.cfg:559
 msgid ""
 "Vector Damage:\n"
 "..."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:531
+#: Archaic_Era/utils/Archaic_abilities.cfg:570
 msgid "Vector"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:808
+#: Archaic_Era/utils/Archaic_abilities.cfg:859
 msgid "$damage_attacker_vis"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:899
+#: Archaic_Era/utils/Archaic_abilities.cfg:954
 msgid "Possessed"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1089
+#: Archaic_Era/utils/Archaic_abilities.cfg:1144
 msgid "hide in shell"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1109
+#: Archaic_Era/utils/Archaic_abilities.cfg:1164
 msgid "stop hiding"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1219
+#: Archaic_Era/utils/Archaic_abilities.cfg:1274
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1221
+#: Archaic_Era/utils/Archaic_abilities.cfg:1276
 msgid ""
 "selfheal:\n"
 "This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1233
+#: Archaic_Era/utils/Archaic_abilities.cfg:1288
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1234
+#: Archaic_Era/utils/Archaic_abilities.cfg:1289
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1238
+#: Archaic_Era/utils/Archaic_abilities.cfg:1293
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -2535,18 +2535,18 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1248
-#: Archaic_Era/utils/Archaic_abilities.cfg:1250
+#: Archaic_Era/utils/Archaic_abilities.cfg:1303
+#: Archaic_Era/utils/Archaic_abilities.cfg:1305
 msgid "desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1249
-#: Archaic_Era/utils/Archaic_abilities.cfg:1251
+#: Archaic_Era/utils/Archaic_abilities.cfg:1304
+#: Archaic_Era/utils/Archaic_abilities.cfg:1306
 msgid "female^desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1255
-#: Archaic_Era/utils/Archaic_abilities.cfg:1259
+#: Archaic_Era/utils/Archaic_abilities.cfg:1310
+#: Archaic_Era/utils/Archaic_abilities.cfg:1314
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
