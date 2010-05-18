@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-05-11 00:30+0200\n"
+"POT-Creation-Date: 2010-05-18 10:38+0200\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -67,6 +67,9 @@ msgstr ""
 #. [unit_type]: id=Orcish Firebreather, race=orc
 #. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #. [race]: id=despair_wisp
+#. [unit_type]: id=Royal Constable, race=human
+#. [unit_type]: id=Royal Sheriff, race=human
+#. [unit_type]: id=Royal Vassal, race=human
 #. [unit_type]: id=Timber Wolf, race=khthon
 #. [unit_type]: id=Hypergusa, race=khthon
 #. [unit_type]: id=Katoblepon-Magnum, race=khthon
@@ -120,6 +123,9 @@ msgstr ""
 #: Archaic_Era/units/orcs/Firebreather.cfg:19
 #: Archaic_Era/units/orcs/Stork_Master.cfg:37
 #: Archaic_Era/units/despair_race.cfg:22
+#: Archaic_Era/units/ukians/Royal_Constable.cfg:20
+#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:19
+#: Archaic_Era/units/ukians/Royal_Vassal.cfg:19
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
 #: Archaic_Era/units/khthon/Hypergusa.cfg:19
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19
@@ -552,6 +558,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#: Archaic_Era/units/ukians/Royal_Constable.cfg:41
+#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:40
+#: Archaic_Era/units/ukians/Royal_Vassal.cfg:40
 #: Archaic_Era/units/khthon/Horse.cfg:34
 msgid "kick"
 msgstr ""
@@ -1923,6 +1932,37 @@ msgid ""
 "Salaya, Sefina, Shahar, Tanis, Tanith, Ummanath, Ummashtart, Yara"
 msgstr ""
 
+#. [unit_type]: id=Royal Constable, race=human
+#: Archaic_Era/units/ukians/Royal_Constable.cfg:4
+msgid "Constable"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/ukians/Royal_Constable.cfg:50
+#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:49
+#: Archaic_Era/units/ukians/Royal_Vassal.cfg:49
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:61
+msgid "crossbow"
+msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/utils/Archaic_abilities.cfg:554
+#: Archaic_Era/units/ukians/Royal_Constable.cfg:59
+#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
+#: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
+msgid "scattershot"
+msgstr ""
+
+#. [unit_type]: id=Royal Sheriff, race=human
+#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:4
+msgid "Sheriff"
+msgstr ""
+
+#. [unit_type]: id=Royal Vassal, race=human
+#: Archaic_Era/units/ukians/Royal_Vassal.cfg:4
+msgid "Vassal"
+msgstr ""
+
 #. [unit_type]: id=Ukian Archer, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Archer.cfg:4
 msgid "Ukian Archer"
@@ -2014,11 +2054,6 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:26
 msgid "sword"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/ukians/Ukian_Commander.cfg:61
-msgid "crossbow"
 msgstr ""
 
 #. [attack]: type=impact
@@ -2478,55 +2513,61 @@ msgstr ""
 msgid "Free"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:557
+#: Archaic_Era/utils/Archaic_abilities.cfg:556
+msgid ""
+"Scattershot:\n"
+"This attack always has at least a 70% chance to hit."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:569
 msgid "vector damage"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:559
+#: Archaic_Era/utils/Archaic_abilities.cfg:571
 msgid ""
 "Vector Damage:\n"
 "..."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:570
+#: Archaic_Era/utils/Archaic_abilities.cfg:582
 msgid "Vector"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:859
+#: Archaic_Era/utils/Archaic_abilities.cfg:871
 msgid "$damage_attacker_vis"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:954
+#: Archaic_Era/utils/Archaic_abilities.cfg:966
 msgid "Possessed"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1144
+#: Archaic_Era/utils/Archaic_abilities.cfg:1156
 msgid "hide in shell"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1164
+#: Archaic_Era/utils/Archaic_abilities.cfg:1176
 msgid "stop hiding"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1274
+#: Archaic_Era/utils/Archaic_abilities.cfg:1286
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1276
+#: Archaic_Era/utils/Archaic_abilities.cfg:1288
 msgid ""
 "selfheal:\n"
 "This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1288
+#: Archaic_Era/utils/Archaic_abilities.cfg:1300
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1289
+#: Archaic_Era/utils/Archaic_abilities.cfg:1301
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1293
+#: Archaic_Era/utils/Archaic_abilities.cfg:1305
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -2536,18 +2577,18 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1303
-#: Archaic_Era/utils/Archaic_abilities.cfg:1305
+#: Archaic_Era/utils/Archaic_abilities.cfg:1315
+#: Archaic_Era/utils/Archaic_abilities.cfg:1317
 msgid "desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1304
-#: Archaic_Era/utils/Archaic_abilities.cfg:1306
+#: Archaic_Era/utils/Archaic_abilities.cfg:1316
+#: Archaic_Era/utils/Archaic_abilities.cfg:1318
 msgid "female^desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1310
-#: Archaic_Era/utils/Archaic_abilities.cfg:1314
+#: Archaic_Era/utils/Archaic_abilities.cfg:1322
+#: Archaic_Era/utils/Archaic_abilities.cfg:1326
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
