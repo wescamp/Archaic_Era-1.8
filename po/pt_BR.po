@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-05-18 10:38+0200\n"
+"POT-Creation-Date: 2010-05-24 21:57+0200\n"
 "PO-Revision-Date: 2009-12-11 01:12+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -66,9 +66,13 @@ msgstr ""
 #. [unit_type]: id=Orcish Firebreather, race=orc
 #. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #. [race]: id=despair_wisp
+#. [unit_type]: id=Northern Ranger, race=human
+#. [unit_type]: id=Northern Soldier, race=human
 #. [unit_type]: id=Royal Constable, race=human
 #. [unit_type]: id=Royal Sheriff, race=human
 #. [unit_type]: id=Royal Vassal, race=human
+#. [unit_type]: id=Northern Fighter, race=human
+#. [unit_type]: id=Northern Elite, race=human
 #. [unit_type]: id=Timber Wolf, race=khthon
 #. [unit_type]: id=Hypergusa, race=khthon
 #. [unit_type]: id=Katoblepon-Magnum, race=khthon
@@ -77,7 +81,10 @@ msgstr ""
 #. [unit_type]: id=South-Seas Spitfire, race=south-seas_human
 #. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
 #. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
+#. [unit_type]: id=South-Seas Salvager, race=south-seas_human
+#. [unit_type]: id=South-Seas Wrecker, race=south-seas_human
 #. [unit_type]: id=South-Seas Marine, race=south-seas_human
+#. [unit_type]: id=South-Seas Shoreman, race=south-seas_human
 #. [unit_type]: id=South-Seas Swimmer, race=south-seas_human
 #. [unit_type]: id=South-Seas Arsonist, race=south-seas_human
 #. [unit_type]: id=South-Seas Seawolf, race=south-seas_human
@@ -98,6 +105,7 @@ msgstr ""
 #. [unit_type]: id=Tomb Wing, race=phantom_egypt
 #. [unit_type]: id=Tomb Guard, race=phantom_egypt
 #. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
+#. [unit_type]: id=Mummy Pharo, race=phantom_egypt
 #. [unit_type]: id=Tomb Master, race=phantom_egypt
 #. [unit_type]: id=Mummy King, race=phantom_egypt
 #. [unit_type]: id=Tomb Archer, race=phantom_egypt
@@ -122,9 +130,13 @@ msgstr ""
 #: Archaic_Era/units/orcs/Firebreather.cfg:19
 #: Archaic_Era/units/orcs/Stork_Master.cfg:37
 #: Archaic_Era/units/despair_race.cfg:22
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:20
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:19
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:20
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:19
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:19
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:19
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:20
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
 #: Archaic_Era/units/khthon/Hypergusa.cfg:19
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19
@@ -133,7 +145,10 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Spitfire.cfg:22
 #: Archaic_Era/units/south-seas/Scourge.cfg:22
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:22
+#: Archaic_Era/units/south-seas/Salvager.cfg:21
+#: Archaic_Era/units/south-seas/Wrecker.cfg:22
 #: Archaic_Era/units/south-seas/Marines.cfg:45
+#: Archaic_Era/units/south-seas/Shoreman.cfg:21
 #: Archaic_Era/units/south-seas/Swimmers.cfg:36
 #: Archaic_Era/units/south-seas/Arsonist.cfg:21
 #: Archaic_Era/units/south-seas/Wolf.cfg:22
@@ -153,8 +168,9 @@ msgstr ""
 #: Archaic_Era/units/phantom/Tomb_Wing.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Guardian.cfg:19
 #: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:21
 #: Archaic_Era/units/phantom/Tomb_Master.cfg:21
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Archer.cfg:20
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:19
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:35
@@ -557,8 +573,6 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/units/ukians/Royal_Constable.cfg:41
-#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:40
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:40
 #: Archaic_Era/units/khthon/Horse.cfg:34
 msgid "kick"
@@ -826,7 +840,7 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Rover.cfg:29
 #: Archaic_Era/units/south-seas/Wolf.cfg:32
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:65
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:30
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:117
 #: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:31
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:34
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:28
@@ -1039,11 +1053,12 @@ msgstr ""
 
 #. [unit_type]: id=Mummy King, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:4
-msgid "Mummy King"
+msgid "Mummy Noble"
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:75
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:75
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:74
 msgid "Sceptre"
 msgstr ""
 
@@ -1053,8 +1068,14 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:37
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:81
 #: Archaic_Era/units/phantom/Tomb_Mummy.cfg:72
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:84
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:84
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:83
 msgid "Curse"
+msgstr ""
+
+#. [unit_type]: id=Mummy Pharo, race=phantom_egypt
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:4
+msgid "Mummy Pharo"
 msgstr ""
 
 #. [unit_type]: id=Mummy Unbound, race=phantom_egypt
@@ -1549,7 +1570,7 @@ msgid "Primeval Brightshield"
 msgstr ""
 
 #. [unit_type]: id=Primevalist Shield, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:20
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:107
 msgid ""
 "These fighters play a supporting role, stoically absorbing damage so that "
 "their more hot tempered commrads survive long enough to accomplish their "
@@ -1742,13 +1763,14 @@ msgid "Diver"
 msgstr ""
 
 #. [attack]: type=pierce
+#: Archaic_Era/units/south-seas/Wrecker.cfg:43
 #: Archaic_Era/units/south-seas/Marines.cfg:61
-#: Archaic_Era/units/south-seas/Divers.cfg:56
+#: Archaic_Era/units/south-seas/Divers.cfg:59
 msgid "Harpoon"
 msgstr ""
 
 #. [female]
-#: Archaic_Era/units/south-seas/Divers.cfg:145
+#: Archaic_Era/units/south-seas/Divers.cfg:148
 msgid "female^Diver"
 msgstr ""
 
@@ -1779,6 +1801,23 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Rover.cfg:38
 #: Archaic_Era/units/south-seas/Wolf.cfg:41
 msgid "Dart"
+msgstr ""
+
+#. [unit_type]: id=South-Seas Salvager, race=south-seas_human
+#: Archaic_Era/units/south-seas/Salvager.cfg:5
+msgid "Salvager"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/south-seas/Salvager.cfg:29
+#: Archaic_Era/units/south-seas/Wrecker.cfg:31
+#: Archaic_Era/units/south-seas/Shoreman.cfg:28
+msgid "Rope"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/south-seas/Salvager.cfg:41
+msgid "Barb"
 msgstr ""
 
 #. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
@@ -1820,6 +1859,11 @@ msgstr ""
 msgid "Oar"
 msgstr ""
 
+#. [unit_type]: id=South-Seas Shoreman, race=south-seas_human
+#: Archaic_Era/units/south-seas/Shoreman.cfg:5
+msgid "Shoreman"
+msgstr ""
+
 #. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:5
 msgid "female^Sky-Caller"
@@ -1842,13 +1886,18 @@ msgid "Swimmer"
 msgstr ""
 
 #. [female]
-#: Archaic_Era/units/south-seas/Swimmers.cfg:82
+#: Archaic_Era/units/south-seas/Swimmers.cfg:85
 msgid "female^Swimmer"
 msgstr ""
 
 #. [unit_type]: id=South-Seas Seawolf, race=south-seas_human
 #: Archaic_Era/units/south-seas/Wolf.cfg:5
 msgid "Sea Wolf"
+msgstr ""
+
+#. [unit_type]: id=South-Seas Wrecker, race=south-seas_human
+#: Archaic_Era/units/south-seas/Wrecker.cfg:5
+msgid "Wrecker"
 msgstr ""
 
 #. [unit_type]: id=South-Seas Zephyrist, race=south-seas_human
@@ -1936,6 +1985,11 @@ msgstr ""
 msgid "Constable"
 msgstr ""
 
+#. [attack]: type=impact
+#: Archaic_Era/units/ukians/Royal_Constable.cfg:41
+msgid "hammer"
+msgstr ""
+
 #. [attack]: type=pierce
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:50
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:49
@@ -1945,16 +1999,66 @@ msgid "crossbow"
 msgstr ""
 
 #. [attack]: type=impact
-#: Archaic_Era/utils/Archaic_abilities.cfg:554
+#: Archaic_Era/utils/Archaic_abilities.cfg:683
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
 msgid "scattershot"
 msgstr ""
 
+#. [unit_type]: id=Northern Elite, race=human
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:4
+msgid "Northern Warrior"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:37
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:32
+#: Archaic_Era/units/ukians/Ukian_Officer.cfg:39
+#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:31
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
+#: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:26
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:31
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:33
+msgid "sword"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:41
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:40
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:42
+msgid "knife"
+msgstr ""
+
+#. [unit_type]: id=Northern Fighter, race=human
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:4
+msgid "Northern Fighter"
+msgstr ""
+
+#. [unit_type]: id=Northern Ranger, race=human
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:4
+msgid "Northern Ranger"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:46
+#: Archaic_Era/units/ukians/Ukian_Commando.cfg:86
+msgid "javelin"
+msgstr ""
+
 #. [unit_type]: id=Royal Sheriff, race=human
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:4
 msgid "Sheriff"
+msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:40
+msgid "mace"
+msgstr ""
+
+#. [unit_type]: id=Northern Soldier, race=human
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:4
+msgid "Northern Soldier"
 msgstr ""
 
 #. [unit_type]: id=Royal Vassal, race=human
@@ -2047,14 +2151,6 @@ msgid ""
 "damage upon impact."
 msgstr ""
 
-#. [attack]: type=blade
-#: Archaic_Era/units/ukians/Ukian_Officer.cfg:39
-#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:31
-#: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
-#: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:26
-msgid "sword"
-msgstr ""
-
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:70
 msgid "shield"
@@ -2110,11 +2206,6 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:66
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:77
 msgid "sling"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/ukians/Ukian_Commando.cfg:86
-msgid "javelin"
 msgstr ""
 
 #. [unit_type]: id=Ukian Courrier, race=ukian
@@ -2503,70 +2594,93 @@ msgid ""
 "This unit is stone in the daylight, but is mobile at night."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:395
+#: Archaic_Era/utils/Archaic_abilities.cfg:409
 msgid "release stoned victims"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:431
-#: Archaic_Era/utils/Archaic_abilities.cfg:476
+#: Archaic_Era/utils/Archaic_abilities.cfg:445
+#: Archaic_Era/utils/Archaic_abilities.cfg:490
 msgid "Free"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:556
+#: Archaic_Era/utils/Archaic_abilities.cfg:501
+msgid "tie-down"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:503
+msgid ""
+"Tie-Down:\n"
+"Defender cannot move for any turn in which the attacker is adjacent at "
+"start, but they can still attack."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:685
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:569
+#: Archaic_Era/utils/Archaic_abilities.cfg:698
 msgid "vector damage"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:571
+#: Archaic_Era/utils/Archaic_abilities.cfg:700
 msgid ""
 "Vector Damage:\n"
 "..."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:582
+#: Archaic_Era/utils/Archaic_abilities.cfg:711
 msgid "Vector"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:871
+#: Archaic_Era/utils/Archaic_abilities.cfg:720
+msgid "vector"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:722
+msgid ""
+"Vector:\n"
+"This attack always has a {CHANCE}% chance to hit regardless of the defensive "
+"ability of the unit being attacked.  If hit, susceptable opponents become "
+"Khthon."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:1012
 msgid "$damage_attacker_vis"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:966
+#: Archaic_Era/utils/Archaic_abilities.cfg:1107
 msgid "Possessed"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1156
+#: Archaic_Era/utils/Archaic_abilities.cfg:1297
 msgid "hide in shell"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1176
+#: Archaic_Era/utils/Archaic_abilities.cfg:1317
 msgid "stop hiding"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1286
+#: Archaic_Era/utils/Archaic_abilities.cfg:1427
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1288
+#: Archaic_Era/utils/Archaic_abilities.cfg:1429
 msgid ""
 "selfheal:\n"
-"This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
+"This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1300
+#: Archaic_Era/utils/Archaic_abilities.cfg:1445
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1301
+#: Archaic_Era/utils/Archaic_abilities.cfg:1446
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1305
+#: Archaic_Era/utils/Archaic_abilities.cfg:1450
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -2576,18 +2690,18 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1315
-#: Archaic_Era/utils/Archaic_abilities.cfg:1317
+#: Archaic_Era/utils/Archaic_abilities.cfg:1460
+#: Archaic_Era/utils/Archaic_abilities.cfg:1462
 msgid "desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1316
-#: Archaic_Era/utils/Archaic_abilities.cfg:1318
+#: Archaic_Era/utils/Archaic_abilities.cfg:1461
+#: Archaic_Era/utils/Archaic_abilities.cfg:1463
 msgid "female^desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1322
-#: Archaic_Era/utils/Archaic_abilities.cfg:1326
+#: Archaic_Era/utils/Archaic_abilities.cfg:1467
+#: Archaic_Era/utils/Archaic_abilities.cfg:1471
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-05-18 10:38+0200\n"
+"POT-Creation-Date: 2010-05-24 21:57+0200\n"
 "PO-Revision-Date: 2010-05-04 11:30+0100\n"
 "Last-Translator: Kelemen Zoltán <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
@@ -66,9 +66,13 @@ msgstr "Sziklaharcos"
 #. [unit_type]: id=Orcish Firebreather, race=orc
 #. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #. [race]: id=despair_wisp
+#. [unit_type]: id=Northern Ranger, race=human
+#. [unit_type]: id=Northern Soldier, race=human
 #. [unit_type]: id=Royal Constable, race=human
 #. [unit_type]: id=Royal Sheriff, race=human
 #. [unit_type]: id=Royal Vassal, race=human
+#. [unit_type]: id=Northern Fighter, race=human
+#. [unit_type]: id=Northern Elite, race=human
 #. [unit_type]: id=Timber Wolf, race=khthon
 #. [unit_type]: id=Hypergusa, race=khthon
 #. [unit_type]: id=Katoblepon-Magnum, race=khthon
@@ -77,7 +81,10 @@ msgstr "Sziklaharcos"
 #. [unit_type]: id=South-Seas Spitfire, race=south-seas_human
 #. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
 #. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
+#. [unit_type]: id=South-Seas Salvager, race=south-seas_human
+#. [unit_type]: id=South-Seas Wrecker, race=south-seas_human
 #. [unit_type]: id=South-Seas Marine, race=south-seas_human
+#. [unit_type]: id=South-Seas Shoreman, race=south-seas_human
 #. [unit_type]: id=South-Seas Swimmer, race=south-seas_human
 #. [unit_type]: id=South-Seas Arsonist, race=south-seas_human
 #. [unit_type]: id=South-Seas Seawolf, race=south-seas_human
@@ -98,6 +105,7 @@ msgstr "Sziklaharcos"
 #. [unit_type]: id=Tomb Wing, race=phantom_egypt
 #. [unit_type]: id=Tomb Guard, race=phantom_egypt
 #. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
+#. [unit_type]: id=Mummy Pharo, race=phantom_egypt
 #. [unit_type]: id=Tomb Master, race=phantom_egypt
 #. [unit_type]: id=Mummy King, race=phantom_egypt
 #. [unit_type]: id=Tomb Archer, race=phantom_egypt
@@ -122,9 +130,13 @@ msgstr "Sziklaharcos"
 #: Archaic_Era/units/orcs/Firebreather.cfg:19
 #: Archaic_Era/units/orcs/Stork_Master.cfg:37
 #: Archaic_Era/units/despair_race.cfg:22
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:20
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:19
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:20
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:19
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:19
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:19
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:20
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
 #: Archaic_Era/units/khthon/Hypergusa.cfg:19
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19
@@ -133,7 +145,10 @@ msgstr "Sziklaharcos"
 #: Archaic_Era/units/south-seas/Spitfire.cfg:22
 #: Archaic_Era/units/south-seas/Scourge.cfg:22
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:22
+#: Archaic_Era/units/south-seas/Salvager.cfg:21
+#: Archaic_Era/units/south-seas/Wrecker.cfg:22
 #: Archaic_Era/units/south-seas/Marines.cfg:45
+#: Archaic_Era/units/south-seas/Shoreman.cfg:21
 #: Archaic_Era/units/south-seas/Swimmers.cfg:36
 #: Archaic_Era/units/south-seas/Arsonist.cfg:21
 #: Archaic_Era/units/south-seas/Wolf.cfg:22
@@ -153,8 +168,9 @@ msgstr "Sziklaharcos"
 #: Archaic_Era/units/phantom/Tomb_Wing.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Guardian.cfg:19
 #: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:21
 #: Archaic_Era/units/phantom/Tomb_Master.cfg:21
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:21
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:20
 #: Archaic_Era/units/phantom/Tomb_Archer.cfg:20
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:19
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:35
@@ -592,8 +608,6 @@ msgstr ""
 "szóval valami nem stimmel..."
 
 #. [attack]: type=impact
-#: Archaic_Era/units/ukians/Royal_Constable.cfg:41
-#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:40
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:40
 #: Archaic_Era/units/khthon/Horse.cfg:34
 msgid "kick"
@@ -897,7 +911,7 @@ msgstr "Portyázó"
 #: Archaic_Era/units/south-seas/Rover.cfg:29
 #: Archaic_Era/units/south-seas/Wolf.cfg:32
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:65
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:30
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:117
 #: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:31
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:34
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:28
@@ -1114,11 +1128,13 @@ msgstr "Karom"
 
 #. [unit_type]: id=Mummy King, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:4
-msgid "Mummy King"
-msgstr "Királymúmia"
+#, fuzzy
+msgid "Mummy Noble"
+msgstr "Múmia"
 
 #. [attack]: type=impact
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:75
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:75
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:74
 msgid "Sceptre"
 msgstr "jogar"
 
@@ -1128,9 +1144,16 @@ msgstr "jogar"
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:37
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:81
 #: Archaic_Era/units/phantom/Tomb_Mummy.cfg:72
-#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:84
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:84
+#: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:83
 msgid "Curse"
 msgstr "átok"
+
+#. [unit_type]: id=Mummy Pharo, race=phantom_egypt
+#: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:4
+#, fuzzy
+msgid "Mummy Pharo"
+msgstr "Múmia"
 
 #. [unit_type]: id=Mummy Unbound, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:4
@@ -1695,7 +1718,7 @@ msgid "Primeval Brightshield"
 msgstr "Óhitű fénylőpajzsos"
 
 #. [unit_type]: id=Primevalist Shield, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:20
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:107
 msgid ""
 "These fighters play a supporting role, stoically absorbing damage so that "
 "their more hot tempered commrads survive long enough to accomplish their "
@@ -1961,13 +1984,14 @@ msgid "Diver"
 msgstr "Búvár"
 
 #. [attack]: type=pierce
+#: Archaic_Era/units/south-seas/Wrecker.cfg:43
 #: Archaic_Era/units/south-seas/Marines.cfg:61
-#: Archaic_Era/units/south-seas/Divers.cfg:56
+#: Archaic_Era/units/south-seas/Divers.cfg:59
 msgid "Harpoon"
 msgstr "szigony"
 
 #. [female]
-#: Archaic_Era/units/south-seas/Divers.cfg:145
+#: Archaic_Era/units/south-seas/Divers.cfg:148
 msgid "female^Diver"
 msgstr "Búvárnő"
 
@@ -2002,6 +2026,24 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Wolf.cfg:41
 msgid "Dart"
 msgstr "hajítódárda"
+
+#. [unit_type]: id=South-Seas Salvager, race=south-seas_human
+#: Archaic_Era/units/south-seas/Salvager.cfg:5
+#, fuzzy
+msgid "Salvager"
+msgstr "Vérengző"
+
+#. [attack]: type=blade
+#: Archaic_Era/units/south-seas/Salvager.cfg:29
+#: Archaic_Era/units/south-seas/Wrecker.cfg:31
+#: Archaic_Era/units/south-seas/Shoreman.cfg:28
+msgid "Rope"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/south-seas/Salvager.cfg:41
+msgid "Barb"
+msgstr ""
 
 #. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
 #: Archaic_Era/units/south-seas/Scourge.cfg:5
@@ -2045,6 +2087,12 @@ msgstr "Tengeri medve"
 msgid "Oar"
 msgstr "evezőlapát"
 
+#. [unit_type]: id=South-Seas Shoreman, race=south-seas_human
+#: Archaic_Era/units/south-seas/Shoreman.cfg:5
+#, fuzzy
+msgid "Shoreman"
+msgstr "Lovas"
+
 #. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:5
 msgid "female^Sky-Caller"
@@ -2067,7 +2115,7 @@ msgid "Swimmer"
 msgstr "Úszó"
 
 #. [female]
-#: Archaic_Era/units/south-seas/Swimmers.cfg:82
+#: Archaic_Era/units/south-seas/Swimmers.cfg:85
 msgid "female^Swimmer"
 msgstr "Úszónő"
 
@@ -2075,6 +2123,12 @@ msgstr "Úszónő"
 #: Archaic_Era/units/south-seas/Wolf.cfg:5
 msgid "Sea Wolf"
 msgstr "Tengeri farkas"
+
+#. [unit_type]: id=South-Seas Wrecker, race=south-seas_human
+#: Archaic_Era/units/south-seas/Wrecker.cfg:5
+#, fuzzy
+msgid "Wrecker"
+msgstr "Íjász"
 
 #. [unit_type]: id=South-Seas Zephyrist, race=south-seas_human
 #: Archaic_Era/units/south-seas/Zephyrist.cfg:5
@@ -2202,6 +2256,12 @@ msgstr ""
 msgid "Constable"
 msgstr ""
 
+#. [attack]: type=impact
+#: Archaic_Era/units/ukians/Royal_Constable.cfg:41
+#, fuzzy
+msgid "hammer"
+msgstr "Úszó"
+
 #. [attack]: type=pierce
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:50
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:49
@@ -2211,17 +2271,73 @@ msgid "crossbow"
 msgstr "számszeríj"
 
 #. [attack]: type=impact
-#: Archaic_Era/utils/Archaic_abilities.cfg:554
+#: Archaic_Era/utils/Archaic_abilities.cfg:683
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
 msgid "scattershot"
 msgstr ""
 
+#. [unit_type]: id=Northern Elite, race=human
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:4
+#, fuzzy
+msgid "Northern Warrior"
+msgstr "Északi orkok"
+
+#. [attack]: type=blade
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:37
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:32
+#: Archaic_Era/units/ukians/Ukian_Officer.cfg:39
+#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:31
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
+#: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:26
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:31
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:33
+msgid "sword"
+msgstr "kard"
+
+#. [attack]: type=blade
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:41
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:40
+#: Archaic_Era/units/ukians/Royal_Elite.cfg:42
+#, fuzzy
+msgid "knife"
+msgstr "kés"
+
+#. [unit_type]: id=Northern Fighter, race=human
+#: Archaic_Era/units/ukians/Royal_Fighter.cfg:4
+#, fuzzy
+msgid "Northern Fighter"
+msgstr "Északi orkok"
+
+#. [unit_type]: id=Northern Ranger, race=human
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:4
+#, fuzzy
+msgid "Northern Ranger"
+msgstr "Északi orkok"
+
+#. [attack]: type=pierce
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:46
+#: Archaic_Era/units/ukians/Ukian_Commando.cfg:86
+msgid "javelin"
+msgstr "dárda"
+
 #. [unit_type]: id=Royal Sheriff, race=human
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:4
 msgid "Sheriff"
 msgstr ""
+
+#. [attack]: type=impact
+#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:40
+#, fuzzy
+msgid "mace"
+msgstr "buzogány"
+
+#. [unit_type]: id=Northern Soldier, race=human
+#: Archaic_Era/units/ukians/Royal_Soldier.cfg:4
+#, fuzzy
+msgid "Northern Soldier"
+msgstr "Északi orkok"
 
 #. [unit_type]: id=Royal Vassal, race=human
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:4
@@ -2327,14 +2443,6 @@ msgstr ""
 "örököltek elődeiktől. Nekik vannak a legjobb acélból pajzsaik, amelyek erős "
 "védelmet nyújtanak, s amellyel kemény ütést is tudnak mérni ellenségeikre."
 
-#. [attack]: type=blade
-#: Archaic_Era/units/ukians/Ukian_Officer.cfg:39
-#: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:31
-#: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
-#: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:26
-msgid "sword"
-msgstr "kard"
-
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:70
 msgid "shield"
@@ -2398,11 +2506,6 @@ msgstr "lándzsa"
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:77
 msgid "sling"
 msgstr "parittya"
-
-#. [attack]: type=pierce
-#: Archaic_Era/units/ukians/Ukian_Commando.cfg:86
-msgid "javelin"
-msgstr "dárda"
 
 #. [unit_type]: id=Ukian Courrier, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:5
@@ -2878,26 +2981,38 @@ msgstr ""
 "Fényszobor:\n"
 "Ez az egység nappal kővé válik, de éjszaka életre kel."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:395
+#: Archaic_Era/utils/Archaic_abilities.cfg:409
 msgid "release stoned victims"
 msgstr "életrekeltés"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:431
-#: Archaic_Era/utils/Archaic_abilities.cfg:476
+#: Archaic_Era/utils/Archaic_abilities.cfg:445
+#: Archaic_Era/utils/Archaic_abilities.cfg:490
 msgid "Free"
 msgstr "Függetlenség"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:556
+#: Archaic_Era/utils/Archaic_abilities.cfg:501
+#, fuzzy
+msgid "tie-down"
+msgstr "Özvegy"
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:503
+msgid ""
+"Tie-Down:\n"
+"Defender cannot move for any turn in which the attacker is adjacent at "
+"start, but they can still attack."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:685
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:569
+#: Archaic_Era/utils/Archaic_abilities.cfg:698
 msgid "vector damage"
 msgstr "járványos gyengülés"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:571
+#: Archaic_Era/utils/Archaic_abilities.cfg:700
 msgid ""
 "Vector Damage:\n"
 "..."
@@ -2905,48 +3020,66 @@ msgstr ""
 "Járványos gyengülés:\n"
 "..."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:582
+#: Archaic_Era/utils/Archaic_abilities.cfg:711
 msgid "Vector"
 msgstr "Járvány"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:871
+#: Archaic_Era/utils/Archaic_abilities.cfg:720
+#, fuzzy
+msgid "vector"
+msgstr "Járvány"
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:722
+#, fuzzy
+msgid ""
+"Vector:\n"
+"This attack always has a {CHANCE}% chance to hit regardless of the defensive "
+"ability of the unit being attacked.  If hit, susceptable opponents become "
+"Khthon."
+msgstr ""
+"Járvány:\n"
+"Ez a támadás 33% eséllyel talál a védekező egység ellenállásától "
+"függetlenül. Ha talál, a megtámadott fogékony egység Khthonná válik."
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:1012
 msgid "$damage_attacker_vis"
 msgstr "$damage_attacker_vis"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:966
+#: Archaic_Era/utils/Archaic_abilities.cfg:1107
 msgid "Possessed"
 msgstr "Megszállott"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1156
+#: Archaic_Era/utils/Archaic_abilities.cfg:1297
 msgid "hide in shell"
 msgstr "Begubózás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1176
+#: Archaic_Era/utils/Archaic_abilities.cfg:1317
 msgid "stop hiding"
 msgstr "Kijövetel a burokból"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1286
+#: Archaic_Era/utils/Archaic_abilities.cfg:1427
 msgid "selfheal"
 msgstr "öngyógyulás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1288
+#: Archaic_Era/utils/Archaic_abilities.cfg:1429
+#, fuzzy
 msgid ""
 "selfheal:\n"
-"This unit heals 4 HP per turn.  If poisoned, it will remove the poison."
+"This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 "Öngyógyulás:\n"
 "Ez az egység 4 ÉP-t gyógyul körönként. Ha megmérgeződik, kigyógyul a "
 "mérgeződésből."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1300
+#: Archaic_Era/utils/Archaic_abilities.cfg:1445
 msgid "penumbra"
 msgstr "homályosítás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1301
+#: Archaic_Era/utils/Archaic_abilities.cfg:1446
 msgid "female^penumbra"
 msgstr "homályosítás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1305
+#: Archaic_Era/utils/Archaic_abilities.cfg:1450
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -2962,18 +3095,18 @@ msgstr ""
 "Bármelyik szomszédos mezőn álló egység úgy harcol nappal, mintha alkonyat "
 "lenne, s alkonyatkor és hajnalban úgy, mintha éjszaka lenne."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1315
-#: Archaic_Era/utils/Archaic_abilities.cfg:1317
+#: Archaic_Era/utils/Archaic_abilities.cfg:1460
+#: Archaic_Era/utils/Archaic_abilities.cfg:1462
 msgid "desert-stalk"
 msgstr "homokbaolvadás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1316
-#: Archaic_Era/utils/Archaic_abilities.cfg:1318
+#: Archaic_Era/utils/Archaic_abilities.cfg:1461
+#: Archaic_Era/utils/Archaic_abilities.cfg:1463
 msgid "female^desert-stalk"
 msgstr "homokbaolvadás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1322
-#: Archaic_Era/utils/Archaic_abilities.cfg:1326
+#: Archaic_Era/utils/Archaic_abilities.cfg:1467
+#: Archaic_Era/utils/Archaic_abilities.cfg:1471
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -2990,6 +3123,9 @@ msgstr ""
 "mellé nem érnek. Amelyik ellenséges egység először észleli az egységet, "
 "elveszti esetlegesen még meglévő mozgáspontjait."
 
+#~ msgid "Mummy King"
+#~ msgstr "Királymúmia"
+
 #~ msgid "Spirits"
 #~ msgstr "Szellemek"
 
@@ -3001,13 +3137,3 @@ msgstr ""
 
 #~ msgid "Fork"
 #~ msgstr "villa"
-
-#~ msgid ""
-#~ "Vector:\n"
-#~ "This attack always has a 33% chance to hit regardless of the defensive "
-#~ "ability of the unit being attacked.  If hit, susceptable opponents become "
-#~ "Khthon."
-#~ msgstr ""
-#~ "Járvány:\n"
-#~ "Ez a támadás 33% eséllyel talál a védekező egység ellenállásától "
-#~ "függetlenül. Ha talál, a megtámadott fogékony egység Khthonná válik."
