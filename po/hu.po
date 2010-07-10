@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-05-24 21:57+0200\n"
-"PO-Revision-Date: 2010-05-04 11:30+0100\n"
+"PO-Revision-Date: 2010-06-29 12:07+0100\n"
 "Last-Translator: Kelemen Zoltán <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1128,9 +1129,8 @@ msgstr "Karom"
 
 #. [unit_type]: id=Mummy King, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:4
-#, fuzzy
 msgid "Mummy Noble"
-msgstr "Múmia"
+msgstr "Nemes múmia"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:75
@@ -1151,9 +1151,8 @@ msgstr "átok"
 
 #. [unit_type]: id=Mummy Pharo, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:4
-#, fuzzy
 msgid "Mummy Pharo"
-msgstr "Múmia"
+msgstr "Fáraómúmia"
 
 #. [unit_type]: id=Mummy Unbound, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:4
@@ -1998,12 +1997,12 @@ msgstr "Búvárnő"
 #. [unit_type]: id=South-Seas Marine, race=south-seas_human
 #: Archaic_Era/units/south-seas/Marines.cfg:5
 msgid "Marine"
-msgstr "Tengerész"
+msgstr "Tengeri harcos"
 
 #. [female]
 #: Archaic_Era/units/south-seas/Marines.cfg:150
 msgid "female^Marine"
-msgstr "Tengerésznő"
+msgstr "Tengeri amazon"
 
 #. [unit_type]: id=South-Seas Rover, race=south-seas_human
 #: Archaic_Era/units/south-seas/Rover.cfg:5
@@ -2029,21 +2028,20 @@ msgstr "hajítódárda"
 
 #. [unit_type]: id=South-Seas Salvager, race=south-seas_human
 #: Archaic_Era/units/south-seas/Salvager.cfg:5
-#, fuzzy
 msgid "Salvager"
-msgstr "Vérengző"
+msgstr "Hajómentő"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/south-seas/Salvager.cfg:29
 #: Archaic_Era/units/south-seas/Wrecker.cfg:31
 #: Archaic_Era/units/south-seas/Shoreman.cfg:28
 msgid "Rope"
-msgstr ""
+msgstr "Kötél"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/south-seas/Salvager.cfg:41
 msgid "Barb"
-msgstr ""
+msgstr "Horgony"
 
 #. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
 #: Archaic_Era/units/south-seas/Scourge.cfg:5
@@ -2080,7 +2078,7 @@ msgstr ""
 #. [unit_type]: id=South-Seas Seaman, race=south-seas_human
 #: Archaic_Era/units/south-seas/Seaman.cfg:5
 msgid "Seaman"
-msgstr "Tengeri medve"
+msgstr "Tengerész"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/south-seas/Seaman.cfg:28
@@ -2089,9 +2087,8 @@ msgstr "evezőlapát"
 
 #. [unit_type]: id=South-Seas Shoreman, race=south-seas_human
 #: Archaic_Era/units/south-seas/Shoreman.cfg:5
-#, fuzzy
 msgid "Shoreman"
-msgstr "Lovas"
+msgstr "Parti őr"
 
 #. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:5
@@ -2122,13 +2119,12 @@ msgstr "Úszónő"
 #. [unit_type]: id=South-Seas Seawolf, race=south-seas_human
 #: Archaic_Era/units/south-seas/Wolf.cfg:5
 msgid "Sea Wolf"
-msgstr "Tengeri farkas"
+msgstr "Tengeri medve"
 
 #. [unit_type]: id=South-Seas Wrecker, race=south-seas_human
 #: Archaic_Era/units/south-seas/Wrecker.cfg:5
-#, fuzzy
 msgid "Wrecker"
-msgstr "Íjász"
+msgstr "Roncsrabló"
 
 #. [unit_type]: id=South-Seas Zephyrist, race=south-seas_human
 #: Archaic_Era/units/south-seas/Zephyrist.cfg:5
@@ -2254,13 +2250,12 @@ msgstr ""
 #. [unit_type]: id=Royal Constable, race=human
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:4
 msgid "Constable"
-msgstr ""
+msgstr "Rendőr"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:41
-#, fuzzy
 msgid "hammer"
-msgstr "Úszó"
+msgstr "pöröly"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:50
@@ -2276,13 +2271,12 @@ msgstr "számszeríj"
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
 msgid "scattershot"
-msgstr ""
+msgstr "célzott támadás"
 
 #. [unit_type]: id=Northern Elite, race=human
 #: Archaic_Era/units/ukians/Royal_Elite.cfg:4
-#, fuzzy
 msgid "Northern Warrior"
-msgstr "Északi orkok"
+msgstr "Északi harcos"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:37
@@ -2300,21 +2294,18 @@ msgstr "kard"
 #: Archaic_Era/units/ukians/Royal_Soldier.cfg:41
 #: Archaic_Era/units/ukians/Royal_Fighter.cfg:40
 #: Archaic_Era/units/ukians/Royal_Elite.cfg:42
-#, fuzzy
 msgid "knife"
 msgstr "kés"
 
 #. [unit_type]: id=Northern Fighter, race=human
 #: Archaic_Era/units/ukians/Royal_Fighter.cfg:4
-#, fuzzy
 msgid "Northern Fighter"
-msgstr "Északi orkok"
+msgstr "Északi katona"
 
 #. [unit_type]: id=Northern Ranger, race=human
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:4
-#, fuzzy
 msgid "Northern Ranger"
-msgstr "Északi orkok"
+msgstr "Északi vadász"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:46
@@ -2325,24 +2316,22 @@ msgstr "dárda"
 #. [unit_type]: id=Royal Sheriff, race=human
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:4
 msgid "Sheriff"
-msgstr ""
+msgstr "Békebíró"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:40
-#, fuzzy
 msgid "mace"
 msgstr "buzogány"
 
 #. [unit_type]: id=Northern Soldier, race=human
 #: Archaic_Era/units/ukians/Royal_Soldier.cfg:4
-#, fuzzy
 msgid "Northern Soldier"
-msgstr "Északi orkok"
+msgstr "Északi fegyveres"
 
 #. [unit_type]: id=Royal Vassal, race=human
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:4
 msgid "Vassal"
-msgstr ""
+msgstr "Királyi ember"
 
 #. [unit_type]: id=Ukian Archer, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Archer.cfg:4
@@ -2991,9 +2980,8 @@ msgid "Free"
 msgstr "Függetlenség"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:501
-#, fuzzy
 msgid "tie-down"
-msgstr "Özvegy"
+msgstr "lecövekelés"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:503
 msgid ""
@@ -3001,12 +2989,17 @@ msgid ""
 "Defender cannot move for any turn in which the attacker is adjacent at "
 "start, but they can still attack."
 msgstr ""
+"Lecövekelés:\n"
+"A védő mindaddig nem tud elmozdulni a helyéről, míg a támadó egység a kör "
+"elején mellette áll, bár támadni képes."
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:685
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
 msgstr ""
+"Célzott támadás:\n"
+"Ez a támadás mindig legalább 70% eséllyel talál."
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:698
 msgid "vector damage"
@@ -3025,12 +3018,10 @@ msgid "Vector"
 msgstr "Járvány"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:720
-#, fuzzy
 msgid "vector"
-msgstr "Járvány"
+msgstr "járvány"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:722
-#, fuzzy
 msgid ""
 "Vector:\n"
 "This attack always has a {CHANCE}% chance to hit regardless of the defensive "
@@ -3038,8 +3029,9 @@ msgid ""
 "Khthon."
 msgstr ""
 "Járvány:\n"
-"Ez a támadás 33% eséllyel talál a védekező egység ellenállásától "
-"függetlenül. Ha talál, a megtámadott fogékony egység Khthonná válik."
+"Ez a támadás mindig {CHANCE}% eséllyel talál a védekező egység "
+"ellenállásától függetlenül. Ha talál, a megtámadott fogékony egység Khthonná "
+"válik."
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1012
 msgid "$damage_attacker_vis"
@@ -3062,13 +3054,12 @@ msgid "selfheal"
 msgstr "öngyógyulás"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1429
-#, fuzzy
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 "Öngyógyulás:\n"
-"Ez az egység 4 ÉP-t gyógyul körönként. Ha megmérgeződik, kigyógyul a "
+"Ez az egység {AMT} ÉP-t gyógyul körönként. Ha megmérgeződik, kigyógyul a "
 "mérgeződésből."
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1445
