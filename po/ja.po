@@ -1,10 +1,13 @@
+# Automatically generated, 2009-2010.
+# IWAI, Masaharu <iwaim.sub@gmail.com>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-10-03 13:10+0200\n"
-"PO-Revision-Date: 2009-12-11 01:12+0100\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2010-10-31 09:45+0900\n"
+"Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
 "Language-Team: none\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -15,17 +18,17 @@ msgstr ""
 #. [era]: id=ARCHAIC_ERA
 #: Archaic_Era/eras/Archaic_Era.cfg:6
 msgid "Archaic Era"
-msgstr ""
+msgstr "古えの時代"
 
 #. [era]: id=ARCHAIC_ERA_HEROS
 #: Archaic_Era/eras/Archaic_Era.cfg:29
 msgid "Archaic Heros"
-msgstr ""
+msgstr "古えの英雄"
 
 #. [era]: id=ARCHAIC_ERA_RPG
 #: Archaic_Era/eras/Archaic_Era.cfg:48
 msgid "Archaic RPG"
-msgstr ""
+msgstr "古えの RPG"
 
 #. [multiplayer_side]: id=Archaic_Despair, type=Phantom Master
 #. [multiplayer_side]: id=Archaic_Despair, type=Phantom Shadow
@@ -33,21 +36,21 @@ msgstr ""
 #: Archaic_Era/eras/base/despair_MP.cfg:6
 #: Archaic_Era/eras/rpg/despair_MP.cfg:6
 msgid "Despair"
-msgstr ""
+msgstr "絶望"
 
 #. [multiplayer_side]: id=Archaic_Khthon, type=Ophis-Magnum
 #. [multiplayer_side]: id=Archaic_Khthon, type=Pyradalon
 #: Archaic_Era/eras/heros/khthon_MP.cfg:5
 #: Archaic_Era/eras/base/khthon_MP.cfg:5 Archaic_Era/eras/rpg/khthon_MP.cfg:5
 msgid "Khthon"
-msgstr ""
+msgstr "地底の混沌"
 
 #. [multiplayer_side]: id=Northern_Orcs, type=Orcish Terror
 #. [multiplayer_side]: id=Northern_Orcs, type=Orcish Warrior
 #: Archaic_Era/eras/heros/orcs_MP.cfg:4 Archaic_Era/eras/base/orcs_MP.cfg:4
 #: Archaic_Era/eras/rpg/orcs_MP.cfg:4
 msgid "Northern Orcs"
-msgstr ""
+msgstr "北部オーク族"
 
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Protector
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
@@ -55,7 +58,7 @@ msgstr ""
 #: Archaic_Era/eras/base/phantom_MP.cfg:5
 #: Archaic_Era/eras/rpg/phantom_MP.cfg:5
 msgid "Phantom"
-msgstr ""
+msgstr "幻影"
 
 #. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Warrior
 #. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Driver
@@ -63,7 +66,7 @@ msgstr ""
 #: Archaic_Era/eras/base/primeval_MP.cfg:5
 #: Archaic_Era/eras/rpg/primeval_MP.cfg:5
 msgid "Primeval"
-msgstr ""
+msgstr "太古の一族"
 
 #. [multiplayer_side]: id=Archaic_South-Seas, type=South-Seas Seawolf
 #. [multiplayer_side]: id=Archaic_South-Seas, type=South-Seas Rover
@@ -71,19 +74,19 @@ msgstr ""
 #: Archaic_Era/eras/base/south-seas_MP.cfg:5
 #: Archaic_Era/eras/rpg/south-seas_MP.cfg:5
 msgid "South-Seas"
-msgstr ""
+msgstr "南海の民"
 
 #. [multiplayer_side]: id=Archaic_Ukians, type=Ukian Subcommander
 #. [multiplayer_side]: id=Archaic_Ukians, type=Ukian Officer
 #: Archaic_Era/eras/heros/ukians_MP.cfg:5
 #: Archaic_Era/eras/base/ukians_MP.cfg:5 Archaic_Era/eras/rpg/ukians_MP.cfg:5
 msgid "Ukians"
-msgstr ""
+msgstr "ウキアン"
 
 #. [unit_type]: id=Phantom Armor, race=despair
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:5
 msgid "Stone Warrior"
-msgstr ""
+msgstr "石の武人"
 
 #. [race]: id=despair_wisp
 #. [unit_type]: id=Northern Soldier, race=human
@@ -189,14 +192,14 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:34
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:20
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. [attack]: type=impact
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:88
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:87
 #: Archaic_Era/units/despair/Phantom_Statue.cfg:88
 msgid "Stone Grip"
-msgstr ""
+msgstr "石の支配"
 
 #. [petrifies]: id=petrifies
 #. [petrifies]: id=aa_petrifies
@@ -204,7 +207,7 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:96
 #: Archaic_Era/units/despair/Phantom_Statue.cfg:97
 msgid "petrifies"
-msgstr ""
+msgstr "石化"
 
 #. [petrifies]: id=petrifies
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:99
@@ -214,19 +217,22 @@ msgid ""
 "\tThis attack petrifies the target, turning it to stone. Units that have "
 "been petrified may not move or attack."
 msgstr ""
+"石化:\n"
+"\tこの攻撃は、対象を石化することで動けなくします。石化したユニットは動くこと"
+"も攻撃することもできません。"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:106
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:105
 #: Archaic_Era/units/despair/Phantom_Statue.cfg:106
 msgid "Stone Fist"
-msgstr ""
+msgstr "石の拳"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:116
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:115
 msgid "Stone Blade"
-msgstr ""
+msgstr "石の刃"
 
 #. [attack]: type=cold
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:125
@@ -239,12 +245,12 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:124
 #: Archaic_Era/units/despair/Phantom_Statue.cfg:116
 msgid "Hatred"
-msgstr ""
+msgstr "憎しみ"
 
 #. [unit_type]: id=Phantom Banshee, race=despair
 #: Archaic_Era/units/despair/Phantom_Banshee.cfg:5
 msgid "Banshee"
-msgstr ""
+msgstr "バンシー"
 
 #. [unit_type]: id=Phantom Banshee, race=despair
 #: Archaic_Era/units/despair/Phantom_Banshee.cfg:22
@@ -253,6 +259,8 @@ msgid ""
 "interested in the lives of the high-born.  Their appearance is taken as a "
 "sign that someone is going to die."
 msgstr ""
+"バンシーは、貴族や上流階級の貴婦人の幽霊か、上流階級での生活に憧れていた霊魂"
+"と言われています。誰かが死ぬときに現れる象徴とされています。"
 
 #. [attack]: type=arcane
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:70
@@ -264,24 +272,24 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Wisp.cfg:76
 #: Archaic_Era/units/despair/Phantom_Banshee.cfg:72
 msgid "Touch"
-msgstr ""
+msgstr "接触"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/despair/Phantom_Widow.cfg:80
 #: Archaic_Era/units/despair/Phantom_White.cfg:80
 #: Archaic_Era/units/despair/Phantom_Banshee.cfg:81
 msgid "Lament"
-msgstr ""
+msgstr "嘆き"
 
 #. [unit_type]: id=Phantom Cloak, race=despair
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:5
 msgid "Cloak"
-msgstr ""
+msgstr "ぼろ"
 
 #. [unit_type]: id=Phantom Dullohan, race=despair
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:4
 msgid "Dullohan"
-msgstr ""
+msgstr "デュラハン"
 
 #. [attack]: type=cold
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:72
@@ -289,12 +297,12 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Horseman.cfg:72
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:73
 msgid "Rush"
-msgstr ""
+msgstr "突撃"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:85
 msgid "Skull"
-msgstr ""
+msgstr "頭蓋骨"
 
 #. [attack]: type=cold
 #. [unit_type]: id=Phantom Fright, race=despair_wisp
@@ -302,7 +310,7 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Fright.cfg:89
 #: Archaic_Era/units/despair/Phantom_Wisp.cfg:89
 msgid "Fright"
-msgstr ""
+msgstr "畏怖"
 
 #. [unit_type]: id=Phantom Fright, race=despair_wisp
 #: Archaic_Era/units/despair/Phantom_Fright.cfg:22
@@ -314,7 +322,7 @@ msgstr ""
 #. [unit_type]: id=Phantom Horseman, race=despair
 #: Archaic_Era/units/despair/Phantom_Horseman.cfg:4
 msgid "Horseman"
-msgstr ""
+msgstr "馬術家"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:72
@@ -325,17 +333,17 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:132
 #: Archaic_Era/units/despair/Phantom_Spear.cfg:73
 msgid "Spear"
-msgstr ""
+msgstr "槍"
 
 #. [unit_type]: id=Phantom Master, race=despair
 #: Archaic_Era/units/despair/Phantom_Master.cfg:5
 msgid "Master"
-msgstr ""
+msgstr "支配者"
 
 #. [unit_type]: id=Phantom Midnight, race=despair
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:5
 msgid "Midnight Beauty"
-msgstr ""
+msgstr "真夜中の貴婦人"
 
 #. [unit_type]: id=Phantom Midnight, race=despair
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:113
@@ -353,17 +361,17 @@ msgstr ""
 #: Archaic_Era/units/khthon/Rock.cfg:64
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:163
 msgid "Claws"
-msgstr ""
+msgstr "かぎ爪"
 
 #. [attack]: type=cold
 #: Archaic_Era/units/despair/Phantom_Midnight.cfg:172
 msgid "Gaze"
-msgstr ""
+msgstr "凝視"
 
 #. [unit_type]: id=Phantom Officer, race=despair
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:4
 msgid "Officer"
-msgstr ""
+msgstr "士官"
 
 #. [advancement]: id=amla_phantom1
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:20
@@ -378,32 +386,32 @@ msgstr ""
 #. [unit_type]: id=Phantom Rider, race=despair
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:4
 msgid "Rider"
-msgstr ""
+msgstr "馬乗り"
 
 #. [unit_type]: id=Phantom Shadow, race=despair
 #: Archaic_Era/units/despair/Phantom_Shadow.cfg:5
 msgid "Shroud"
-msgstr ""
+msgstr "覆い"
 
 #. [unit_type]: id=Phantom Slayer, race=despair
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:4
 msgid "Slayer"
-msgstr ""
+msgstr "殺戮者"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:85
 msgid "Spike"
-msgstr ""
+msgstr "スパイク"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:98
 msgid "Blade"
-msgstr ""
+msgstr "刃"
 
 #. [unit_type]: id=Phantom Soldier, race=despair
 #: Archaic_Era/units/despair/Phantom_Soldier.cfg:4
 msgid "Soldier"
-msgstr ""
+msgstr "兵士"
 
 #. [unit_type]: id=Phantom Soldier, race=despair
 #: Archaic_Era/units/despair/Phantom_Soldier.cfg:19
@@ -413,7 +421,7 @@ msgstr ""
 #. [unit_type]: id=Phantom Spearman, race=despair
 #: Archaic_Era/units/despair/Phantom_Spear.cfg:5
 msgid "Spearman"
-msgstr ""
+msgstr "槍兵"
 
 #. [unit_type]: id=Phantom Spearman, race=despair
 #: Archaic_Era/units/despair/Phantom_Spear.cfg:20
@@ -426,7 +434,7 @@ msgstr ""
 #. [unit_type]: id=Phantom Statue, race=despair
 #: Archaic_Era/units/despair/Phantom_Statue.cfg:5
 msgid "Statue"
-msgstr ""
+msgstr "彫像"
 
 #. [unit_type]: id=Phantom Statue, race=despair
 #: Archaic_Era/units/despair/Phantom_Statue.cfg:35
@@ -452,16 +460,19 @@ msgid ""
 "\tThis attack petrifies the target, turning it to stone. Units that have "
 "been petrified may not move or attack until the curse wears off."
 msgstr ""
+"石化:\n"
+"\tこの攻撃は、対象を石化することで動けなくします。石化したユニットは呪いをと"
+"くまで動くことも攻撃することもできません。"
 
 #. [unit_type]: id=Phantom Stone, race=despair
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:5
 msgid "Stone Soldier"
-msgstr ""
+msgstr "石の兵士"
 
 #. [unit_type]: id=Phantom White, race=despair
 #: Archaic_Era/units/despair/Phantom_White.cfg:5
 msgid "White Lady"
-msgstr ""
+msgstr "白の貴婦人"
 
 #. [unit_type]: id=Phantom White, race=despair
 #: Archaic_Era/units/despair/Phantom_White.cfg:21
@@ -474,7 +485,7 @@ msgstr ""
 #. [unit_type]: id=Phantom Widow, race=despair
 #: Archaic_Era/units/despair/Phantom_Widow.cfg:5
 msgid "Widow"
-msgstr ""
+msgstr "未亡人"
 
 #. [unit_type]: id=Phantom Widow, race=despair
 #: Archaic_Era/units/despair/Phantom_Widow.cfg:21
@@ -489,7 +500,7 @@ msgstr ""
 #. [unit_type]: id=Phantom Unease, race=despair_wisp
 #: Archaic_Era/units/despair/Phantom_Wisp.cfg:5
 msgid "Unease"
-msgstr ""
+msgstr "不安"
 
 #. [unit_type]: id=Phantom Unease, race=despair_wisp
 #: Archaic_Era/units/despair/Phantom_Wisp.cfg:22
@@ -508,12 +519,12 @@ msgstr ""
 #. [race]: id=despair
 #: Archaic_Era/units/despair_race.cfg:6 Archaic_Era/units/despair_race.cfg:8
 msgid "race^Despair"
-msgstr ""
+msgstr "絶望"
 
 #. [race]: id=despair
 #: Archaic_Era/units/despair_race.cfg:7
 msgid "race+female^Despair"
-msgstr ""
+msgstr "絶望"
 
 #. [race]: id=despair
 #. [race]: id=phantom_wales
@@ -528,22 +539,22 @@ msgstr ""
 #. [race]: id=despair_wisp
 #: Archaic_Era/units/despair_race.cfg:17
 msgid "race^Wisp"
-msgstr ""
+msgstr "ウィスプ"
 
 #. [race]: id=despair_wisp
 #: Archaic_Era/units/despair_race.cfg:18
 msgid "race+female^Wisp"
-msgstr ""
+msgstr "ウィスプ"
 
 #. [race]: id=despair_wisp
 #: Archaic_Era/units/despair_race.cfg:19
 msgid "race^Wisps"
-msgstr ""
+msgstr "ウィスプ"
 
 #. [unit_type]: id=Adamantine, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:5
 msgid "Adamantine"
-msgstr ""
+msgstr "アダマンタイン"
 
 #. [unit_type]: id=Adamantine, race=khthon
 #. [unit_type]: id=Rockback, race=khthon
@@ -558,6 +569,8 @@ msgid ""
 "The Bone Snapper can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
 msgstr ""
+"ボーンスナッパーは (右クリックオプションで) 甲羅に閉じこもり、防御力を向上さ"
+"せることができます。しかし、その状態では移動も攻撃もできません。"
 
 #. [attack]: type=blade
 #. [attack]: type=arcane
@@ -568,12 +581,12 @@ msgstr ""
 #: Archaic_Era/units/khthon/Orthrus.cfg:44
 #: Archaic_Era/units/khthon/Snapper.cfg:55
 msgid "Bite"
-msgstr ""
+msgstr "噛みつき"
 
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:137
 msgid "Adamantine (Hiding)"
-msgstr ""
+msgstr "アダマンタイン (閉じこもり)"
 
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:155
@@ -581,11 +594,13 @@ msgid ""
 "The Adamantine can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
 msgstr ""
+"アダマンタインは (右クリックオプションで) 甲羅に閉じこもり、防御力を向上させ"
+"ることができます。しかし、その状態では移動も攻撃もできません。"
 
 #. [unit_type]: id=Arctic Wolf, race=khthon
 #: Archaic_Era/units/khthon/Arctic_Wolf.cfg:5
 msgid "Arctic Wolf"
-msgstr ""
+msgstr "古えの狼"
 
 #. [unit_type]: id=Arctic Wolf, race=khthon
 #: Archaic_Era/units/khthon/Arctic_Wolf.cfg:18
@@ -605,12 +620,12 @@ msgstr ""
 #: Archaic_Era/units/khthon/Prokyon.cfg:41
 #: Archaic_Era/units/khthon/Arctic_Wolf.cfg:23
 msgid "fangs"
-msgstr ""
+msgstr "牙"
 
 #. [unit_type]: id=Horse, race=khthon
 #: Archaic_Era/units/khthon/Horse.cfg:5
 msgid "Horse"
-msgstr ""
+msgstr "馬"
 
 #. [unit_type]: id=Horse, race=khthon
 #: Archaic_Era/units/khthon/Horse.cfg:18
@@ -618,35 +633,37 @@ msgid ""
 "Horses are strong and fast, but fragile. They do not usually attack people "
 "though, so something is wrong..."
 msgstr ""
+"馬は強くて速いが、打たれ弱い。通常は人を攻撃することはないが、誰かが悪いこと"
+"をすると……"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:40
 #: Archaic_Era/units/khthon/Horse.cfg:34
 msgid "kick"
-msgstr ""
+msgstr "蹴り"
 
 #. [unit_type]: id=Hypergusa, race=khthon
 #: Archaic_Era/units/khthon/Hypergusa.cfg:5
 msgid "Hypergusa"
-msgstr ""
+msgstr "ハイパーグサ"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/khthon/Hypergusa.cfg:40
 #: Archaic_Era/units/khthon/Nightmare.cfg:55
 #: Archaic_Era/units/khthon/Pegusa.cfg:33
 msgid "Kick"
-msgstr ""
+msgstr "蹴り"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/khthon/Hypergusa.cfg:49
 #: Archaic_Era/units/khthon/Pegusa.cfg:42
 msgid "Spit"
-msgstr ""
+msgstr "唾"
 
 #. [unit_type]: id=Katoblepon-Magnum, race=khthon
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:5
 msgid "Katoblepon-Magnum"
-msgstr ""
+msgstr "カトブレポン・マグナム"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/orcs/Destrier.cfg:39
@@ -656,18 +673,18 @@ msgstr ""
 #: Archaic_Era/units/khthon/Ram.cfg:36
 #: Archaic_Era/units/khthon/Pyradalon.cfg:45
 msgid "Head"
-msgstr ""
+msgstr "頭突き"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/khthon/Katoblepon.cfg:59
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:60
 msgid "Breath"
-msgstr ""
+msgstr "吐息"
 
 #. [unit_type]: id=Katoblepon, race=khthon
 #: Archaic_Era/units/khthon/Katoblepon.cfg:5
 msgid "Katoblepon"
-msgstr ""
+msgstr "カトブレポン"
 
 #. [unit_type]: id=Katoblepon, race=khthon
 #: Archaic_Era/units/khthon/Katoblepon.cfg:19
@@ -680,7 +697,7 @@ msgstr ""
 #. [unit_type]: id=Nightmare, race=khthon
 #: Archaic_Era/units/khthon/Nightmare.cfg:5
 msgid "Nightmare"
-msgstr ""
+msgstr "ナイトメア"
 
 #. [unit_type]: id=Nightmare, race=khthon
 #: Archaic_Era/units/khthon/Nightmare.cfg:20
@@ -695,7 +712,7 @@ msgstr ""
 #. [unit_type]: id=Ophis-Magnum, race=khthon
 #: Archaic_Era/units/khthon/Ophis-Magnum.cfg:5
 msgid "Ophis-Magnum"
-msgstr ""
+msgstr "オーフィス・マグナム"
 
 #. [unit_type]: id=Ophis-Magnum, race=khthon
 #: Archaic_Era/units/khthon/Ophis-Magnum.cfg:19
@@ -709,19 +726,19 @@ msgstr ""
 #: Archaic_Era/units/khthon/Ophis-Magnum.cfg:32
 #: Archaic_Era/units/khthon/Yak.cfg:29 Archaic_Era/units/khthon/Ophis.cfg:31
 msgid "Horns"
-msgstr ""
+msgstr "角"
 
 #. [attack]: type=impact
 #. [attack]: type=fire
 #: Archaic_Era/units/khthon/Ophis-Magnum.cfg:44
 #: Archaic_Era/units/khthon/Pyradalon.cfg:57
 msgid "Tail"
-msgstr ""
+msgstr "尻尾"
 
 #. [unit_type]: id=Ophis, race=khthon
 #: Archaic_Era/units/khthon/Ophis.cfg:5
 msgid "Ophis"
-msgstr ""
+msgstr "オーフィス"
 
 #. [unit_type]: id=Ophis, race=khthon
 #: Archaic_Era/units/khthon/Ophis.cfg:18
@@ -735,7 +752,7 @@ msgstr ""
 #. [unit_type]: id=Orthrus, race=khthon
 #: Archaic_Era/units/khthon/Orthrus.cfg:5
 msgid "Orthrus"
-msgstr ""
+msgstr "オルトロス"
 
 #. [unit_type]: id=Orthrus, race=khthon
 #: Archaic_Era/units/khthon/Orthrus.cfg:19
@@ -750,7 +767,7 @@ msgstr ""
 #. [unit_type]: id=Pegusa, race=khthon
 #: Archaic_Era/units/khthon/Pegusa.cfg:5
 msgid "Pegusa"
-msgstr ""
+msgstr "ペグサ"
 
 #. [unit_type]: id=Pegusa, race=khthon
 #: Archaic_Era/units/khthon/Pegusa.cfg:18
@@ -760,10 +777,11 @@ msgid ""
 "a distraction for any target."
 msgstr ""
 
+# [ja] jawpによれば「犬の先駆」を意味するらしい
 #. [unit_type]: id=Prokyon, race=khthon
 #: Archaic_Era/units/khthon/Prokyon.cfg:5
 msgid "Prokyon"
-msgstr ""
+msgstr "プロキオン"
 
 #. [unit_type]: id=Prokyon, race=khthon
 #: Archaic_Era/units/khthon/Prokyon.cfg:18
@@ -776,12 +794,12 @@ msgstr ""
 #. [unit_type]: id=Pyradalon, race=khthon
 #: Archaic_Era/units/khthon/Pyradalon.cfg:5
 msgid "Pyradalon"
-msgstr ""
+msgstr "パイラダロン"
 
 #. [unit_type]: id=Ram, race=khthon
 #: Archaic_Era/units/khthon/Ram.cfg:5
 msgid "Ram"
-msgstr ""
+msgstr "雄羊"
 
 #. [unit_type]: id=Ram, race=khthon
 #: Archaic_Era/units/khthon/Ram.cfg:18
@@ -793,39 +811,39 @@ msgstr ""
 #. [unit_type]: id=Rockback, race=khthon
 #: Archaic_Era/units/khthon/Rock.cfg:5
 msgid "Rock Back"
-msgstr ""
+msgstr "ロックバック"
 
 #. [unit_type]: id=Rockback_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Rock.cfg:135
 msgid "Rock Back (Hiding)"
-msgstr ""
+msgstr "ロックバック (閉じこもり)"
 
 #. [unit_type]: id=Snapper, race=khthon
 #: Archaic_Era/units/khthon/Snapper.cfg:5
 msgid "Bone Snapper"
-msgstr ""
+msgstr "ボーンスナッパー"
 
 #. [unit_type]: id=Snapper_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Snapper.cfg:135
 msgid "Bone Snapper (Hiding)"
-msgstr ""
+msgstr "ボーンスナッパー (閉じこもり)"
 
 #. [unit_type]: id=BMR Spark, race=mechanical
 #. [attack]: type=fire
 #: Archaic_Era/units/khthon/Spark.cfg:4
 #: Archaic_Era/units/south-seas/Arsonist.cfg:45
 msgid "Spark"
-msgstr ""
+msgstr "火花"
 
 #. [unit_type]: id=BMR Spark, race=mechanical
 #: Archaic_Era/units/khthon/Spark.cfg:18
 msgid "A spark of light..."
-msgstr ""
+msgstr "光の火花は……"
 
 #. [unit_type]: id=Terrapin, race=khthon
 #: Archaic_Era/units/khthon/Terrapin.cfg:5
 msgid "Terrapin"
-msgstr ""
+msgstr "亀"
 
 #. [unit_type]: id=Terrapin, race=khthon
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
@@ -835,16 +853,18 @@ msgid ""
 "The terrapin can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
 msgstr ""
+"亀は (右クリックオプションで) 甲羅に閉じこもり、防御力を向上させることができ"
+"ます。しかし、その状態では移動も攻撃もできません。"
 
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Terrapin.cfg:98
 msgid "Terrapin (Hiding)"
-msgstr ""
+msgstr "亀 (閉じこもり)"
 
 #. [unit_type]: id=Timber Wolf, race=khthon
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:5
 msgid "Timber Wolf"
-msgstr ""
+msgstr "森林の狼"
 
 #. [unit_type]: id=Timber Wolf, race=khthon
 #: Archaic_Era/units/khthon/Timber_Wolf.cfg:18
@@ -857,7 +877,7 @@ msgstr ""
 #. [unit_type]: id=Yak, race=khthon
 #: Archaic_Era/units/khthon/Yak.cfg:5
 msgid "Yak"
-msgstr ""
+msgstr "ヤク"
 
 #. [unit_type]: id=Yak, race=khthon
 #: Archaic_Era/units/khthon/Yak.cfg:19
@@ -870,12 +890,12 @@ msgstr ""
 #. [race]: id=khthon
 #: Archaic_Era/units/khthon_race.cfg:6 Archaic_Era/units/khthon_race.cfg:8
 msgid "race^Khthon"
-msgstr ""
+msgstr "地底の混沌"
 
 #. [race]: id=khthon
 #: Archaic_Era/units/khthon_race.cfg:7
 msgid "race+female^Khthon"
-msgstr ""
+msgstr "地底の混沌"
 
 #. [race]: id=khthon
 #: Archaic_Era/units/khthon_race.cfg:10
@@ -886,16 +906,21 @@ msgid ""
 "have developed an immunity to this, but the more modern inhabitants of the "
 "continent (with the exception of the non-living) are vulnerable."
 msgstr ""
+"太古の一族の昔からの敵対者です。この種族を理解することは困難なことです。この"
+"種族は、最も良い表現をしたとしても、犠牲者の体を精霊によって操ってしまい、そ"
+"の変質を経験した犠牲者は徐々に呪われていきます。太古の一族はこれへの耐性を編"
+"み出しましたが、大陸にいる (生命を持たない一部の例外を除いて) ほとんどの近代"
+"的な住人はこれに対して脆弱です。"
 
 #. [race]: id=lesser_khthon
 #: Archaic_Era/units/khthon_race.cfg:19 Archaic_Era/units/khthon_race.cfg:21
 msgid "race^Lesser Khthon"
-msgstr ""
+msgstr "地底の従者"
 
 #. [race]: id=lesser_khthon
 #: Archaic_Era/units/khthon_race.cfg:20
 msgid "race+female^Lesser Khthon"
-msgstr ""
+msgstr "地底の従者"
 
 #. [race]: id=lesser_khthon
 #: Archaic_Era/units/khthon_race.cfg:24
@@ -903,11 +928,13 @@ msgid ""
 "Lesser Khthon are the immature spawn of Khthon.  They cannot spread more of "
 "their kind yet, but they can control the mind of their victims."
 msgstr ""
+"地底の従者は、地底の混沌の未熟な卵です。まだ種族の拡大をすることはできません"
+"が、犠牲者の精神を支配することはできます。"
 
 #. [unit_type]: id=Orcish Cavalry, race=orc
 #: Archaic_Era/units/orcs/Cavalry.cfg:5
 msgid "Cavalry"
-msgstr ""
+msgstr "騎兵隊"
 
 #. [unit_type]: id=Orcish Cavalry, race=orc
 #: Archaic_Era/units/orcs/Cavalry.cfg:19
@@ -929,12 +956,13 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:34
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:28
 msgid "Sword"
-msgstr ""
+msgstr "剣"
 
+# [ja] enwpによると、中世で尤も有名な軍馬らしい
 #. [unit_type]: id=Orcish Destrier, race=orc
 #: Archaic_Era/units/orcs/Destrier.cfg:5
 msgid "Destrier"
-msgstr ""
+msgstr "デストリヤー"
 
 #. [unit_type]: id=Orcish Destrier, race=orc
 #: Archaic_Era/units/orcs/Destrier.cfg:20
@@ -949,12 +977,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Destrier.cfg:30
 msgid "Greatsword"
-msgstr ""
+msgstr "大剣"
 
 #. [unit_type]: id=Orcish Firebreather, race=orc
 #: Archaic_Era/units/orcs/Firebreather.cfg:4
 msgid "Orcish Firebreather"
-msgstr ""
+msgstr "オークの火吹き"
 
 #. [unit_type]: id=Orcish Firebreather, race=orc
 #: Archaic_Era/units/orcs/Firebreather.cfg:19
@@ -971,7 +999,7 @@ msgstr ""
 #: Archaic_Era/units/orcs/Fireline.cfg:122
 #: Archaic_Era/units/orcs/Firebreather.cfg:104
 msgid "greatsword"
-msgstr ""
+msgstr "大剣"
 
 #. [attack]: type=fire
 #: Archaic_Era/units/orcs/Fireline.cfg:131
@@ -980,17 +1008,17 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Wardog.cfg:131
 #: Archaic_Era/units/ukians/Ukian_Signalman.cfg:123
 msgid "torch"
-msgstr ""
+msgstr "接触"
 
 #. [attack]: type=fire
 #: Archaic_Era/units/orcs/Firebreather.cfg:122
 msgid "fire"
-msgstr ""
+msgstr "火炎"
 
 #. [unit_type]: id=Orcish Fireline, race=orc
 #: Archaic_Era/units/orcs/Fireline.cfg:15
 msgid "Orcish Fireline"
-msgstr ""
+msgstr "オークの防火隊"
 
 #. [unit_type]: id=Orcish Fireline, race=orc
 #: Archaic_Era/units/orcs/Fireline.cfg:29
@@ -1005,7 +1033,7 @@ msgstr ""
 #. [unit_type]: id=Orcish Maurader, race=orc
 #: Archaic_Era/units/orcs/Maurader.cfg:5
 msgid "Orcish Maurader"
-msgstr ""
+msgstr "オークの襲撃者"
 
 #. [unit_type]: id=Orcish Maurader, race=orc
 #: Archaic_Era/units/orcs/Maurader.cfg:20
@@ -1013,16 +1041,18 @@ msgid ""
 "The Mauraders wear an ugly bronze mask to make themselves more fearsome to "
 "the easily frightened humans."
 msgstr ""
+"襲撃者は、とても怖がりな人間をさらに恐怖に陥れるために醜い青銅の仮面を身につ"
+"けています。"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Maurader.cfg:32 Archaic_Era/units/orcs/Raider.cfg:32
 msgid "whip"
-msgstr ""
+msgstr "鞭"
 
 #. [unit_type]: id=Orcish Rider, race=orc
 #: Archaic_Era/units/orcs/Oxrider.cfg:5
 msgid "Orcish Rider"
-msgstr ""
+msgstr "オークライダー"
 
 #. [unit_type]: id=Orcish Rider, race=orc
 #: Archaic_Era/units/orcs/Oxrider.cfg:19
@@ -1036,7 +1066,7 @@ msgstr ""
 #. [unit_type]: id=Orcish Raider, race=orc
 #: Archaic_Era/units/orcs/Raider.cfg:5
 msgid "Orcish Raider"
-msgstr ""
+msgstr "オークの侵入者"
 
 #. [unit_type]: id=Orcish Raider, race=orc
 #: Archaic_Era/units/orcs/Raider.cfg:20
@@ -1052,7 +1082,7 @@ msgstr ""
 #. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #: Archaic_Era/units/orcs/Stork_Master.cfg:4
 msgid "Stork Master"
-msgstr ""
+msgstr "鳥使い"
 
 #. [unit_type]: id=Stork Master, race=wolf # does this need to be changed?
 #: Archaic_Era/units/orcs/Stork_Master.cfg:37
@@ -1065,12 +1095,12 @@ msgstr ""
 #: Archaic_Era/units/orcs/Stork_Rider.cfg:51
 #: Archaic_Era/units/orcs/Stork_Master.cfg:52
 msgid "beak"
-msgstr ""
+msgstr "クチバシ"
 
 #. [unit_type]: id=Stork Rider, race=wolf # does this need to be changed?
 #: Archaic_Era/units/orcs/Stork_Rider.cfg:4
 msgid "Marabou Stork"
-msgstr ""
+msgstr "マラブー"
 
 #. [unit_type]: id=Stork Rider, race=wolf # does this need to be changed?
 #: Archaic_Era/units/orcs/Stork_Rider.cfg:36
@@ -1089,7 +1119,7 @@ msgstr ""
 #. [unit_type]: id=Orcish Terror, race=orc
 #: Archaic_Era/units/orcs/Terror.cfg:5
 msgid "Orcish Terror"
-msgstr ""
+msgstr "オークのテロリスト"
 
 #. [unit_type]: id=Orcish Terror, race=orc
 #: Archaic_Era/units/orcs/Terror.cfg:21
@@ -1105,39 +1135,39 @@ msgstr ""
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Terror.cfg:34
 msgid "cat-of-nine-tails"
-msgstr ""
+msgstr "九尾の猫鞭"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/orcs/Terror.cfg:46
 msgid "blade"
-msgstr ""
+msgstr "刃"
 
 #. [unit_type]: id=Spirit Dove, race=phantom_spirit
 #: Archaic_Era/units/phantom/Spirit_Dove.cfg:4
 msgid "Sprit Dove"
-msgstr ""
+msgstr "鳩の霊魂"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/phantom/Spirit_Dove.cfg:72
 #: Archaic_Era/units/phantom/Spirit_Jay.cfg:73
 msgid "Beak"
-msgstr ""
+msgstr "クチバシ"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/phantom/Spirit_Dove.cfg:81
 #: Archaic_Era/units/phantom/Spirit_Jay.cfg:82
 msgid "Talon"
-msgstr ""
+msgstr "爪"
 
 #. [unit_type]: id=Spirit Jay, race=phantom_spirit
 #: Archaic_Era/units/phantom/Spirit_Jay.cfg:4
 msgid "Sprit Jay"
-msgstr ""
+msgstr "カケスの霊魂"
 
 #. [unit_type]: id=Tomb Archer, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Archer.cfg:4
 msgid "Archer"
-msgstr ""
+msgstr "射る者"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:35
@@ -1149,7 +1179,7 @@ msgstr ""
 #: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:74
 #: Archaic_Era/units/phantom/Tomb_Archer.cfg:73
 msgid "Fist"
-msgstr ""
+msgstr "拳"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/phantom/Tomb_Stalker.cfg:86
@@ -1157,12 +1187,12 @@ msgstr ""
 #: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:83
 #: Archaic_Era/units/phantom/Tomb_Archer.cfg:82
 msgid "Bow"
-msgstr ""
+msgstr "弓"
 
 #. [unit_type]: id=Tomb Dancer, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Feather.cfg:4
 msgid "Feather Dancer"
-msgstr ""
+msgstr "羽で踊る者"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/south-seas/Scourge.cfg:33
@@ -1171,12 +1201,12 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primeval_Hektor.cfg:27
 #: Archaic_Era/units/phantom/Tomb_Feather.cfg:73
 msgid "Dagger"
-msgstr ""
+msgstr "ダガー"
 
 #. [unit_type]: id=Tomb Guard, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Guardian.cfg:4
 msgid "Tomb Guard"
-msgstr ""
+msgstr "墓守"
 
 #. [attack]: type=arcane
 #. [attack]: type=cold
@@ -1184,49 +1214,49 @@ msgstr ""
 #: Archaic_Era/units/phantom/Tomb_Protector.cfg:94
 #: Archaic_Era/units/phantom/Tomb_Guardian.cfg:84
 msgid "Glance"
-msgstr ""
+msgstr "視線"
 
 #. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:4
 msgid "High Archer"
-msgstr ""
+msgstr "巧みに射る者"
 
 #. [attack]: type=arcane
 #: Archaic_Era/units/phantom/Tomb_HighArcher.cfg:92
 msgid "Blessed Missile"
-msgstr ""
+msgstr "祝福された弾丸"
 
 #. [unit_type]: id=Tomb Huntress, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Huntress.cfg:4
 msgid "Huntress"
-msgstr ""
+msgstr "狩る者"
 
 #. [unit_type]: id=Tomb Master, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Master.cfg:4
 msgid "Wing Master"
-msgstr ""
+msgstr "翼の達人"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/phantom/Tomb_Wing.cfg:76
 #: Archaic_Era/units/phantom/Tomb_Master.cfg:78
 msgid "Kopis"
-msgstr ""
+msgstr "剣"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/phantom/Tomb_Master.cfg:90
 msgid "Claw"
-msgstr ""
+msgstr "かぎ爪"
 
 #. [unit_type]: id=Mummy King, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:4
 msgid "Mummy Noble"
-msgstr ""
+msgstr "高貴なミイラ"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:75
 #: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:74
 msgid "Sceptre"
-msgstr ""
+msgstr "王笏"
 
 #. [attack]: type=cold
 #. [attack]: type=arcane
@@ -1237,42 +1267,42 @@ msgstr ""
 #: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:84
 #: Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:83
 msgid "Curse"
-msgstr ""
+msgstr "呪い"
 
 #. [unit_type]: id=Mummy Pharo, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:4
 msgid "Mummy Pharo"
-msgstr ""
+msgstr "ファラオのミイラ"
 
 #. [unit_type]: id=Mummy Unbound, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:4
 msgid "Mummy Unbound"
-msgstr ""
+msgstr "解放されたミイラ"
 
 #. [unit_type]: id=Tomb Mummy, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Mummy.cfg:4
 msgid "Mummy"
-msgstr ""
+msgstr "ミイラ"
 
 #. [unit_type]: id=Tomb Protector, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Protector.cfg:4
 msgid "Tomb Protector"
-msgstr ""
+msgstr "墓標の守護者"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/phantom/Tomb_Protector.cfg:85
 msgid "Khopesh"
-msgstr ""
+msgstr "クォピス"
 
 #. [unit_type]: id=Tomb Sentinel, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Sentinel.cfg:4
 msgid "Tomb Sentinel"
-msgstr ""
+msgstr "墓標の衛兵"
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Shade.cfg:131
 msgid "Vapor"
-msgstr ""
+msgstr "蒸気"
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Shade.cfg:140
@@ -1289,17 +1319,17 @@ msgstr ""
 #. [attack]: type=arcane
 #: Archaic_Era/units/phantom/Tomb_Shade.cfg:146
 msgid "touch"
-msgstr ""
+msgstr "接触"
 
 #. [attack]: type=cold
 #: Archaic_Era/units/phantom/Tomb_Shade.cfg:155
 msgid "wail"
-msgstr ""
+msgstr "嘆き"
 
 #. [unit_type]: id=Tomb Stalker, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Stalker.cfg:4
 msgid "Stalker"
-msgstr ""
+msgstr "忍び寄る者"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/south-seas/Marines.cfg:49
@@ -1307,47 +1337,47 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Divers.cfg:47
 #: Archaic_Era/units/phantom/Tomb_Stalker.cfg:74
 msgid "Knife"
-msgstr ""
+msgstr "ナイフ"
 
 #. [unit_type]: id=Tomb Wing, race=phantom_egypt
 #: Archaic_Era/units/phantom/Tomb_Wing.cfg:4
 msgid "Wing Dancer"
-msgstr ""
+msgstr "翼で踊る者"
 
 #. [race]: id=phantom_wales
 #: Archaic_Era/units/phantom_race.cfg:6 Archaic_Era/units/phantom_race.cfg:8
 msgid "race^Phantom"
-msgstr ""
+msgstr "幻影"
 
 #. [race]: id=phantom_wales
 #: Archaic_Era/units/phantom_race.cfg:7
 msgid "race+female^Phantom"
-msgstr ""
+msgstr "幻影"
 
 #. [race]: id=phantom_egypt
 #: Archaic_Era/units/phantom_race.cfg:17 Archaic_Era/units/phantom_race.cfg:19
 msgid "race^Ancient Phantom"
-msgstr ""
+msgstr "古代の幻影"
 
 #. [race]: id=phantom_egypt
 #: Archaic_Era/units/phantom_race.cfg:18
 msgid "race+female^Ancient Phantom"
-msgstr ""
+msgstr "古代の幻影"
 
 #. [race]: id=phantom_spirit
 #: Archaic_Era/units/phantom_race.cfg:31 Archaic_Era/units/phantom_race.cfg:33
 msgid "race^Ancient Spirit"
-msgstr ""
+msgstr "古代の霊魂"
 
 #. [race]: id=phantom_spirit
 #: Archaic_Era/units/phantom_race.cfg:32
 msgid "race+female^Ancient Spirit"
-msgstr ""
+msgstr "古代の霊魂"
 
 #. [unit_type]: id=Primeval Aerowheel, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:5
 msgid "Aerowheel"
-msgstr ""
+msgstr "空気の輪"
 
 #. [unit_type]: id=Primeval Aerowheel, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:41
@@ -1364,12 +1394,12 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primeval_Aerowheel.cfg:53
 #: Archaic_Era/units/primeval/Primeval_Protector.cfg:35
 msgid "Chakram"
-msgstr ""
+msgstr "チャクラム"
 
 #. [unit_type]: id=Primeval Cutter, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Cutter.cfg:5
 msgid "Cutter"
-msgstr ""
+msgstr "切る者"
 
 #. [unit_type]: id=Primeval Cutter, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Cutter.cfg:22
@@ -1382,12 +1412,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Archaic_Era/units/primeval/Primeval_Cutter.cfg:32
 msgid "chakram"
-msgstr ""
+msgstr "チャクラム"
 
 #. [unit_type]: id=Primeval Dogface, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Dogface.cfg:5
 msgid "Dogface"
-msgstr ""
+msgstr "犬の顔"
 
 #. [unit_type]: id=Primeval Dogface, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Dogface.cfg:20
@@ -1402,12 +1432,12 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primeval_Warrior.cfg:33
 #: Archaic_Era/units/primeval/Primeval_Dogface.cfg:31
 msgid "Axe"
-msgstr ""
+msgstr "斧"
 
 #. [unit_type]: id=Primeval Driver, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Driver.cfg:5
 msgid "Driver"
-msgstr ""
+msgstr "追う者"
 
 #. [unit_type]: id=Primeval Driver, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Driver.cfg:20
@@ -1423,13 +1453,13 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primeval_Driver.cfg:42
 #: Archaic_Era/units/primeval/Primeval_Giant.cfg:32
 msgid "Chain"
-msgstr ""
+msgstr "鎖"
 
 #. [berserk]: id=aggression
 #: Archaic_Era/units/primeval/Primeval_Driver.cfg:49
 #: Archaic_Era/units/primeval/Primeval_Giant.cfg:40
 msgid "aggression"
-msgstr ""
+msgstr "追撃"
 
 #. [berserk]: id=aggression
 #: Archaic_Era/units/primeval/Primeval_Driver.cfg:51
@@ -1438,13 +1468,15 @@ msgid ""
 "Aggression:\n"
 "This attack presses the engagement twice as long as usual."
 msgstr ""
+"追撃:\n"
+"この攻撃は通常よりも2倍の攻撃を加えます。"
 
 #. [attack]: type=fire
 #. [unit_type]: id=Primeval Firewheel, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Firewheel.cfg:5
 #: Archaic_Era/units/primeval/Primeval_Firewheel.cfg:54
 msgid "Firewheel"
-msgstr ""
+msgstr "火の輪"
 
 #. [unit_type]: id=Primeval Firewheel, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Firewheel.cfg:41
@@ -1452,11 +1484,13 @@ msgid ""
 "Primeval Firewheels...\n"
 "Special Note:"
 msgstr ""
+"太古の一族 火の輪は……\n"
+"特記事項:"
 
 #. [unit_type]: id=Primeval Slow, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Foot.cfg:5
 msgid "Slow Foot"
-msgstr ""
+msgstr "愚鈍な足"
 
 #. [unit_type]: id=Primeval Slow, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Foot.cfg:20
@@ -1464,16 +1498,18 @@ msgid ""
 "A Slowfoot ...\n"
 "Special Note:"
 msgstr ""
+"愚鈍な足は……\n"
+"特記事項:"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/primeval/Primeval_Foot.cfg:30
 msgid "Mace"
-msgstr ""
+msgstr "メイス"
 
 #. [unit_type]: id=Primeval Giant, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Giant.cfg:5
 msgid "Destroyer"
-msgstr ""
+msgstr "破壊する者"
 
 #. [unit_type]: id=Primeval Giant, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Giant.cfg:21
@@ -1481,11 +1517,13 @@ msgid ""
 "The Primeval Destroyers ...\n"
 "Special Note:"
 msgstr ""
+"太古の一族 破壊する者は……\n"
+"特記事項:"
 
 #. [unit_type]: id=Primeval Gyrepacter, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Gyrepacter.cfg:5
 msgid "Gyre Striker"
-msgstr ""
+msgstr "激しく打つ者"
 
 #. [unit_type]: id=Primeval Gyrepacter, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Gyrepacter.cfg:69
@@ -1493,16 +1531,18 @@ msgid ""
 "Primeval Gyre Strikers... \n"
 "Special Note:"
 msgstr ""
+"太古の一族 激しく打つ者は……\n"
+"特記事項:"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/primeval/Primeval_Gyrepacter.cfg:80
 msgid "Flail"
-msgstr ""
+msgstr "フレイル"
 
 #. [unit_type]: id=Primeval Hektor, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Hektor.cfg:5
 msgid "Hektor"
-msgstr ""
+msgstr "ヘクトール"
 
 #. [unit_type]: id=Primeval Hektor, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Hektor.cfg:20
@@ -1510,16 +1550,18 @@ msgid ""
 "The Primeval Hektors ...\n"
 "Special Note:"
 msgstr ""
+"太古の一族 ヘクトールは……\n"
+"特記事項:"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/primeval/Primeval_Hektor.cfg:36
 msgid "Bolas"
-msgstr ""
+msgstr "ボーラ"
 
 #. [unit_type]: id=Primeval Ironwheel, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Ironwheel.cfg:5
 msgid "Ironwheel"
-msgstr ""
+msgstr "鉄の輪"
 
 #. [unit_type]: id=Primeval Ironwheel, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Ironwheel.cfg:21
@@ -1533,7 +1575,7 @@ msgstr ""
 #. [unit_type]: id=Primeval Protector, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Protector.cfg:5
 msgid "Protector"
-msgstr ""
+msgstr "保護する者"
 
 #. [unit_type]: id=Primeval Protector, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Protector.cfg:22
@@ -1541,17 +1583,19 @@ msgid ""
 "The Primeval Protectors...\n"
 "Special Note:"
 msgstr ""
+"太古の一族 保護する者は……\n"
+"特記事項:"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/primeval/Primeval_Slasher.cfg:43
 #: Archaic_Era/units/primeval/Primeval_Protector.cfg:44
 msgid "Glaive"
-msgstr ""
+msgstr "グレイブ"
 
 #. [unit_type]: id=Primeval Slasher, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Slasher.cfg:5
 msgid "Escort"
-msgstr ""
+msgstr "警護する者"
 
 #. [unit_type]: id=Primeval Slasher, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Slasher.cfg:21
@@ -1559,16 +1603,18 @@ msgid ""
 "The Primeval Escorts ...\n"
 "Special Note:"
 msgstr ""
+"太古の一族 警護する者は……\n"
+"特記事項:"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/primeval/Primeval_Slasher.cfg:34
 msgid "Quoit"
-msgstr ""
+msgstr "輪っか"
 
 #. [unit_type]: id=Primeval Striker, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Striker.cfg:5
 msgid "Striker"
-msgstr ""
+msgstr "打つ者"
 
 #. [unit_type]: id=Primeval Striker, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Striker.cfg:21
@@ -1576,6 +1622,8 @@ msgid ""
 "The Primeval Strikers ...\n"
 "Special Note:"
 msgstr ""
+"太古の一族 打つ者は……\n"
+"特記事項:"
 
 #. [attack]: type=impact
 #. [attack]: type=fire
@@ -1588,12 +1636,12 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primevalist_Monk.cfg:31
 #: Archaic_Era/units/primeval/Primeval_Swift.cfg:31
 msgid "Staff"
-msgstr ""
+msgstr "杖"
 
 #. [unit_type]: id=Primeval Swiftfoot, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Swift.cfg:5
 msgid "Swiftfoot"
-msgstr ""
+msgstr "俊敏な足"
 
 #. [unit_type]: id=Primeval Swiftfoot, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Swift.cfg:21
@@ -1606,7 +1654,7 @@ msgstr ""
 #. [unit_type]: id=Primeval Warrior, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Warrior.cfg:5
 msgid "Warrior"
-msgstr ""
+msgstr "勇士"
 
 #. [unit_type]: id=Primeval Warrior, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Warrior.cfg:21
@@ -1614,11 +1662,13 @@ msgid ""
 "The Primeval Warriors ... \n"
 "Special Note:"
 msgstr ""
+"太古の一族 勇士は……\n"
+"特記事項:"
 
 #. [unit_type]: id=Primevalist Celebrant, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Celebrant.cfg:5
 msgid "Primevalist Celebrant"
-msgstr ""
+msgstr "太古の司祭"
 
 #. [unit_type]: id=Primevalist Celebrant, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Celebrant.cfg:20
@@ -1633,12 +1683,12 @@ msgstr ""
 #. [attack]: type=arcane
 #: Archaic_Era/units/primeval/Primevalist_Celebrant.cfg:44
 msgid "Condemnation"
-msgstr ""
+msgstr "有罪宣告"
 
 #. [unit_type]: id=Primevalist Fanatic, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:5
 msgid "Primevalist Fanatic"
-msgstr ""
+msgstr "太古の狂信者"
 
 #. [unit_type]: id=Primevalist Fanatic, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fanatic.cfg:20
@@ -1651,7 +1701,7 @@ msgstr ""
 #. [unit_type]: id=Primevalist Fighter, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:5
 msgid "Primevalist Fighter"
-msgstr ""
+msgstr "太古の戦士"
 
 #. [unit_type]: id=Primevalist Fighter, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Fighter.cfg:20
@@ -1666,7 +1716,7 @@ msgstr ""
 #. [unit_type]: id=Primevalist Follower, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Follower.cfg:5
 msgid "Primevalist Follower"
-msgstr ""
+msgstr "太古の信徒"
 
 #. [unit_type]: id=Primevalist Follower, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Follower.cfg:20
@@ -1684,12 +1734,12 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primevalist_Follower.cfg:39
 #: Archaic_Era/units/primeval/Primevalist_Monk.cfg:40
 msgid "Chill"
-msgstr ""
+msgstr "冷気"
 
 #. [unit_type]: id=Primevalist Leader, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:5
 msgid "Primevalist Leader"
-msgstr ""
+msgstr "太古の先導者"
 
 #. [unit_type]: id=Primevalist Leader, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:20
@@ -1702,12 +1752,12 @@ msgstr ""
 #. [attack]: type=cold
 #: Archaic_Era/units/primeval/Primevalist_Leader.cfg:43
 msgid "curse"
-msgstr ""
+msgstr "呪い"
 
 #. [unit_type]: id=Primevalist Monk, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Monk.cfg:5
 msgid "Primevalist Monk"
-msgstr ""
+msgstr "太古の修道僧"
 
 #. [unit_type]: id=Primevalist Monk, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Monk.cfg:21
@@ -1721,7 +1771,7 @@ msgstr ""
 #. [unit_type]: id=Primevalist Prior, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Prior.cfg:5
 msgid "Primevalist Prior"
-msgstr ""
+msgstr "太古の修道院長"
 
 #. [unit_type]: id=Primevalist Prior, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Prior.cfg:20
@@ -1733,12 +1783,12 @@ msgstr ""
 #. [attack]: type=impact
 #: Archaic_Era/units/primeval/Primevalist_Prior.cfg:39
 msgid "Staff Base"
-msgstr ""
+msgstr "錫杖"
 
 #. [unit_type]: id=Primevalist Shield, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Shield.cfg:5
 msgid "Primeval Brightshield"
-msgstr ""
+msgstr "太古の輝く盾"
 
 #. [unit_type]: id=Primevalist Shield, race=primevalist_human
 #: Archaic_Era/units/primeval/Primevalist_Shield.cfg:107
@@ -1752,17 +1802,17 @@ msgstr ""
 #. [race]: id=primevalist_human
 #: Archaic_Era/units/primeval_race.cfg:5
 msgid "race^Human"
-msgstr ""
+msgstr "人間族"
 
 #. [race]: id=primevalist_human
 #: Archaic_Era/units/primeval_race.cfg:6
 msgid "race+female^Human"
-msgstr ""
+msgstr "人間族"
 
 #. [race]: id=primevalist_human
 #: Archaic_Era/units/primeval_race.cfg:7
 msgid "race^Humans"
-msgstr ""
+msgstr "人間族"
 
 #. [race]: id=primevalist_human
 #: Archaic_Era/units/primeval_race.cfg:8
@@ -1774,17 +1824,17 @@ msgstr ""
 #. [race]: id=primeval
 #: Archaic_Era/units/primeval_race.cfg:18
 msgid "race^Primeval"
-msgstr ""
+msgstr "太古の一族"
 
 #. [race]: id=primeval
 #: Archaic_Era/units/primeval_race.cfg:19
 msgid "race+female^Primeval"
-msgstr ""
+msgstr "太古の一族"
 
 #. [race]: id=primeval
 #: Archaic_Era/units/primeval_race.cfg:20
 msgid "race^Primevals"
-msgstr ""
+msgstr "太古の一族"
 
 #. [race]: id=primeval
 #: Archaic_Era/units/primeval_race.cfg:38
@@ -1851,6 +1901,11 @@ msgid ""
 "Netheras,Orion,Oros,Ossas,Pallas,Paris,Ramolus,Rustarus,Sarpedon,Sordas,"
 "Sundaras,Tartarus,Teolas,Torus,Typhon,Xerus"
 msgstr ""
+"Accos,Acton,Actras,Aephus,Andradas,Arus,Ballus,Bellon,Callas,Cathas,Cendras,"
+"Chaos,Chronos,Cyras,Dandras,Demosthenes,Dundarus,Edras,Essras,Fathas,Gallas,"
+"Hadrion,Hektor,Herdreidon,Hestus,Indus,Kahas,Korus,Lathas,Lostrus,Malthras,"
+"Netheras,Orion,Oros,Ossas,Pallas,Paris,Ramolus,Rustarus,Sarpedon,Sordas,"
+"Sundaras,Tartarus,Teolas,Torus,Typhon,Xerus"
 
 #. [race]: id=primeval
 #: Archaic_Era/units/primeval_race.cfg:41
@@ -1861,11 +1916,16 @@ msgid ""
 "Phaetusa,Prakate,Reasis,Sarasis,Sere,Skylla,Styx,Taranisis,Tramache,"
 "Tisiphone,Tyche,Xanthis"
 msgstr ""
+"Amache,Ananke,Anaxarete,Agrotora,Anthis,Carthis,Cassandra,Circe,Cyrene,"
+"Damaris,Dione,Draede,Duneris,Dyrope,Elektra,Gorgate,Hekate,Hekubis,Karybdis,"
+"Katyride,Katyris,Lamia,Lamis,Lillith,Maenade,Medusis,Nemesa,Nike,Nyx,Orisis,"
+"Phaetusa,Prakate,Reasis,Sarasis,Sere,Skylla,Styx,Taranisis,Tramache,"
+"Tisiphone,Tyche,Xanthis"
 
 #. [unit_type]: id=South-Seas Able-Seaman, race=south-seas_human
 #: Archaic_Era/units/south-seas/Able-Seaman.cfg:5
 msgid "Able-Seaman"
-msgstr ""
+msgstr "腕利き海人"
 
 #. [unit_type]: id=South-Seas Able-Seaman, race=south-seas_human
 #: Archaic_Era/units/south-seas/Able-Seaman.cfg:21
@@ -1877,19 +1937,19 @@ msgstr ""
 #. [unit_type]: id=South-Seas Arsonist, race=south-seas_human
 #: Archaic_Era/units/south-seas/Arsonist.cfg:5
 msgid "Arsonist"
-msgstr ""
+msgstr "放火者"
 
 #. [attack]: type=fire
 #: Archaic_Era/units/south-seas/Spitfire.cfg:38
 #: Archaic_Era/units/south-seas/Arsonist.cfg:36
 #: Archaic_Era/units/south-seas/Demolitionist.cfg:37
 msgid "Torch"
-msgstr ""
+msgstr "接触"
 
 #. [unit_type]: id=South-Seas Caster, race=south-seas_human
 #: Archaic_Era/units/south-seas/Caster.cfg:5
 msgid "female^Lore-Caster"
-msgstr ""
+msgstr "語り部"
 
 #. [unit_type]: id=South-Seas Caster, race=south-seas_human
 #: Archaic_Era/units/south-seas/Caster.cfg:21
@@ -1903,7 +1963,7 @@ msgstr ""
 #. [unit_type]: id=South-Seas Deck-Master, race=south-seas_human
 #: Archaic_Era/units/south-seas/Deck-Master.cfg:5
 msgid "Deck-Master"
-msgstr ""
+msgstr "甲板長"
 
 #. [unit_type]: id=South-Seas Deck-Master, race=south-seas_human
 #: Archaic_Era/units/south-seas/Deck-Master.cfg:22
@@ -1915,50 +1975,51 @@ msgstr ""
 #. [attack]: type=pierce
 #: Archaic_Era/units/south-seas/Deck-Master.cfg:44
 msgid "Hook"
-msgstr ""
+msgstr "フック"
 
 #. [unit_type]: id=South-Seas Demolitionist, race=south-seas_human
 #: Archaic_Era/units/south-seas/Demolitionist.cfg:5
 msgid "Demolitionist"
-msgstr ""
+msgstr "爆破者"
 
 #. [attack]: type=fire
 #: Archaic_Era/units/south-seas/Spitfire.cfg:47
 #: Archaic_Era/units/south-seas/Demolitionist.cfg:46
 msgid "Flame"
-msgstr ""
+msgstr "火炎"
 
 #. [unit_type]: id=South-Seas Diver, race=south-seas_human
 #: Archaic_Era/units/south-seas/Divers.cfg:5
 msgid "Diver"
-msgstr ""
+msgstr "潜水者"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/south-seas/Wrecker.cfg:52
 #: Archaic_Era/units/south-seas/Marines.cfg:61
 #: Archaic_Era/units/south-seas/Divers.cfg:59
 msgid "Harpoon"
-msgstr ""
+msgstr "銛"
 
 #. [female]
 #: Archaic_Era/units/south-seas/Divers.cfg:148
 msgid "female^Diver"
-msgstr ""
+msgstr "潜水者"
 
 #. [unit_type]: id=South-Seas Marine, race=south-seas_human
 #: Archaic_Era/units/south-seas/Marines.cfg:5
 msgid "Marine"
-msgstr ""
+msgstr "海の者"
 
 #. [female]
 #: Archaic_Era/units/south-seas/Marines.cfg:150
 msgid "female^Marine"
-msgstr ""
+msgstr "海の者"
 
+# [ja] 「海賊」もあり？
 #. [unit_type]: id=South-Seas Rover, race=south-seas_human
 #: Archaic_Era/units/south-seas/Rover.cfg:5
 msgid "Sea Rover"
-msgstr ""
+msgstr "漂流者"
 
 #. [unit_type]: id=South-Seas Rover, race=south-seas_human
 #: Archaic_Era/units/south-seas/Rover.cfg:21
@@ -1972,42 +2033,42 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Rover.cfg:38
 #: Archaic_Era/units/south-seas/Wolf.cfg:41
 msgid "Dart"
-msgstr ""
+msgstr "ダーツ"
 
 #. [unit_type]: id=South-Seas Salvager, race=south-seas_human
 #: Archaic_Era/units/south-seas/Salvager.cfg:5
 msgid "Salvager"
-msgstr ""
+msgstr "救出者"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/south-seas/Salvager.cfg:29
 #: Archaic_Era/units/south-seas/Wrecker.cfg:31
 #: Archaic_Era/units/south-seas/Shoreman.cfg:28
 msgid "Lash"
-msgstr ""
+msgstr "鞭"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/south-seas/Salvager.cfg:38
 #: Archaic_Era/units/south-seas/Wrecker.cfg:40
 #: Archaic_Era/units/south-seas/Shoreman.cfg:37
 msgid "Rope"
-msgstr ""
+msgstr "ロープ"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/south-seas/Salvager.cfg:50
 msgid "Barb"
-msgstr ""
+msgstr "棘"
 
 #. [unit_type]: id=South-Seas Sea-Scourge, race=south-seas_human
 #: Archaic_Era/units/south-seas/Scourge.cfg:5
 msgid "female^Sea-Scourge"
-msgstr ""
+msgstr "海からの天罰"
 
 #. [attack]: type=cold
 #: Archaic_Era/units/south-seas/Scourge.cfg:42
 #: Archaic_Era/units/south-seas/Seahag.cfg:42
 msgid "Fear"
-msgstr ""
+msgstr "恐怖"
 
 #. [attack]: type=arcane
 #: Archaic_Era/units/south-seas/Scourge.cfg:55
@@ -2017,7 +2078,7 @@ msgstr ""
 #. [unit_type]: id=South-Seas Seahag, race=south-seas_human
 #: Archaic_Era/units/south-seas/Seahag.cfg:5
 msgid "female^Seahag"
-msgstr ""
+msgstr "海姥"
 
 #. [unit_type]: id=South-Seas Seahag, race=south-seas_human
 #: Archaic_Era/units/south-seas/Seahag.cfg:21
@@ -2030,58 +2091,58 @@ msgstr ""
 #. [unit_type]: id=South-Seas Seaman, race=south-seas_human
 #: Archaic_Era/units/south-seas/Seaman.cfg:5
 msgid "Seaman"
-msgstr ""
+msgstr "海人"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/south-seas/Seaman.cfg:28
 msgid "Oar"
-msgstr ""
+msgstr "オール"
 
 #. [unit_type]: id=South-Seas Shoreman, race=south-seas_human
 #: Archaic_Era/units/south-seas/Shoreman.cfg:5
 msgid "Shoreman"
-msgstr ""
+msgstr "陸人"
 
 #. [unit_type]: id=South-Seas Sky-Caller, race=south-seas_human
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:5
 msgid "female^Sky-Caller"
-msgstr ""
+msgstr "大気使い"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:44
 #: Archaic_Era/units/south-seas/Zephyrist.cfg:42
 msgid "Wind"
-msgstr ""
+msgstr "風"
 
 #. [unit_type]: id=South-Seas Spitfire, race=south-seas_human
 #: Archaic_Era/units/south-seas/Spitfire.cfg:5
 msgid "Spitfire"
-msgstr ""
+msgstr "火を吹く者"
 
 #. [unit_type]: id=South-Seas Swimmer, race=south-seas_human
 #: Archaic_Era/units/south-seas/Swimmers.cfg:5
 msgid "Swimmer"
-msgstr ""
+msgstr "泳者"
 
 #. [female]
 #: Archaic_Era/units/south-seas/Swimmers.cfg:85
 msgid "female^Swimmer"
-msgstr ""
+msgstr "泳者"
 
 #. [unit_type]: id=South-Seas Seawolf, race=south-seas_human
 #: Archaic_Era/units/south-seas/Wolf.cfg:5
 msgid "Sea Wolf"
-msgstr ""
+msgstr "海賊"
 
 #. [unit_type]: id=South-Seas Wrecker, race=south-seas_human
 #: Archaic_Era/units/south-seas/Wrecker.cfg:5
 msgid "Wrecker"
-msgstr ""
+msgstr "難破者"
 
 #. [unit_type]: id=South-Seas Zephyrist, race=south-seas_human
 #: Archaic_Era/units/south-seas/Zephyrist.cfg:5
 msgid "female^Wind-Caller"
-msgstr ""
+msgstr "風使い"
 
 #. [unit_type]: id=South-Seas Zephyrist, race=south-seas_human
 #: Archaic_Era/units/south-seas/Zephyrist.cfg:21
@@ -2094,17 +2155,17 @@ msgstr ""
 #. [race]: id=south-seas_human
 #: Archaic_Era/units/south-seas_race.cfg:5
 msgid "race^South-Sea Human"
-msgstr ""
+msgstr "南海の民"
 
 #. [race]: id=south-seas_human
 #: Archaic_Era/units/south-seas_race.cfg:6
 msgid "race+female^South-Sea Human"
-msgstr ""
+msgstr "南海の民"
 
 #. [race]: id=south-seas_human
 #: Archaic_Era/units/south-seas_race.cfg:7
 msgid "race^South-Sea Humans"
-msgstr ""
+msgstr "南海の民"
 
 #. [race]: id=south-seas_human
 #: Archaic_Era/units/south-seas_race.cfg:15
@@ -2161,12 +2222,12 @@ msgstr ""
 #. [unit_type]: id=Royal Constable, race=human
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:4
 msgid "Constable"
-msgstr ""
+msgstr "警官"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:41
 msgid "hammer"
-msgstr ""
+msgstr "ハンマー"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:50
@@ -2174,7 +2235,7 @@ msgstr ""
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:49
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:61
 msgid "crossbow"
-msgstr ""
+msgstr "クロスボウ"
 
 #. [attack]: type=impact
 #: Archaic_Era/utils/Archaic_abilities.cfg:720
@@ -2182,12 +2243,12 @@ msgstr ""
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
 msgid "scattershot"
-msgstr ""
+msgstr "散弾"
 
 #. [unit_type]: id=Northern Elite, race=human
 #: Archaic_Era/units/ukians/Royal_Elite.cfg:4
 msgid "Northern Warrior"
-msgstr ""
+msgstr "北部の勇士"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:37
@@ -2199,24 +2260,24 @@ msgstr ""
 #: Archaic_Era/units/ukians/Royal_Fighter.cfg:31
 #: Archaic_Era/units/ukians/Royal_Elite.cfg:33
 msgid "sword"
-msgstr ""
+msgstr "剣"
 
 #. [attack]: type=blade
 #: Archaic_Era/units/ukians/Royal_Soldier.cfg:41
 #: Archaic_Era/units/ukians/Royal_Fighter.cfg:40
 #: Archaic_Era/units/ukians/Royal_Elite.cfg:42
 msgid "knife"
-msgstr ""
+msgstr "ナイフ"
 
 #. [unit_type]: id=Northern Fighter, race=human
 #: Archaic_Era/units/ukians/Royal_Fighter.cfg:4
 msgid "Northern Fighter"
-msgstr ""
+msgstr "北部の戦士"
 
 #. [unit_type]: id=Northern Ranger, race=human
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:4
 msgid "Northern Ranger"
-msgstr ""
+msgstr "北部のレンジャー"
 
 #. [unit_type]: id=Northern Ranger, race=human
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:20
@@ -2235,38 +2296,38 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Veteran.cfg:34
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:53
 msgid "spear"
-msgstr ""
+msgstr "槍"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:59
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:86
 msgid "javelin"
-msgstr ""
+msgstr "ジャベリン"
 
 #. [unit_type]: id=Royal Sheriff, race=human
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:4
 msgid "Sheriff"
-msgstr ""
+msgstr "保安官"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:40
 msgid "mace"
-msgstr ""
+msgstr "メイス"
 
 #. [unit_type]: id=Northern Soldier, race=human
 #: Archaic_Era/units/ukians/Royal_Soldier.cfg:4
 msgid "Northern Soldier"
-msgstr ""
+msgstr "北部の兵士"
 
 #. [unit_type]: id=Royal Vassal, race=human
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:4
 msgid "Vassal"
-msgstr ""
+msgstr "見習い"
 
 #. [unit_type]: id=Ukian Archer, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Archer.cfg:4
 msgid "Ukian Archer"
-msgstr ""
+msgstr "ウキアンの射手"
 
 #. [unit_type]: id=Ukian Archer, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Archer.cfg:20
@@ -2279,7 +2340,7 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Archer.cfg:25
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:65
 msgid "dagger"
-msgstr ""
+msgstr "ダガー"
 
 #. [attack]: type=pierce
 #. [attack]: type=fire
@@ -2289,7 +2350,7 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:35
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:44
 msgid "bow"
-msgstr ""
+msgstr "弓"
 
 #. [unit_type]: id=Ukian Attack Dog, race=ukiandog
 #: Archaic_Era/units/ukians/Ukian_Attackdog.cfg:5
@@ -2309,12 +2370,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Archaic_Era/units/ukians/Ukian_Attackdog.cfg:48
 msgid "fury"
-msgstr ""
+msgstr "狂乱"
 
 #. [unit_type]: id=Ukian Civilian, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Civilian.cfg:4
 msgid "Ukian Civilian"
-msgstr ""
+msgstr "ウキアンの市民"
 
 #. [unit_type]: id=Ukian Civilian, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Civilian.cfg:20
@@ -2327,17 +2388,17 @@ msgstr ""
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Ukian_Civilian.cfg:25
 msgid "punch"
-msgstr ""
+msgstr "パンチ"
 
 #. [female]
 #: Archaic_Era/units/ukians/Ukian_Civilian.cfg:89
 msgid "female^Civilian"
-msgstr ""
+msgstr "市民"
 
 #. [unit_type]: id=Ukian Commander, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:5
 msgid "Ukian Commander"
-msgstr ""
+msgstr "ウキアンの司令官"
 
 #. [unit_type]: id=Ukian Commander, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:32
@@ -2351,12 +2412,12 @@ msgstr ""
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Ukian_Commander.cfg:70
 msgid "shield"
-msgstr ""
+msgstr "盾"
 
 #. [unit_type]: id=Ukian Commando, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:5
 msgid "Ukian Commando"
-msgstr ""
+msgstr "ウキアンの特攻隊"
 
 #. [unit_type]: id=Ukian Commando, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:21
@@ -2371,14 +2432,14 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:30
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:30
 msgid "dog trainer"
-msgstr ""
+msgstr "犬使い"
 
 #. [leadership]: id=leadership
 #: Archaic_Era/units/ukians/Ukian_Runner.cfg:38
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:31
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:31
 msgid "dog female^trainer"
-msgstr ""
+msgstr "犬使い"
 
 #. [leadership]: id=leadership
 #: Archaic_Era/units/ukians/Ukian_Runner.cfg:40
@@ -2388,18 +2449,20 @@ msgid ""
 "Dog Trainer:\n"
 "This unit can lead Ukian Dogs that are next to it, making them fight better."
 msgstr ""
+"犬使い:\n"
+"このユニットは、隣接するウキアンの犬を使役し、上手く戦えるように指示します。"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Ukian_Runner.cfg:65
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:66
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:77
 msgid "sling"
-msgstr ""
+msgstr "スリング"
 
 #. [unit_type]: id=Ukian Courrier, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:5
 msgid "Ukian Courrier"
-msgstr ""
+msgstr "ウキアンのクーリエ"
 
 #. [unit_type]: id=Ukian Courrier, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:22
@@ -2412,7 +2475,7 @@ msgstr ""
 #. [unit_type]: id=Ukian Deadeye, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:5
 msgid "Ukian Deadeye"
-msgstr ""
+msgstr "ウキアンの名射手"
 
 #. [unit_type]: id=Ukian Deadeye, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Deadeye.cfg:22
@@ -2425,7 +2488,7 @@ msgstr ""
 #. [unit_type]: id=Ukian Dog, race=ukiandog
 #: Archaic_Era/units/ukians/Ukian_Dog.cfg:5
 msgid "Dog"
-msgstr ""
+msgstr "犬"
 
 #. [unit_type]: id=Ukian Dog, race=ukiandog
 #. [unit_type]: id=Ukian Harrier, race=ukiandog
@@ -2441,7 +2504,7 @@ msgstr ""
 #. [unit_type]: id=Ukian Flareman, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Flareman.cfg:5
 msgid "Ukian Flareman"
-msgstr ""
+msgstr "ウキアンの火使い"
 
 #. [unit_type]: id=Ukian Flareman, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Flareman.cfg:92
@@ -2456,17 +2519,17 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Flareman.cfg:110
 #: Archaic_Era/units/ukians/Ukian_Signalman.cfg:114
 msgid "axe"
-msgstr ""
+msgstr "斧"
 
 #. [unit_type]: id=Ukian Harrier, race=ukiandog
 #: Archaic_Era/units/ukians/Ukian_Harrier.cfg:5
 msgid "Harrier"
-msgstr ""
+msgstr "ハリア"
 
 #. [unit_type]: id=Ukian Hawkeye, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:5
 msgid "Ukian Hawkeye"
-msgstr ""
+msgstr "ウキアン・ホークアイ"
 
 #. [unit_type]: id=Ukian Hawkeye, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Hawkeye.cfg:21
@@ -2479,7 +2542,7 @@ msgstr ""
 #. [unit_type]: id=Ukian Officer, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Officer.cfg:5
 msgid "Ukian Officer"
-msgstr ""
+msgstr "ウキアンの将校"
 
 #. [unit_type]: id=Ukian Officer, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Officer.cfg:27
@@ -2492,12 +2555,12 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Officer.cfg:48
 #: Archaic_Era/units/ukians/Ukian_Veteran.cfg:46
 msgid "throwing knife"
-msgstr ""
+msgstr "投げナイフ"
 
 #. [unit_type]: id=Ukian Regular, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Regular.cfg:5
 msgid "Ukian Regular"
-msgstr ""
+msgstr "ウキアンの正規兵"
 
 #. [unit_type]: id=Ukian Regular, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Regular.cfg:22
@@ -2512,12 +2575,12 @@ msgstr ""
 #. [attack]: type=blade
 #: Archaic_Era/units/ukians/Ukian_Regular.cfg:59
 msgid "Throwing Knife"
-msgstr ""
+msgstr "投げナイフ"
 
 #. [unit_type]: id=Ukian Runner, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Runner.cfg:5
 msgid "Ukian Runner"
-msgstr ""
+msgstr "ウキアンの走者"
 
 #. [unit_type]: id=Ukian Runner, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Runner.cfg:29
@@ -2535,7 +2598,7 @@ msgstr ""
 #. [unit_type]: id=Ukian Seeress, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Seeress.cfg:5
 msgid "Ukian Seeress"
-msgstr ""
+msgstr "ウキアンの占い師"
 
 #. [unit_type]: id=Ukian Seeress, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Seeress.cfg:21
@@ -2550,18 +2613,18 @@ msgstr ""
 #: Archaic_Era/units/ukians/Ukian_Seeress.cfg:30
 #: Archaic_Era/units/ukians/Ukian_Witch.cfg:36
 msgid "staff"
-msgstr ""
+msgstr "杖"
 
 #. [attack]: type=impact
 #: Archaic_Era/units/ukians/Ukian_Seeress.cfg:39
 #: Archaic_Era/units/ukians/Ukian_Witch.cfg:45
 msgid "shockwave"
-msgstr ""
+msgstr "衝撃波"
 
 #. [unit_type]: id=Ukian Signalman, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Signalman.cfg:5
 msgid "Ukian Signalman"
-msgstr ""
+msgstr "ウキアンの信号兵"
 
 #. [unit_type]: id=Ukian Signalman, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Signalman.cfg:94
@@ -2576,22 +2639,22 @@ msgstr ""
 #. [unit_type]: id=Ukian Veteran, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Veteran.cfg:4
 msgid "Ukian Veteran"
-msgstr ""
+msgstr "ウキアンの熟練兵"
 
 #. [unit_type]: id=Ukian Veteran, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Veteran.cfg:20
 msgid "Veteran soldiers..."
-msgstr ""
+msgstr "熟練兵は……"
 
 #. [unit_type]: id=Ukian War Hound, race=ukiandog
 #: Archaic_Era/units/ukians/Ukian_Wardog.cfg:5
 msgid "War Hound"
-msgstr ""
+msgstr "軍馬"
 
 #. [unit_type]: id=Ukian Witch, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Witch.cfg:5
 msgid "Ukian Witch"
-msgstr ""
+msgstr "ウキアンの魔女"
 
 #. [unit_type]: id=Ukian Witch, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Witch.cfg:21
@@ -2606,22 +2669,22 @@ msgstr ""
 #. [attack]: type=fire
 #: Archaic_Era/units/ukians/Ukian_Witch.cfg:57
 msgid "strike"
-msgstr ""
+msgstr "電撃"
 
 #. [race]: id=ukian
 #: Archaic_Era/units/ukians_race.cfg:5
 msgid "race^Ukian Human"
-msgstr ""
+msgstr "ウキアン族"
 
 #. [race]: id=ukian
 #: Archaic_Era/units/ukians_race.cfg:6
 msgid "race+female^Ukian Human"
-msgstr ""
+msgstr "ウキアン族"
 
 #. [race]: id=ukian
 #: Archaic_Era/units/ukians_race.cfg:7
 msgid "race^Ukians"
-msgstr ""
+msgstr "ウキアン"
 
 #. [race]: id=ukian
 #: Archaic_Era/units/ukians_race.cfg:9
@@ -2635,6 +2698,13 @@ msgid ""
 "reacquaintance with the people of Wesnoth, they have just started training "
 "mages."
 msgstr ""
+"ウキアンは凍てつく北の大地からやってきました。浅はかな Wesnoth 居住計画の末裔"
+"を失い、彼らは文明から断ち切られました。敵対するオーク族に取り囲まれたため、"
+"野蛮な力や途方もない資源を必要とせず、迅速な通信と動員を用いた 生存のための戦"
+"略を生み出す必要がありました。オーク族の襲撃から すべての男女が生き延びねばな"
+"らなかったため、研究に費やす時間は全くありませんでした。しかしながら、近年に"
+"なって Wesnoth の民との交流を再開し、ちょうど魔法使いの育成をはじめたところで"
+"す。"
 
 #. [race]: id=ukian
 #: Archaic_Era/units/ukians_race.cfg:11
@@ -2648,6 +2718,14 @@ msgid ""
 "Teutorigos,Tighearnach,Tiobraide,Torcan,Triston,Tuathal,Tuireann,Ultan,"
 "Vercingetorix"
 msgstr ""
+"Abban,Aibhne,Aiden,Ailill,Allen,Artan,Bairrfhionn,Bevan,Bowen,Braeden,"
+"Bretach,Brogan,Buadhach,Cadeyrn,Calbhach,Caradog,Carden,Cearbhall,Coalan,"
+"Cuan,Daigh,Daimhin,Deverell,Dubhaltach,Eadoin,Eben,Eoghan,Eunan,Faolan,Fhaen "
+"Darach,Gahareet,Gavin,Irial,Jodoc,Kedehern,Koun,Laoire,Lorcan,Lughaidh,"
+"Lugobelinos,Lugovalos,Maol Mhurire,Maponos,Marcan,Morann,Morcant,Murchadh,"
+"Nuadha,Olcan,Osan,Peredur,Piran,Ruadhan,Ruarc,Scoithin,Sioda,Siollan,"
+"Teutorigos,Tighearnach,Tiobraide,Torcan,Triston,Tuathal,Tuireann,Ultan,"
+"Vercingetorix"
 
 #. [race]: id=ukian
 #: Archaic_Era/units/ukians_race.cfg:12
@@ -2659,21 +2737,27 @@ msgid ""
 "Raelin,Rathnait,Reannon,Rhiannon,Ronat,Saorla,Sarnait,Scothnait,Seanna,"
 "Taillte,Trista,Tuilaith,Uaine,Ula,Vanora"
 msgstr ""
+"Aideen,Ainder,Ardara,Avalbane,Betony,Blathnaid,Bonduca,Bronach,Bryher,"
+"Cartimandua,Ceara,Cinnia,Ciar,Cliodhna,Crobh Dearg,Damhnait,Deabhail,"
+"Dunfhlaith,Edda,Eddana,Fachtna,Fhina,Fianait,Gormlaith,Grian,Innogen,Kendra,"
+"Iseult,Laoise,Liadan,Liobhan,Moncha,Muireann,Nantosuelta,Naohm,Nuala,Orlaith,"
+"Raelin,Rathnait,Reannon,Rhiannon,Ronat,Saorla,Sarnait,Scothnait,Seanna,"
+"Taillte,Trista,Tuilaith,Uaine,Ula,Vanora"
 
 #. [race]: id=ukiandog
 #: Archaic_Era/units/ukians_race.cfg:17
 msgid "race^Ukian Dog"
-msgstr ""
+msgstr "ウキアンの犬"
 
 #. [race]: id=ukiandog
 #: Archaic_Era/units/ukians_race.cfg:18
 msgid "race+female^Ukian Dog"
-msgstr ""
+msgstr "ウキアンの犬"
 
 #. [race]: id=ukiandog
 #: Archaic_Era/units/ukians_race.cfg:19
 msgid "race^Ukian Dogs"
-msgstr ""
+msgstr "ウキアンの犬"
 
 #. [race]: id=ukiandog
 #: Archaic_Era/units/ukians_race.cfg:21
@@ -2689,46 +2773,48 @@ msgid ""
 "Bal,Bear,Bellus,Car,Coun,Dach,Don,Earl,Fhar,Gan,Howler,Irid,Joc,Kar,Kech,Lug,"
 "Mach,Nantos,Orach,Perro,Raen,Sean,Troe,Valos"
 msgstr ""
+"Bal,Bear,Bellus,Car,Coun,Dach,Don,Earl,Fhar,Gan,Howler,Irid,Joc,Kar,Kech,Lug,"
+"Mach,Nantos,Orach,Perro,Raen,Sean,Troe,Valos"
 
 #. [trait]: id=aa_phantom
 #: Archaic_Era/utils/Archaic_abilities.cfg:10
 msgid "phantom"
-msgstr ""
+msgstr "幻影"
 
 #. [trait]: id=aa_phantom
 #: Archaic_Era/utils/Archaic_abilities.cfg:11
 msgid "female^phantom"
-msgstr ""
+msgstr "幻影"
 
 #. [trait]: id=aa_phantom
 #: Archaic_Era/utils/Archaic_abilities.cfg:12
 msgid "Immune to drain, poison and plague"
-msgstr ""
+msgstr "ドレイン、毒、疫病に免疫を持ちます"
 
 #. [trait]: id=aa_zealous
 #: Archaic_Era/utils/Archaic_abilities.cfg:24
 msgid "zealous"
-msgstr ""
+msgstr "熱狂"
 
 #. [trait]: id=aa_zealous
 #: Archaic_Era/utils/Archaic_abilities.cfg:25
 msgid "female^zealous"
-msgstr ""
+msgstr "熱狂"
 
 #. [trait]: id=aa_zealous
 #: Archaic_Era/utils/Archaic_abilities.cfg:26
 msgid "Zero upkeep"
-msgstr ""
+msgstr "維持費なし"
 
 #. [resistance]: id=aa_dance
 #: Archaic_Era/utils/Archaic_abilities.cfg:57
 msgid "dancer"
-msgstr ""
+msgstr "舞踏"
 
 #. [resistance]: id=aa_dance
 #: Archaic_Era/utils/Archaic_abilities.cfg:58
 msgid "female^dancer"
-msgstr ""
+msgstr "舞踏"
 
 #. [resistance]: id=aa_dance
 #: Archaic_Era/utils/Archaic_abilities.cfg:60
@@ -2741,12 +2827,12 @@ msgstr ""
 #. [heals]: id=aa_healing
 #: Archaic_Era/utils/Archaic_abilities.cfg:72
 msgid "heals +"
-msgstr ""
+msgstr "回復 +"
 
 #. [heals]: id=aa_healing
 #: Archaic_Era/utils/Archaic_abilities.cfg:73
 msgid "female^heals +"
-msgstr ""
+msgstr "回復 +"
 
 #. [heals]: id=aa_healing
 #: Archaic_Era/utils/Archaic_abilities.cfg:78
@@ -2759,16 +2845,23 @@ msgid ""
 "A poisoned unit cannot be cured of its poison by a healer, and must seek the "
 "care of a village or a unit that can cure."
 msgstr ""
+"回復 +{AMT}:\n"
+"このユニットは隣接した友好的なユニットをターン開始時に回復させます。\n"
+"\n"
+"このユニットに治療されるユニットは 1 ターンに最大でHPが {AMT} 回復します。も"
+"しくは、そのターンに毒の効果が発動しないようにします。\n"
+"毒を受けているユニットの解毒を行うことはできません。村で回復させるか、治療ユ"
+"ニットを捜して下さい。"
 
 #. [regenerate]: id=aa_immortal
 #: Archaic_Era/utils/Archaic_abilities.cfg:94
 msgid "immortal"
-msgstr ""
+msgstr "不滅"
 
 #. [regenerate]: id=aa_immortal
 #: Archaic_Era/utils/Archaic_abilities.cfg:95
 msgid "female^immortal"
-msgstr ""
+msgstr "不滅"
 
 #. [regenerate]: id=aa_immortal
 #: Archaic_Era/utils/Archaic_abilities.cfg:97
@@ -2776,6 +2869,9 @@ msgid ""
 "immortal:\n"
 "This unit heals 99 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
+"不滅:\n"
+"このユニットはヒットポイントが毎ターン 99 ポイント回復します。もし毒におかさ"
+"れている場合は毒が消え去ります。"
 
 #. [dummy]: id=aa_intangible
 #: Archaic_Era/utils/Archaic_abilities.cfg:106
@@ -2798,12 +2894,12 @@ msgstr ""
 #. [resistance]: id=aa_stone
 #: Archaic_Era/utils/Archaic_abilities.cfg:118
 msgid "stone"
-msgstr ""
+msgstr "石"
 
 #. [resistance]: id=aa_stone
 #: Archaic_Era/utils/Archaic_abilities.cfg:119
 msgid "female^stone"
-msgstr ""
+msgstr "石"
 
 #. [resistance]: id=aa_stone
 #: Archaic_Era/utils/Archaic_abilities.cfg:121
@@ -2812,19 +2908,22 @@ msgid ""
 "This unit is stone in the daylight, if not next to an ally or in a village, "
 "but is always mobile at night."
 msgstr ""
+"石:\n"
+"このユニットは、同盟者の横にいるときや村にいるとき以外、そして日中は石となり"
+"ます。夜中はいつでも動けます。"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:421
 msgid "release stoned victims"
-msgstr ""
+msgstr "石化の犠牲者を解放する"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:457
 #: Archaic_Era/utils/Archaic_abilities.cfg:502
 msgid "Free"
-msgstr ""
+msgstr "解放"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:513
 msgid "tie-down"
-msgstr ""
+msgstr "縛りつけ"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:515
 msgid ""
@@ -2832,30 +2931,39 @@ msgid ""
 "Defender cannot move for any turn in which the attacker is adjacent at "
 "start, but they can still attack."
 msgstr ""
+"縛りつけ:\n"
+"防御側は、攻撃者が隣接している間は移動することができません。しかし、攻撃する"
+"ことは可能です。"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:722
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
 msgstr ""
+"散弾:\n"
+"この攻撃はいつでも、最低でも 70% の命中率となります。"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:735
 msgid "vector damage"
 msgstr ""
+"病原体のダメージ:\n"
+"……"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:737
 msgid ""
 "Vector Damage:\n"
 "..."
 msgstr ""
+"病原体のダメージ:\n"
+"……"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:748
 msgid "Vector"
-msgstr ""
+msgstr "病原体"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:757
 msgid "vector"
-msgstr ""
+msgstr "病原体"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:759
 msgid ""
@@ -2864,6 +2972,9 @@ msgid ""
 "ability of the unit being attacked.  If hit, susceptable opponents become "
 "Khthon."
 msgstr ""
+"病原体:\n"
+"この攻撃は防御側の特性に関わらず、常に {CHANCE}% の確率で命中します。命中した"
+"場合、相手は地底の混沌となってしまいます。"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1049
 msgid "$damage_attacker_vis"
@@ -2871,33 +2982,36 @@ msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1144
 msgid "Possessed"
-msgstr ""
+msgstr "取り憑かれた"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1334
 msgid "hide in shell"
-msgstr ""
+msgstr "甲羅に閉じこもる"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1354
 msgid "stop hiding"
-msgstr ""
+msgstr "閉じこもるのをやめる"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1464
 msgid "selfheal"
-msgstr ""
+msgstr "自己治癒"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1466
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
+"自己治癒:\n"
+"このユニットはヒットポイントが毎ターン {AMT} ポイント回復します。もし毒におか"
+"されている場合は毒が消え去ります。"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1482
 msgid "penumbra"
-msgstr ""
+msgstr "半影"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1483
 msgid "female^penumbra"
-msgstr ""
+msgstr "半影"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1487
 msgid ""
@@ -2908,17 +3022,24 @@ msgid ""
 "Any units adjacent to this unit will fight as if it were dusk when it is "
 "day, and as if it were night when it is dusk."
 msgstr ""
+"半影:\n"
+"このユニットは周辺は薄暗くして、混沌ユニットを戦いやすく、秩序ユニットを戦い"
+"にくくします。\n"
+"\n"
+"すべての隣接ユニットは、昼には夕方であるかのように、夕方には夜であるかのよう"
+"に戦うことになります。"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1497
 #: Archaic_Era/utils/Archaic_abilities.cfg:1499
 msgid "desert-stalk"
-msgstr ""
+msgstr "砂隠"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:1498
 #: Archaic_Era/utils/Archaic_abilities.cfg:1500
 msgid "female^desert-stalk"
-msgstr ""
+msgstr "砂隠"
 
+# [ja] 良い訳が浮かばない
 #: Archaic_Era/utils/Archaic_abilities.cfg:1504
 #: Archaic_Era/utils/Archaic_abilities.cfg:1508
 msgid ""
@@ -2929,3 +3050,9 @@ msgid ""
 "they have units next to it. Any enemy unit that first discovers this unit "
 "immediately loses all its remaining movement."
 msgstr ""
+"砂隠:\n"
+"このユニットは砂の地形に隠れることができ、敵に見つからなくなります。\n"
+"\n"
+"このユニットが砂の地形にいるときはこのユニットを見つけることはできません。敵"
+"がこのユニットの隣にいる場合を除いて。このユニットを初めて見つけた敵ユニット"
+"はそれ以上移動することはできません。"
